@@ -1,0 +1,1258 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Aachen_Prot_30.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_29.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_31.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 30. Sitzung des Kongresses von Aachen</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                        <surname>Schneider</surname> <forename>Karin</forename></persName>
+                </editor>
+         <editor role="Technical_Editor">
+    <persName ref="http://d-nb.info/gnd/13281899X">
+        <surname>Kurz</surname>
+        <forename>Stephan</forename></persName>
+</editor>
+<respStmt>
+    <resp>Transkription</resp>
+    <name ref="#KS">Karin Schneider</name>
+</respStmt>
+<respStmt>
+    <resp>Wissenschaftliche Edition</resp>
+    <name ref="#KS">Karin Schneider</name>
+</respStmt>
+<respStmt>
+    <resp>Technical Editor</resp>
+    <name ref="#SK">Stephan Kurz</name>
+</respStmt>
+<respStmt>
+    <resp>Korrekturen</resp>
+<name ref="#KS">Karin Schneider</name>
+    <name ref="#SK">Stephan Kurz</name>
+</respStmt>
+<respStmt>
+    <resp>Beratung Kodierung</resp>
+    <name>Daniel Schopper</name>
+</respStmt>
+<respStmt>
+    <resp>Beratung Kodierung</resp>
+    <name>Peter Andorfer</name>
+</respStmt>
+</titleStmt>
+         <editionStmt>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+<date when="2018-09-23" change="#initial">2018-09-23</date>
+            <idno>A_30</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1EF7-D</tei:idno>
+            </publicationStmt>
+            <notesStmt>
+    <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
+</notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originalprotokoll">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">II/37</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Protokoll</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p> Eigenhändiges Protokoll von <persName ref="#p.5">
+                                <surname>Gentz</surname></persName>.</p>
+                  <handDesc>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="A">Anonym</handNote>
+                     <handNote xml:id="P">Pedro de Souza Holstei, Herzog (duque) von Palmella</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-11">11. November 1818</date>
+                        </origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">II/44–54</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 1: Denkschrift Frankreichs über die Abschaffung des
+                        Sklavenhandels</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p>Abschrift</p>
+
+               </physDesc>
+
+            </msDesc>
+            <msDesc xml:id="m.3" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">II/38–40</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 2: Österreichisches Votum über die Abschaffung des
+                        Sklavenhandels</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p>Abschrift</p>
+
+               </physDesc>
+
+            </msDesc>
+            <msDesc xml:id="m.4" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">II/42</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 3: Preußisches Votum über die Abschaffung des
+                        Sklavenhandels</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p>Abschrift</p>
+
+               </physDesc>
+
+            </msDesc>
+            <msDesc xml:id="m.5" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">II/56</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 4: Note Palmellas an Metternich betreffend die Piraterie</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p>Ausfertigung</p>
+
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.2">Paris</placeName>
+                     <date when="1818-11-07">7. November 1818</date>
+                        </origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Protokoll</head>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 6 (1818/19), S. 86
+                     (unvollständig);</bibl>
+                    </witness>
+               <witness corresp="#w.6">
+                        <bibl type="print">Clarke, Papers presented to Parliament
+                     1819, S. 332–333 (unvollständig);</bibl>
+                    </witness>
+               <witness corresp="#w.7">
+                        <bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
+                     124 (unvollständig).</bibl>
+                    </witness>
+            </listWit>
+            <listWit corresp="#m.2">
+               <head>Anlage 1: Denkschrift Frankreichs über die Abschaffung des
+                  Sklavenhandels</head>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 6 (1818/19), S.
+                  69–75;</bibl>
+                    </witness>
+               <witness corresp="#w.6">
+                        <bibl type="print">Clarke, Papers presented to Parliament
+                     1819, S. 281–291;</bibl>
+                    </witness>
+               <witness corresp="#w.7">
+                        <bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
+                     102–110.</bibl>
+                    </witness>
+            </listWit>
+            <listWit corresp="#m.3">
+               <head>Anlage 2: Österreichisches Votum hinsichtlich der Abschaffung des
+                  Sklavenhandels</head>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 6 (1818/19), S.
+                  75–76;</bibl>
+                    </witness>
+               <witness corresp="#w.6">
+                        <bibl type="print">Clarke, Papers presented to Parliament
+                     1819, S. 291–293;</bibl>
+                    </witness>
+               <witness corresp="#w.7">
+                        <bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
+                     110–111.</bibl>
+                    </witness>
+            </listWit>
+            <listWit corresp="#m.4">
+               <head>Anlage 3: Preußisches Votum hinsichtlich der Abschaffung des
+                  Sklavenhandels</head>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 6 (1818/19), S.
+                  76;</bibl>
+                    </witness>
+               <witness corresp="#w.6">
+                        <bibl type="print">Clarke, Papers presented to Parliament
+                     1819, S. 293–294;</bibl>
+                    </witness>
+               <witness corresp="#w.7">
+                        <bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
+                     111–112.</bibl>
+                    </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Der französische Premierminister <persName ref="#p.1">
+                        <surname>Richelieu</surname></persName> verliest eine Denkschrift in Beantwortung
+               der britischen Vorschläge zur Überwachung und Unterdrückung des Sklavenhandels. Die
+                  <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14 #p.1" type="multi-person">Vertreter der Mächte</rs>
+               beraten über eine Note <country>Portugals</country> betreffend die Frage der
+               Piraterie und ersuchen <persName ref="#p.1">
+                        <surname>Richelieu</surname></persName>,
+               seine Eindrücke hinsichtlich dieser Denkschrift vorzulegen.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.12">BERNSTORFF</persName></person>
+               <person>
+                  <persName ref="#p.9">CASTLEREAGH</persName></person>
+               <person>
+                  <persName ref="#p.11">HARDENBERG</persName></person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName></person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName></person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName></person>
+               <person>
+                  <persName ref="#p.1">RICHELIEU</persName></person>
+               <person>
+                  <persName ref="#p.10">WELLINGTON</persName></person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+        <revisionDesc>
+    <change xml:id="initial" when="2018-09-23" who="#SK">initial version for public beta release</change>
+    <change notAfter="2018-09-23" who="#SK #KS">changetracking on ACDH git repository</change>
+</revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#G" decls="#m.1">
+            <pb n="37r"/>
+            <metamark>
+                    <add hand="#W" place="top">
+                        <choice>
+                     <abbr>N.</abbr>
+                     <expan>Numéro</expan>
+                  </choice> 30.</add>
+                </metamark>
+            <metamark>
+               <add hand="#W" place="margin">avec cinq Annexes</add>
+            </metamark>
+            <opener>
+                    <dateline>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-11-11">11
+                  Novembre</date>
+                </dateline>
+                </opener>
+            <p>
+               <add hand="#W" place="margin">Entre les cinq Puissances</add>
+            </p>
+           
+            <p>
+                    <choice>
+                  <abbr>Mr</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> a fait lecture de ses observations sur
+                  <ref target="Aachen_Prot_23.xml">les moyens proposés par <choice>
+                     <abbr>Mrs.</abbr>
+                     <expan>Messieurs</expan>
+                  </choice> les <rs ref="#p.9 #p.10" type="multi-person">Plénipotentiaires de la Grande-Bretagne</rs>
+                        <rs xml:id="n.1"> pour surveiller et réprimer la traite illicite des Nègres.
+                  </rs>
+                    </ref>
+                    <note type="editorial" target="#n.1">Vgl. Fladeland, Abolitionist
+                  Pressures, S. 367–369; Webster, Foreign Policy, Bd. 2, S. 463–464; Kielstra, The
+                  Politics of Slave Trade, bes. S. 86–91.</note>
+               <ref decls="#m.2"> Les observations de <choice>
+                     <abbr>Mr</abbr>
+                     <expan>Monsieur</expan>
+                  </choice> le <rs ref="#p.1" type="person">Duc</rs>, </ref> ainsi que <ref decls="#m.3">l’opinion
+                  du Cabinet d’Autriche</ref> sur la même question, et <ref decls="#m.4">celle que
+                  le Cabinet de Prusse</ref>
+                    <rs xml:id="n.5"> avoit fait connoître dans une séance précédente, </rs>
+                    <note type="editorial" target="#n.5">Ist in keinem Protokoll vermerkt.</note> se
+               trouvent annexées au Protocole.</p>
+            <p>
+                    <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les Plénipotentiaires se sont occupés d’un <ref decls="#m.5">Mémoire de <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.71">
+                        <roleName>
+                            <choice>
+                        <abbr>C<hi rendition="#su">te</hi>
+                                </abbr>
+                        <expan>Comte</expan>
+                     </choice>
+                        </roleName>
+                  <surname>Palmella</surname></persName>
+                    </ref>, Ministre des affaires étrangères de <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.28" type="person">Roi de Portugal</rs>, sur les pirateries exercées depuis
+               quelque tems par une foule de forbans navigant sous des pavillons inconnus. <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> s’est chargé de présenter à la
+               conférence ses aperçus sur l’important objet de ce Mémoire.</p>
+            <p>
+                    <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les Plénipotentiaires ont arrêté ensuite la distribution du travail sur les
+                  différens<pb n="37v"/> objets qu’il leur reste à traiter avant la clôture des
+               présentes conférences.</p>
+            <signed>
+               <list>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">Richelieu</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
+         </div>
+
+         <div hand="#A" decls="#m.2">
+            <pb n="44r"/>
+            <metamark>
+                    <add hand="#W" place="top">Annexé au Protocole <choice>
+                     <abbr>n</abbr>
+                     <expan>numéro</expan>
+                  </choice> 30 du <date when="1818-11-11">11 Novembre 1818</date>.</add>
+                </metamark>
+
+            
+                    <head>
+                        <hi rendition="#u">Traite des Noirs</hi>
+                    </head>
+                
+            <p>La <country>France</country> a prouvé de la manière la plus évidente qu’elle voulait
+               concourir efficacement à <rs xml:id="n.6"> l’abolition complètte de la Traite des
+                  Noirs. </rs>
+                    <note type="editorial" target="#n.6">Vgl. Fladeland, Abolitionist
+                  Pressures, S. 367–369; Webster, Foreign Policy, Bd. 2, S. 463–464; Kielstra, The
+                  Politics of Slave Trade, bes. S. 86–91.</note> Engagée par la <rs ref="#t.22" type="treaties">Déclaration qu’elle a souscrite le <date when="1815-02-08">8 Février 1815</date>
+                  à <placeName ref="#loc.7">Vienne</placeName></rs> avec les Puissances Signataires
+               du <rs ref="#t.13" type="treaties">Traité du <date when="1815-05-30">30 Mai</date></rs>, à faire
+               usage pour atteindre ce but <quote>« de tous les moyens qui se trouvaient à sa
+                  disposition, et à agir dans l’emploi de ces moyens avec tout le zèle et toute la
+                  persévérance due à une si grande et belle cause »</quote>, Elle se flatte d’avoir
+               satisfait à cet engagement. En effet, peu de mois après la <rs ref="#t.22" type="treaties">déclaration de <placeName ref="#loc.7">Vienne</placeName></rs>, elle a renoncé à
+               la stipulation de 1814 qui lui avait donné un délai de cinq années pour effectuer la
+               cessation de la Traite. <rs xml:id="n.7"> Elle a déclaré le <date when="1815-07-30">30 Juillet 1815</date></rs>
+                    <note type="editorial" target="#n.7">Vgl. Schreiben Talleyrands an Castlereagh,
+                  Paris, 30. Juli 1815, abgedruckt in Hertslet (Hg.), Complete Collection, Bd. 3, S.
+                  96–98.</note> qu’à partir de ce jour la Traite<pb n="44v"/> cesserait, de sa part,
+               partout et pour toujours. Les Actes de son Administration ont été conformes à cette
+               déclaration. Les Instructions données dans les Ports de <country>France</country> et
+               dans les Colonies ont précédé une <rs xml:id="n.8"> Ordonnance spéciale du <rs ref="#p.19" type="person">Roi</rs>, </rs>
+                    <note type="editorial" target="#n.8">Ordonnanz vom
+                  8. Jänner 1817 zur Konfiksations von Schiffen, die Sklavenhandel betreiben; vgl.
+                  Hertslet (Hg.), Complete Collection, Bd. 3, S. 98–100.</note> portant prohibition
+               de la Traite. Cette Ordonnance a été fortifiée par une <rs xml:id="n.9"> Loi rendue
+                  en Mars 1818 </rs>
+                    <note type="editorial" target="#n.9"> Gesetz über die Bestrafung
+                  französischer Untertanen, die Sklavenhandel betreiben, 15. April 1818; vgl.
+                  Hertslet (Hg.), Complete Collection, Bd. 3, S. 100–101.</note> qui prononce contre
+               les infracteurs des dispositions arrêtées par le Gouvernement les peines les plus
+               sévères que puisse comporter la Législation de <country>France</country>. Des mesures
+               de surveillance ont été prescrites dans la vue d’assurer l’exécution de la Loi ; et
+               une Croisière a été, <rs xml:id="n.10"> par ordre du <rs ref="#p.19" type="person">Roi</rs>,
+                  </rs>
+                    <note type="editorial" target="#n.10">Ordonnanz vom 24. Juni 1818 über die
+                  Überwachung der afrikanischen Küste durch französische Schiffe zur Verhinderung
+                  des Sklavenhandels; vgl. Hertslet (Hg.), Complete Collection, Bd. 3, S.
+                  101–102.</note> établie sur la Côte Occidentale d’Afrique pour visiter les
+               bâtimens qui seraient soupçonnés de continuer le Commerce dont la prohibition est
+               consacrée.</p>
+            <p>Tels sont les Actes du<pb n="45r"/> Gouvernement Français. Ils prouvent clairement
+               qu’il a fait usage <quote>« <hi rendition="#u">des moyens qu’il avait à sa
+                     disposition</hi> »</quote> pour réprimer la Traite. Il <hi rendition="#u">y a
+                  mis du zèle</hi>, puisqu’il a créé les moyens qui lui manquaient à cet égard, en
+               provoquant l’adoption d’une Loi formelle.</p>
+            <p>
+                    Cependant, le Gouvernement de <rs ref="#p.19" type="person">
+                            <choice>
+                        <abbr>S. M.</abbr>
+                        <expan>Sa Majesté</expan>
+                     </choice> Britannique</rs> qui met, pour parvenir à la répression de la Traite,
+                  une ardeur qui ne peut qu’ajouter à la gloire que s’est acquise la Nation Anglaise
+                  en accueillant toutes les idées qui ont pour objet le bien de l’humanité, a été
+                  informé que le but de ses efforts et de ceux des autres Puissances n’était point
+                  encore atteint, et que le Commerce des Noirs, fait en contrebande et en dépit des
+                  mesures prises contre lui, enlevait encore sur la Côte d’Afrique un grand nombre
+                  d’Esclaves.
+                </p>
+            <p>Le Gouvernement de <rs ref="#p.19" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Britannique</rs> a pensé que les infractions aux<pb n="45v"/> ordres
+               donnés de toutes parts pouvaient tenir à l’insuffisance des dispositions faites pour
+               en assurer l’exécution. Il a cru que des mesures combinées entre les principales
+               Puissances, engagées d’ailleurs par une <rs ref="#t.30" type="treaties">Clause du Traité du <date when="1815-11-20">20 <choice>
+                        <abbr>Nov<hi rendition="#su">e</hi>
+                                </abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1815</date></rs> à se concerter à cet égard, pourraient extirper le
+               mal dans sa racine. Il a proposé, entr’autres mesures, de visiter rigoureusement les
+               Bâtimens qui navigueraient sur la Côte Occidentale d’Afrique et, pour que cette
+               visite pût avoir tout son effet, il a jugé qu’il convenait que chacune des Puissances
+               accordât aux autres le droit de l’exercer sur les bâtimens portant son propre
+               Pavillon. La formation de Commissions mixtes, chargées de prononcer sur la légitimité
+               des expéditions suspectées de fraude, forme la seconde partie du projet de
+                  l’<country>Angleterre</country>. Il serait<pb n="46r"/> impossible de ne point
+               reconnaître qu’en proposant une telle mesure, le Gouvernement de <rs ref="#p.19" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Britannique</rs> a fait tout ce qu’il a dépendu de lui pour
+               l’accompagner de précautions propres à en prévenir l’abus. Ainsi le soin de
+               déterminer le nombre des bâtimens chargés de la visite, les lieux où elle peut être
+               exercée, le rang des Officiers qui peuvent seule y procéder, fait foi de son respect
+               pour l’indépendance et les droits de chacun. <rs ref="#t.14 #t.16 #t.17" type="multi-treaties">Trois
+                  Puissances, l’<country>Espagne</country>, le <country>Portugal</country> &amp; le
+                     <country>Royaume des Pays-bas</country>, ont souscrit à ses
+               propositions.</rs>
+                </p>
+            <p>Le Gouvernement de <rs xml:id="n.11">
+                        <rs ref="#p.15" type="person">
+                            <choice>
+                        <abbr>S. M.</abbr>
+                        <expan>Sa Majesté</expan>
+                     </choice> Très Chrétienne</rs></rs>
+                    <note type="editorial" target="#n.11">Ehrentitel des Königs von
+                  Frankreich.</note> suivrait avec empressement un tel exemple si, portant
+               exclusivement ses regards sur le but de l’Entreprise, il pouvait ne point apercevoir,
+               dans le moyen indiqué pour l’atteindre, des dangers qui se rattachent peut-être à sa
+               position particulière, mais qu’il est de<pb n="46v"/> son devoir de prévenir.</p>
+            <p>Il serait inutile de discuter ici, sous le rapport du Droit, la question de la Visite
+               sur mer en pleine paix. Le Gouvernement Anglais a rendu hommage au principe qui
+               assure à cet égard l’indépendance de tout Pavillon, et ce n’est que comme une
+               dérogation à ce principe, et non une dénégation de son existence, qu’il propose
+               d’accorder à chaque Puissance la faculté d’arrêter les bâtimens portant le Pavillon
+               des autres et de s’assurer de la légitimité de leurs expéditions.</p>
+            <p>Mais déjà sur ce point, le Gouvernement de <rs ref="#p.15" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Très Chrétienne</rs> trouverait à la proposition de
+                  l’<country>Angleterre</country> un obstacle invincible. La
+                  <country>France</country>, par cela seul qu’elle a éprouvé dans ces derniers tems
+               des revers et des maux qui, s’ils n’ont point effacé, ont du moins obscurée la gloire
+               qu’elle s’était acquise, est fondée à se montrer<pb n="47r"/> plus jalouse de sa
+               dignité que si la fortune ne l’eût point trahie. La Nation, heureuse de se retrouver
+               sous le sceptre de <rs ref="#p.15" type="person">son Roi légitime</rs>, ne regretterait point de
+               vaines conquêtes ; mais le sentiment de son véritable honneur a pu n’en devenir que
+               plus vif, et son Monarque doit craindre de toucher à ce dépôt. Sans doute, une
+               concession faite avec toutes les précautions qui peuvent l’adoucir, avec cette clause
+               de réciprocité qui devrait sauver la dignité de chacun, peut être proposée sans
+               crainte de blesser la vanité de personne : Mais c’est toujours une concession, et
+               l’opinion d’une Nation habituée à trouver dans la vivacité de son imagination le
+               jugement qu’elle porte des actes de son Gouvernement, peut s’effrayer de lui voir
+               abandonner, même avec toutes les modifications possibles, un droit qu’elle regarde
+               avec raison comme l’un des plus<pb n="47v"/> précieux. Elle peut y voir compromis
+               l’honneur du Pavillon, ce point délicat qui a tant et depuis si longtems excité sa
+               susceptibilité. Elle peut voir enfin dans l’abandon de ce droit un sacrifice nouveau,
+               attaché comme une condition indispensable à l’évacuation de son Territoire, et comme
+               un monument de l’état de dépendance dans lequel elle s’est trouvée momentanément
+               placée. Il n’y a aucun doute qu’en donnant un généreux exemple, en se soumettant par
+               réciprocité à la visite qu’elle regarde comme propre à atteindre le but qu’on se
+               propose, l’<country>Angleterre</country> garantit que la visite n’est point
+               incompatible avec l’honneur du Pavillon. Mais placée dans des circonstances
+               différentes, soutenue par l’opinion de la Nation Anglaise qui depuis 25 ans appelait
+                  l’abolition<pb n="48r"/> de la Traite, la <country>Grande-Bretagne</country>
+               conserve tous ses avantages même en paraissant en abandonner l’exercice absolu, et
+               elle ne peut craindre qu’on rattache à la concession qu’elle fait l’idée d’un
+               sacrifice qu’elle ne pouvait éviter.</p>
+            <p>Mais quand le Gouvernement de <rs ref="#p.15" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Très Chrétienne</rs> se croirait autorisé à passer par-dessus de si
+               puissantes considérations, et à adopter, malgré le danger qu’il y trouve en Théorie,
+               le projet relatif à la visite, il verrait encore dans son application de graves
+               sujets d’inquiétude.</p>
+            <p>Ce serait trahir la vérité, sans espoir d’en imposer à personne, que dénier qu’il
+               existe entre les sujets de l’<country>Angleterre</country> et de la
+                  <country>France</country>, et comme mêlé à l’estime qu’ils s’inspirent
+               réciproquement, un sentiment de rivalité qui, exalté par de nombreuses et
+               malheureuses circonstances, a souvent pris le<pb n="48v"/> caractère de l’animosité.
+               Il est malheureusement trop probable que l’exercice mutuel du droit de visite en Mer
+               lui fournira de nouveaux alimens.</p>
+            <p>En effet, quelques précautions qui soient prises, quelque douceur qui y soit
+               employée, la visite est une chose incommode et qui est regardée par les Navigateurs
+               comme un Acte vexatoire. Peut-on penser que le bâtiment qui croira pouvoir l’éluder
+               n’en cherchera pas tous les moyens ? Il sera donc nécessaire que le vaisseau visiteur
+               y mette souvent une certaine rigueur. Cette rigueur peut amener de la résistance, des
+               voies de fait, dans de hautes Mers, éloignés de toutes relations, les sujets des deux
+               Puissances peuvent être portés à ne se plus croire liés par les ordres de leur propre
+               Souverain, mais à<pb n="49r"/> écouter la voix d’un faux point d’honneur, et en venir
+               aux mains pour le défendre : En vain les mesures les plus sages auront-elles été
+               prescrites ; Le Capitaine du vaisseau de guerre chargé de la visite consentira-t-il à
+               montrer sa Commission au petit bâtiment de Commerce qu’il soumettra à cette épreuve ?
+               S’il ne le veut point, comment l’y contraindre, et quelle garantie aura le bâtiment
+               arrêté que la visite n’est point uniquement un Acte arbitraire ? Comment prévenir, de
+               même, les infractions possibles des Règlemens convenus pour adoucir la visite ? Il
+               restera donc à s’en plaindre et à en réclamer la punition. Mais on sait par
+               expérience combien ces sortes d’abus sont difficiles à préciser. L’opprimé ne
+               sera-t-il pas souvent hors d’état de savoir quel est le Capitaine qui<pb n="49v"/>
+               aura abusé envers lui du droit réservé aux Croiseurs, ou qui se le sera arrogé
+               induement ?</p>
+            <p>Quelles preuves apporter d’incidens qui se passent loin de tout témoin, et que
+               chacune des Parties est maîtresse de représenter sous un jour différent ? Le
+               Gouvernement Anglais sait que quand il a voulu lui-même punir quelques abus commis
+               par ses bâtimens sur les Côtes de <country>France</country> et dans les limites de sa
+               Mer Territoriale, il en a été empêché par l’impossibilité de recueillir des documens
+               assez positifs pour trouver les coupables.</p>
+            <p>Ces inconvéniens, qu’il serait imprudent de ne pas prévoir, ont d’autant plus
+               d’importance qu’à la longue ils porteraient de l’exaspération dans l’esprit des
+               peuples, et l’on sait trop que de tels<pb n="50r"/> sentimens entre les sujets ont
+               souvent troublé la paix entre les Gouvernemens. Si un tel malheur devrait s’ensuivre,
+               l’Europe ne serait-elle pas en droit de demander aux Puissances un compte rigoureux
+               de ces mesures qui, concertées pour le bien de l’humanité, auraient compromis ce bien
+               précieux en troublant sa tranquillité ?</p>
+            <p>Il est une autre considération qui arrêterait encore le Gouvernement de <rs ref="#p.15" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Très Chrétienne</rs>, quand il ne verrait point déjà l’impossibilité
+               d’admettre la proposition de la visite : c’est celle qui se rapporte à l’institution
+               des Commissions mixtes, chargées de juger les prises faites par suite des règlemens
+               contre la Traite. La conséquence immédiate d’une telle institution est de soustraire
+               les sujets de <rs ref="#p.15" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice></rs> à leurs Juges naturels, et Sa<pb n="50v"/> conscience ne lui permet
+               point de croire qu’Elle en ait le droit. La jurisdiction est de tous les droits de la
+               Souveraineté celui qui est le plus essentiellement destiné à la défense du Sujet, et
+               l’on peut dire qu’il est presqu’uniquement dans l’intérêt de ce dernier. Il est de
+               ces circonstances dans lesquelles le droit commun de l’Europe admet que la
+               jurisdiction du Souverain cesse de droit parcequ’elle ne peut s’exercer de fait ;
+               c’est lorsqu’un sujet commet sur un Territoire étranger un délit contre les Lois du
+               Pays dont dépend ce Territoire. Il est possible de l’application de ces Lois, et son
+               Souverain, qui ne peut s’y opposer, le tolère. Mais hors de ces circonstances, le
+               Souverain ne peut consentir à ce que son sujet passe sous une jurisdiction
+               étrangère.</p>
+            <p>En vain alléguera-t-on que la<pb n="51r"/> Commission mixte n’exerce pas de
+               jurisdiction au criminel, et qu’elle ne fait que <subst>
+                  <del rendition="#s">prouver</del> 
+                  <add place="above">
+                        <supplied>pro</supplied>noncer
+                        </add>
+               </subst>
+               <ref target="Aachen_Prot_23.xml">
+                        <quote>« sur la légalité de la saisie du Navire,
+                     ayant illicitement des Esclaves à son bord »</quote>
+                    </ref>. Prononcer sur la
+               légalité de la prise, c’est juger la question autant qu’il est possible de le faire ;
+               c’est décider que le capturé a, ou n’a pas encouru les peines portées contre le délit
+               qu’il a commis. Son sort est dès lors fixé : il importe peu que ces peines qu’il a ou
+               n’a pas encourues soient déterminées par le Code de son Pays ou par celui d’un autre.
+               Quand il a subi l’examen de la Commission, il ne s’agit plus que d’une application de
+               ce Code ou de sa mise en liberté ; il est donc <choice>
+                  <abbr>véritablem<hi rendition="#su">t</hi>
+                        </abbr>
+                  <expan>véritablement</expan>
+               </choice> jugé ; et il ne l’a point été par ses seuls Juges naturels. <rs ref="#p.15" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Très Chrétienne</rs>, on le répète, ne se croirait point en<pb n="51v"/>
+               conscience le droit de consacrer un tel changement dans la Législation de Son Royaume
+               et, quand Elle penserait que ce droit peut Lui appartenir, il est hors de toute
+               probabilité que les Pouvoirs dont la coopération lui serait nécessaire pour que ce
+               changement fût admis voulussent le lui reconnaître.</p>
+            <p>Il résulte de ce qui précède que la <country>France</country> a fait tout ce qui
+               dépendait d’elle pour parvenir à l’abolition complètte de la Traite des Noirs,</p>
+            <p>Qu’elle voit dans le projet proposé par l’<country>Angleterre</country> pour réprimer
+               toute continuation possible de cet odieux Commerce des dangers qui ne lui permettent
+               point de l’admettre,</p>
+            <p>Qu’en un mot il lui semble que, pour parvenir à un but fait désirable à coup sur dans
+               l’intérêt d’une portion de<pb n="52r"/> l’humanité, on courrait le risque de
+               compromettre des intérêts plus précieux encore, puisqu’ils se rapportent au maintien
+               de la paix et du repos de l’Europe.</p>
+            <p>Elle émet d’autant plus librement son opinion à cet égard qu’elle a une franche
+               volonté d’atteindre le but qu’elle a fixé par les Actes de son Administration,
+               qu’elle ne se sent aucune des arrière-pensées qu’aurait dû laisser un sacrifice
+               auquel elle n’avait pu se préparer, et qu’elle a l’espoir que les mesures qu’elle a
+               prises auront un effet salutaire. En effet, les rapports qui annoncent que la Traite
+               se continuait avec une sorte d’activité sont antérieurs à l’époque où la Croisière
+               française a été établie sur la Côte d’Afrique, et où des instructions nouvelles ont
+               été envoyées aux Autorités françaises<pb n="52v"/> du Sénégal pour qu’elles eussent à
+               redoubler d’activité contre tout Commerce frauduleux. C’est peut-être ici le lieu de
+               remarquer que l’on pourrait ne point accorder une foi implicite aux rapports parvenus
+               contre les Autorités du Sénégal. Ces rapports, qui les impliquent d’une manière
+               tellement grave que la bonne foi devait faire aux accusateurs la loi d’en produire
+               les preuves, sont rédigés en quelques parties par des personnes qui, sous d’autres
+               rapports, ont cru avoir à se plaindre de ces autorités.</p>
+            <p>Au surplus, la <country>France</country> ne croirait point avoir assez prouvé son
+               désir de coopérer aux mesures de répression contre la Traite si elle n’indiquait à
+               son tour de nouveaux moyens d’y parvenir. Jusqu’à présent, les dispositions faites à
+                  cet<pb n="53r"/> égard ont été dirigées contre le transport des Esclaves, puisque
+               c’est principalement sur la manière d’arrêter en Mer les Navires qui s’employent à ce
+               Commerce qu’on a cherché à se concerter. Cette voie est bonne, puisque la longueur du
+               Trajet offre une certaine probabilité pour que la Contrebande soit interceptée : Mais
+               d’un autre côté, l’incertitude de la mer, et conséquemment l’espoir d’échapper à la
+               surveillance, de même que l’énormité du bénéfice, offrent assez de chances et un
+               appât assez puissant pour que les Marchands d’Esclaves ne soient pas totalement
+               découragés. Des mesures qui tendraient à frapper le commerce des Noirs non dans son
+               cours moyen, si l’on peut appeller ainsi le transport des Esclaves, mais à sa
+               naissance et à son terme, c’est-à-dire sur les points où se consomment l’achat et la
+               vente des Nègres, pourraient avoir un genre d’efficacité<pb n="53v"/> qui, joint aux
+               autres dispositions, serait propre à consommer l’œuvre salutaire que l’on se
+               propose.</p>
+            <p>On pourrait donc établir dans les Comptoirs où se font habituellement les achats de
+               Noirs des Commissaires chargés de les signaler à l’Autorité, et investis, comme le
+               Ministère Public, du droit d’en poursuivre la punition devant les Tribunaux. On
+               pourrait également faire dans toute Colonie où les Propriétaires sont intéressés à
+               recruter des Nègres des Règlemens à l’instar du <rs xml:id="n.12"> Registry Bill
+                  </rs>
+                    <note type="editorial" target="#n.12">Gesetz, das die Registrierung von
+                  Sklaven vorsah und das im britischen Parlament diskutiert wurde; vgl. dazu Hansard
+                  (Ed.), The Parliamentary Debates, Bd. 40, Sp. 976–979.</note> pour constater le
+               nombre de Noirs existant sur chaque habitation, et s’assurer par des dénombremens
+               périodiques que la Loi n’a point été éludée. La confiscation des Noirs trouvés sur
+               chaque habitation en sus du nombre précédemment déclaré (sauf l’augmentation
+               qu’aurait pu<pb n="54r"/> produire l’union des Esclaves) et une forte amende par tête
+               de Noir furtivement introduit seraient la punition infligée aux délinquans. Ces
+               mesures, qui rentrent dans l’Administration intérieure de chaque Gouvernement,
+               peuvent cependant être concertées entre tous ; et au lieu de Commissions mixtes
+               chargées de prononcer sur la culpabilité des individus qui transportent des Noirs, on
+               pourrait établir dans chaque Colonie des Comités qui auraient la mission de
+               surveiller les individus qui les achètent, et de faire connaître aux Autorités
+               supérieures du Pays les infractions que les Agens secondaires pourroient mettre de la
+               tiédeur à poursuivre. Ces dispositions sont dans la mesure de celles que le <choice>
+                  <abbr>Gouvern<hi rendition="#su">t</hi>
+                        </abbr>
+                  <expan>Gouvernement</expan>
+               </choice> de <rs ref="#p.15" type="person">
+                        <choice>
+                     <abbr>S M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Très Chrétienne</rs> peut prendre sans craindre de blesser les droits de
+               ses Sujets, et il est prêt à s’entendre à cet égard avec les Puissances qui<pb n="54v"/> réunissent leurs efforts pour parvenir à l’entière abolition du Commerce
+               odieux, signalé à l’animadversion générale.</p>
+         </div>
+
+         <div hand="#A" decls="#m.3">
+            <pb n="38r"/>
+
+            <metamark>
+                    <add hand="#W" place="top">Annexé au Protocole du <date when="1818-11-11">11
+                     Novembre</date> sub <choice>
+                     <abbr>n.</abbr>
+                     <expan>numéro</expan>
+                  </choice> 30.</add>
+                </metamark>
+            
+                    <head>Opinion du Cabinet d’Autriche sur la question de la Traite des
+               Nègres</head>
+                
+            <p>Depuis que <rs xml:id="n.13"> l’abolition de la traite des Nègres est devenue l’objet
+                  des délibérations communes des puissances de l’Europe, </rs>
+                    <note type="editorial" target="#n.13">Vgl. Fladeland, Abolitionist Pressures, S. 367–369; Webster,
+                  Foreign Policy, Bd. 2, S. 463–464; Kielstra, The Politics of Slave Trade, bes. S.
+                  86–91.</note> le Cabinet d’Autriche n’a cessé de vouer à cette question tout
+               l’intérêt qu’elle mérite dans ses grands rapports avec le bien de l’humanité, ainsi
+               qu’avec les préceptes de la saine morale et de la religion. Fidèle aux principes
+               solemnellement proclamés à cet égard à l’époque du Congrès de <placeName ref="#loc.7">Vienne</placeName> et aux engagemens successifs fondés sur ces principes,
+                  l’<country>Autriche</country>, quoique peu en état, vu sa position géographique,
+               de coopérer directement au succès d’une aussi belle et noble entreprise, n’en a pas
+               moins concouru avec empressement à tout ce qui pouvait<pb n="38v"/> l’avancer et la
+               perfectionner ; et c’est en partant de cette disposition immuable que le <rs ref="#p.8" type="person">Ministre d’Autriche</rs> a examiné avec l’attention la plus sérieuse
+                  <ref target="Aachen_Prot_23.xml">les propositions faites par <rs ref="#p.9 #p.10" type="multi-person">
+                            <choice>
+                        <abbr>Mrs</abbr>
+                        <expan>Messieurs</expan>
+                     </choice> les Plénipotentiaires de <rs ref="#p.19" type="multi-person">
+                                <choice>
+                           <abbr>S. M.</abbr>
+                           <expan>Sa Majesté</expan>
+                        </choice> Britannique</rs></rs> aux conférences actuelles</ref> tant pour
+               compléter et étendre le système poursuivi jusqu’-à-présent pour parvenir à
+               l’extinction finale de la traite que pour assurer l’exécution et l’efficacité de ce
+               système.</p>
+            <p>
+                    <rs ref="#p.16" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> l’Empereur</rs> est prêt à prendre part aux démarches que les <rs ref="#p.17 #p.18 #p.19" type="multi-person">Souverains alliés</rs> vont faire auprès du <rs xml:id="n.14"> Cabinet de <placeName ref="#loc.26">Rio Janeiro</placeName></rs>
+                    <note type="editorial" target="#n.14">Der portugiesische Hof war auf der Flucht
+                  vor Napoleon 1808 nach Rio de Janeiro übersiedelt und kehrte erst 1821 nach Europa
+                  zurück; vgl. Manchester, The Transfer; Wilcken, A Colony; Kleinlercher,
+                  Monarchieprojekte, S. 235–247.</note> pour l’engager à fixer le plutôt possible le
+               terme de l’abolition définitive. <rs ref="#p.16" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice></rs> ne peut pas méconnoître que le <rs ref="#p.28" type="person">Souverain du
+                  Brésil</rs> doit rencontrer dans<pb n="39r"/> cette route des difficultés plus
+               réelles peut-être et plus fortes que n’en avait à surmonter aucune autre des
+               puissances qui ont consenti à cette mesure salutaire. Mais Elle compte trop sur la
+               loyauté de <rs ref="#p.28" type="person">ce Souverain</rs> pour admettre que des obstacles
+               quelconques l’empêcheraient à donner suite à un engagement sacré tel que celui qu’Il
+               a contracté à la face du monde par la <rs ref="#t.22" type="treaties">déclaration du <date when="1815-02-08">8 <choice>
+                        <abbr>Févr.</abbr>
+                        <expan>Février</expan>
+                     </choice> 1815</date></rs>.</p>
+            <p>Quant aux mesures proposées par <choice>
+                  <abbr>Mess<hi rendition="#su">rs</hi>
+                        </abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.9 #p.10" type="multi-person">Plénipotentiaires Britanniques</rs> pour mettre
+               fin à la traite illicite, comme il semblait admis de toute part qu’un système de
+               surveillance permanente ne saurait être efficacement établi que lorsque l’abolition
+               de la traite aura été<pb n="39v"/> généralement et définitivement prononcée par
+               toutes les Puissances, le Cabinet d’Autriche est d’avis qu’en ajournant à cette
+               époque la discussion ultérieure des mesures à adopter pour cet effet, on pourrait
+               utilement employer le tems intermédiaire à aplanir les difficultés et à concilier
+               toutes les opinions ; persuadé comme il l’est que, pourvu que le principe
+               fondamental, celui d’arriver à l’abolition universelle et efficace de la traite, ne
+               soit jamais perdu de vue, et que chaque puissance continue à seconder sincèrement de
+               ses soins et de ses efforts ceux que le Gouvernement Britannique a consacrés
+               jusqu’ici à une cause aussi honorable, on finira par s’accorder sur les moyens<pb n="40r"/> d’exécution les plus propres à la faire complèttement réussir.</p>
+            <p>Le Cabinet d’Autriche désire en outre que <rs xml:id="n.15"> la Conférence
+                  ministérielle établie à Londres pour s’occuper de cette question, </rs>
+                    <note type="editorial" target="#n.15">Gemeint ist die Botschafterkonferenz in London,
+                  welche sich zwischen 1816 und 1819 vorwiegend mit der Abschaffung des
+                  Sklavenhandels und der Piraterie im Mittelmeer befasste. Protokolle vgl. BFSP Bd.
+                  6 (1818/19), S. 21–53; Clarke, Papers presented to Parliament 1819, Bd. 1, S.
+                  153–233; Anderson, Rise, S. 237.</note> continue ses travaux dans le sens le plus
+               conforme aux principes qui les ont guidés jusqu’ici.</p>
+         </div>
+
+         <div hand="#A" decls="#m.4">
+            <pb n="42r"/>
+            <metamark>
+                    <add place="top" hand="#W">Annexé au Protocole du <date when="1818-11-11">11
+                     Novembre</date> sub <choice>
+                        <abbr>n<hi rendition="#su">o</hi>
+                            </abbr>
+                                <expan>numéro</expan>
+                  </choice> 30.</add>
+                </metamark>
+
+            
+                    <head>Traite des Nègres</head>
+                
+            <p>Invariablement attaché aux principes de morale et d’humanité qui depuis longtems
+               avoient réclamé l’abolition de la traite des Nègres, et fidèle aux <rs ref="#t.22" type="treaties">engagemens qu’il a pris à cet effet</rs>, le Gouvernement Prussien est
+               constamment prêt à concourir à tout ce qui peut servir à l’accomplissement définitif
+               de ce noble but.</p>
+            <p>Il n’hésite par conséquent pas à accéder à la proposition d’une démarche collective à
+               faire auprès de la <rs xml:id="n.16"> Cour de Brésil </rs>
+                    <note type="editorial" target="#n.16">Der portugiesische Hof war auf der Flucht vor Napoleon 1808 nach
+                  Rio de Janeiro übersiedelt und kehrte erst 1821 nach Europa zurück; vgl.
+                  Manchester, The Transfer; Wilcken, A Colony; Kleinlercher, Monarchieprojekte, S.
+                  235–247.</note> pour L’engager à accélérer, autant que les circonstances et les
+               besoins de sa situation pourront le lui permettre, l’abolition entière de la
+               traite.</p>
+            <p>Quant <ref target="Aachen_Prot_23.xml">aux mesures de police générale que l’on
+                  pourroit adopter pour prévenir ou pour faire cesser la traite illicite</ref>, le
+               Gouvernement Prussien ne sauroit se dissimuler les inconvéniens inséparables de la
+               concession d’un droit de visite, exercé en mer ouverte – concession qui ne
+               deviendroit que trop facilement une source d’abus et de malentendus et qui
+               assujettiroit des navigateurs paisibles et innocens à des molestations dont la seule
+               idée les indisposeroit peut-être encore plus que la réalité même.</p>
+            <pb n="42v"/>
+            <p>Le Gouvernement Prussien croit par conséquent devoir accorder la préférence à tout
+               moyen de précaution et de surveillance qui, pour être borné au point de départ et au
+               point d’arrivée, savoir à la côte d’Afrique et aux colonies intéressées à favoriser
+               ces entreprises illicites, n’en admettroit qu’une exécution plus rigoureuse et plus
+               décisive.</p>
+         </div>
+
+         <div hand="#A" decls="#m.5">
+            <pb n="56r"/>
+            <metamark>
+                    <add place="top" hand="#W">Annexé au Protocole <choice>
+                     <abbr>n.</abbr>
+                     <expan>numéro</expan>
+                  </choice> 30 du <date when="1818-11-11">11 Novembre</date>.</add>
+                </metamark>
+            
+            <p>Mon <rs ref="#p.8" type="person">Prince</rs>,</p>
+            <p>J’ai reçu de ma Cour l’ordre d’appeler l’attention des Puissances réunies à
+                  <placeName ref="#loc.1">Aix-la-Chapelle</placeName> sur les mesures à prendre pour
+               réprimer les brigandages intolérables qu’une multitude de Pirates exerce maintenant
+               sur l’océan. Cet objet parait bien digne d’être pris en considération par les
+               principales Puissances de l’Europe, et je m’acquitte du devoir qui m’est imposé en
+               vous remettant <rs xml:id="n.17"> le Mémoire ci-joint, </rs>
+                    <note type="editorial" target="#n.17">Denkschrift liegt nicht ein.</note> et en priant <rs ref="#p.8" type="person">Votre Altesse</rs> de vouloir bien, si Elle le juge convenable, me faire
+               connaître son opinion sur la question dont il s’agit.</p>
+            <p>J’ai l’honneur d’être avec la plus haute considération</p>
+            <p>De Votre Altesse</p>
+            <p>Le très humble et très obéissant <choice>
+                  <abbr>Serv<hi rendition="#su">r</hi>
+                        </abbr>
+                  <expan>Serviteur</expan>
+               </choice>
+                </p>
+            <signed hand="#P">Le <persName ref="#p.71">
+                        <roleName>Comte</roleName>
+                  <surname>de Palmella</surname></persName>
+                </signed>
+            <closer>
+                    <dateline>
+                    <placeName ref="#loc.2">Paris</placeName> le <date when="1818-11-07">7
+                  Novembre 1818</date>
+                </dateline>
+               <address>
+                        <addrLine>
+                  <add place="bottom">À Son Altesse <choice>
+                     <abbr>Mons<hi rendition="#su">r</hi>
+                     </abbr>
+                     <expan>Monsieur</expan>
+                  </choice> le <persName ref="#p.8">
+                     <roleName>Prince</roleName>
+                     <surname>de Metternich</surname></persName> Ministre d’Etat, des Conférences et
+                     des Affaires Etrangères de <rs ref="#p.16" type="person">
+                        <choice>
+                           <abbr>S. M. I<hi rendition="#su">le</hi> et R<hi rendition="#su">le</hi>
+                           </abbr>
+                           <expan>Sa Majesté Impériale et Royale</expan>
+                        </choice> Apostolique.</rs>
+                  </add>
+                        </addrLine>
+               </address>
+                </closer>
+         </div>
+      </body>
+      
+   
+    <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname></persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118538489/</idno></person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName></persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                <idno type="GND">http://d-nb.info/gnd/119006200/</idno></person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName></persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118581465/</idno></person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName></persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                <idno type="GND">http://d-nb.info/gnd/11851962/</idno></person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName></persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118806645/</idno></person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname></persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118545906/</idno></person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname></persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                <idno type="GND">http://d-nb.info/gnd/116147695/</idno></person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname></persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                <idno type="GND">http://d-nb.info/gnd/117016462/</idno></person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname></persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118720791/</idno></person>
+                <person xml:id="p.71">
+                    <persName>
+                        <forename>Pedro</forename>
+                        <surname>de Souza Holstein</surname>, <roleName>Herzog (duque) von
+                            Palmella</roleName></persName>
+                    <birth>1781</birth>
+                    <death>1850</death>
+                    <note>Portugiesischer Außenminister.</note>
+                    <idno type="URI">https://viaf.org/viaf/28369126/</idno>
+                <idno type="GND">http://d-nb.info/gnd/1029542295/</idno></person>
+                <person xml:id="p.28">
+                    <persName>
+                        <surname>Jõao/Johann VI.</surname>
+                        <roleName>König von Portugal und Brasilien</roleName></persName>
+                    <birth>1767</birth>
+                    <death>1826</death>
+                    <idno type="URI">https://viaf.org/viaf/269013446/</idno>
+                <idno type="GND">http://d-nb.info/gnd/119512602/</idno></person>
+                <person xml:id="p.19">
+                    <persName>
+                        <surname>Georg/George III.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland und
+                            Hannover</roleName></persName>
+                    <birth>1738</birth>
+                    <death>1820</death>
+                    <note>Vgl. Cannon, George III. In: ODNB, Bd. 21, S. 833–853; Black, George
+                        III.</note>
+                    <idno type="URI">https://viaf.org/viaf/49264990/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118716913/</idno></person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName></persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118780743/</idno></person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName></persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno></person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName></persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118501852/</idno></person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName></persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118535986/</idno></person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3247449</idno>
+            </place>
+                <place xml:id="loc.2">
+               <placeName>Paris</placeName>
+               <location>
+                        <geo>48.85341 2.3488</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/2988507</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/2761367</idno>
+            </place>
+                <place xml:id="loc.26">
+               <placeName>Rio de Janeiro</placeName>
+               <location>
+                        <geo>-22.90642 -43.18223</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3451190</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.22">Erklärung der Signatarstaaten des Ersten Pariser Friedens vom 8.
+               Februar 1815 hinsichtlich der Abschaffung des afrikanischen Sklavenhandels (= 15.
+               Anhang der Wiener Kongressakte); vgl. Klüber, Acten, Bd. 4, S. 531–533, und Bd. 6, S.
+               202; Angeberg, Congrès, Bd. 1, S. 725–727; Martens, Supplément, Bd. 6, S. 432–434;
+                  <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
+               26. November 2012).</bibl>
+                <bibl xml:id="t.13">Erster Pariser Frieden, abgeschlossen zwischen Österreich,
+               Großbritannien, Portugal, Preußen, Russland, Schweden und Spanien auf der einen,
+               Frankreich auf der anderen Seite; vgl. BFSP Bd. 1/1 (1812–1814), S. 151–177; Martens,
+               Nouveau Recueil, Bd. 2, S. 1–18; Ghillany, Diplomatisches Handbuch, Bd. 1, S.
+               300–311; Angeberg, Congrès, Bd. 1, S. 161–176; <ref target="http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm">http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm</ref> (deutsch;
+               eingesehen am 15. November 2012) </bibl>
+                <bibl xml:id="t.30">Zusatzartikel zum Zweiten Pariser Frieden; vgl. BFSP Bd. 3
+               (1815/16), S. 280–293; Grewe, Fontes, Bd. 3/1, S. 10–18; Clercq, Recueil, Bd. 2, S.
+               642–650; Martens, Nouveau Recueil, Bd. 2, S. 682–691;
+               www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm (deutsch; eingesehen am 31.
+               Oktober 2012).</bibl>
+                <bibl xml:id="t.14">Vertrag zwischen Großbritannien und Spanien über die Abschaffung des
+               Sklavenhandels, Madrid 23. September 1817; BFSP Bd. 4 (1816/17), S. 33–68.</bibl>
+                <bibl xml:id="t.16">Vertrag zwischen Großbritannien und Portugal zur Verhinderung des
+               Sklavenhandels, London 28. Juli 1817, Separatartikel, London 11. September 1817; BFSP
+               Bd. 4 (1816/17), S. 85–116.</bibl>
+                <bibl xml:id="t.17">Vertrag zwischen Großbritannien und den Niederlanden zur
+               Verhinderung des Sklavenhandels, Den Haag 4. Mai 1818; BFSP Bd. 5 (1817/18), S.
+               125–143.</bibl>
+            </listBibl>
+        </back>
+    <back><listPerson><person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118581465/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 16. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 30. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_30.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 31. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_31.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 40. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_41.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_2.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.19">
+                    <persName>
+                        <surname>Georg/George III.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland und
+                            Hannover</roleName>
+                    </persName>
+                    <birth>1738</birth>
+                    <death>1820</death>
+                    <note>Vgl. Cannon, George III. In: ODNB, Bd. 21, S. 833–853; Black, George
+                        III.</note>
+                    <idno type="URI">https://viaf.org/viaf/49264990/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118716913/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 23. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_23.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 25. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_25.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 26. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_26.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 30. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_30.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 31. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_31.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 33. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_33.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll einer geheimen Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_36.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 42. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_43.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118780743/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 10. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_10.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 22. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_22.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 30. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_30.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 33. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_33.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll einer geheimen Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_36.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 38. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_39.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 40. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_41.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 14. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_14.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 15. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_15.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 9. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 3. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 8. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_15.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_20.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_VIII_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_VI_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_2.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 26. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_26.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 28. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_28.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 30. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_30.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 31. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_31.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 35. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_35.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll einer geheimen Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_36.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 40. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_41.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 12. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_12.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 14. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_14.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 16. Sitzung (Schlusssitzung) des Kongresses von
+               Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 8. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 9. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 3. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 6. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_12.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_19.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_2.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.28">
+                    <persName>
+                        <surname>Jõao/Johann VI.</surname>
+                        <roleName>König von Portugal und Brasilien</roleName>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1826</death>
+                    <idno type="URI">https://viaf.org/viaf/269013446/</idno>
+                <idno type="GND">http://d-nb.info/gnd/119512602/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 12. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_12.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 23. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_23.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 25. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_25.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 30. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_30.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 31. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_31.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 38. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_39.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_7.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                <idno type="GND">http://d-nb.info/gnd/119006200/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 10. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_10.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 30. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_30.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 31. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_31.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 33. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_33.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 36. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_37.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 38. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_39.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 40. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_41.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 6. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_1.xml"/></linkGrp></event></listEvent></person>
+                </listPerson></back></text>
+</TEI>

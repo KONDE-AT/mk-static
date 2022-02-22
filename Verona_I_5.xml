@@ -1,0 +1,296 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Verona_I_5.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_4.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_6.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+<title type="main">Kongress von Verona</title> 
+            <title type="main">I. Affaires d’Espagne</title>
+            <title type="main">Denkschrift Bernstorffs und Hatzfelds (Preußen)</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                        <surname>Schneider</surname> <forename>Karin</forename></persName>
+                </editor>
+         <editor role="Technical_Editor">
+    <persName ref="http://d-nb.info/gnd/13281899X">
+        <surname>Kurz</surname>
+        <forename>Stephan</forename></persName>
+</editor>
+<respStmt>
+    <resp>Transkription</resp>
+    <name ref="#KS">Karin Schneider</name>
+</respStmt>
+<respStmt>
+    <resp>Wissenschaftliche Edition</resp>
+    <name ref="#KS">Karin Schneider</name>
+</respStmt>
+<respStmt>
+    <resp>Technical Editor</resp>
+    <name ref="#SK">Stephan Kurz</name>
+</respStmt>
+<respStmt>
+    <resp>Korrekturen</resp>
+<name ref="#KS">Karin Schneider</name>
+    <name ref="#SK">Stephan Kurz</name>
+</respStmt>
+<respStmt>
+    <resp>Beratung Kodierung</resp>
+    <name>Daniel Schopper</name>
+</respStmt>
+<respStmt>
+    <resp>Beratung Kodierung</resp>
+    <name>Peter Andorfer</name>
+</respStmt>
+</titleStmt>
+         <editionStmt>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+<date when="2018-09-23" change="#initial">2018-09-23</date>
+            <idno>V_I_05</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F04-E</tei:idno>
+            </publicationStmt>
+            <notesStmt>
+    <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
+</notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Lithographie">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 23</idno>
+                     <idno type="Faszikel"> Fasz. 43 (alt)</idno>
+                     <idno type="Folia">164 und 171</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Denkschrift Bernstorffs und Hatzfelds (Preußen)</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Lithographie</p>
+                  <p>Das Schriftstück liegt als Konzept fol. 171, als Lithographie fol. 164 ein. Die
+                     Transkription folgt der Fassung von fol. 164.</p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                     <handNote xml:id="M">Metternich</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-10-30">30.
+                        Oktober 1822</date>
+                        </origin>
+               </history>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die <rs ref="#p.12 #p.175" type="multi-person">preußischen Gesandten</rs> erklären, dass das Kabinett in
+                  <placeName ref="#loc.9">Berlin</placeName> das Vorgehen der französischen
+               Regierung in Hinblick auf <country>Spanien</country> unterstützen wird.</p>
+         </abstract>
+      </profileDesc>
+        <revisionDesc>
+    <change xml:id="initial" when="2018-09-23" who="#SK">initial version for public beta release</change>
+    <change notAfter="2018-09-23" who="#SK #KS">changetracking on ACDH git repository</change>
+</revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div decls="#m.1">
+            <pb n="164r"/>            
+            <metamark>
+                    <add place="top" hand="#AmB">No. 5.</add>
+                </metamark>
+
+            
+                    <head>Réponse confidentielle du Cabinet de <placeName ref="#loc.9">Berlin</placeName> au <ref target="Verona_I_2.xml">précis des communications
+                     verbales faites par <choice>
+                        <abbr>M<hi rendition="#su">r</hi>
+                                </abbr>
+                        <expan>Monsieur</expan>
+                     </choice> le <persName ref="#p.174">
+                                <roleName>Vicomte</roleName>
+                        <surname>de Montmorency</surname></persName>
+                        <lb/> à la Conférence du <date when="1822-10-20">20 Octobre</date>
+                        </ref>
+                    </head>
+                
+               <opener>
+                    <dateline>
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-10-30">
+                        <add hand="#A" place="inspace">30</add> Octobre 1822</date>.</dateline>
+                </opener> 
+            <p>Le précis des communications verbales de <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.174">
+                        <roleName>Vicomte</roleName>
+                  <surname>de Montmorency</surname></persName> ayant été mis sous les yeux du <rs ref="#p.18" type="person">Roi</rs>, Sa Majesté, après avoir pris les rapports actuels entre la
+                  <country>France</country> et l’<country>Espagne</country> en mûre considération et
+               voulant donner à la première de ces Puissances une preuve d’intérêt et de confiance,
+               a autorisé Son Cabinet à déclarer en Son nom :</p>
+            <p>Que si la conduite du Gouvernement espagnol à l’égard de la <country>France</country>
+               ou de <rs ref="#p.123" type="person">Son Envoyé à <placeName ref="#loc.24">Madrid</placeName></rs>
+               étoit de nature à forcer cette dernière à rompre Ses relations diplomatiques avec
+                  l’<country>Espagne</country>, <rs ref="#p.18" type="person">Sa Majesté</rs> n’hésiteroit pas à
+               en faire autant de Son côté ;</p>
+            <p>Que si, en dépit des soins que le Gouvernement français s’engage à prendre pour
+               éviter la guerre avec l’<country>Espagne</country> cette guerre venait à éclater, <rs ref="#p.18" type="person">Sa Majesté</rs> est prête à Se joindre aux Monarques, Ses alliés, pour
+               prêter à la <country>France</country> tout l’appui moral qui pourroit servir à
+               renforcer sa position ;</p>
+            <p>Et</p>
+            <p>Que si les événemens ou les conséquences de<pb n="164v"/> la guerre faisaient éprouver à la
+                  <country>France</country> le besoin d’un secours plus actif, le <rs ref="#p.18" type="person">Roi</rs> consentiroit encore à concourir aux mesures que l’on voudrait concerter
+               à l’effet d’assurer au Gouvernement français également ce genre d’appui, en autant
+               que les nécessités de la position de Sa Majesté et les soins dus à l’intérieur de Son
+               Royaume pourroient Lui en laisser la faculté.</p>
+         </div>
+      </body>
+      
+   
+    <back>
+            <listPerson>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname></persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                <idno type="GND">http://d-nb.info/gnd/116147695/</idno></person>
+                <person xml:id="p.175">
+                    <persName>
+                        <forename>Franz Ludwig</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Hatzfeldt</surname></persName>
+                    <birth>1756</birth>
+                    <death>1827</death>
+                    <note>1822 preußischer Gesandter in Wien und den Niederlanden; vgl. Bringmann,
+                        Handbuch der Diplomatie, S. 312 und S. 334, zu seiner Person Wurzbach,
+                        Biographisches Lexikon, Bd. 8, S. 52; Priesdorff, Soldatisches Führertum,
+                        Bd. 2, S. 446–449.</note>
+                    <idno type="URI">http://viaf.org/viaf/8166997/</idno>
+                <idno type="GND">http://d-nb.info/gnd/11750369/</idno></person>
+                <person xml:id="p.174">
+                    <persName>
+                        <forename>Mathieu Jean Félicité</forename>
+                        <roleName>Vicomte</roleName>
+                        <surname>de Montmorency-Laval</surname></persName>
+                    <birth>1766</birth>
+                    <death>1826</death>
+                    <note>1821/22 französischer Außenminister, Vertreter Frankreichs auf dem
+                        Kongress von Verona; vgl. zu seiner Person Michaud, Biographie universelle,
+                        Bd. 29, S. 181-183.</note>
+                    <idno type="URI">https://viaf.org/viaf/66610110/</idno>
+                <idno type="GND">http://d-nb.info/gnd/104256060/</idno></person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName></persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118535986/</idno></person>
+                <person xml:id="p.123">
+                    <persName>
+                        <forename>Augustin Marie Balthazar Charles </forename>
+                        <surname>Pelletier</surname>
+                        <roleName>comte de Lagarde</roleName></persName>
+                    <birth>1780</birth>
+                    <death>1834</death>
+                    <note>1820/21 Gesandter Frankreichs in München, 1822 Gesandter Frankreichs in
+                        Madrid; vgl. Bringmann, Handbuch, S. 187, Rabbe, Vieilh de Boisjolin,
+                        Sainte-Preuve (Hg.), Biographie universelle, Bd. 3, S. 74..</note></person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3164527</idno>
+            </place>
+                <place xml:id="loc.9">
+               <placeName>Berlin</placeName>
+               <location>
+                        <geo>52.52437 13.41053</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/2950159</idno>
+            </place>
+                <place xml:id="loc.24">
+               <placeName>Madrid</placeName>
+               <location>
+                        <geo>40.4165 -3.70256</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3117735</idno>
+            </place>
+            </listPlace>
+        </back>
+    <back><listPerson><person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118535986/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 26. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_26.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 33. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_33.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll einer geheimen Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_36.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 14. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_14.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_21.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_2.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.123">
+                    <persName>
+                        <forename>Augustin Marie Balthazar Charles </forename>
+                        <surname>Pelletier</surname>
+                        <roleName>comte de Lagarde</roleName>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1834</death>
+                    <note>1820/21 Gesandter Frankreichs in München, 1822 Gesandter Frankreichs in
+                        Madrid; vgl. Bringmann, Handbuch, S. 187, Rabbe, Vieilh de Boisjolin,
+                        Sainte-Preuve (Hg.), Biographie universelle, Bd. 3, S. 74..</note>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_20.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_5.xml"/></linkGrp></event></listEvent></person>
+                </listPerson></back></text>
+</TEI>

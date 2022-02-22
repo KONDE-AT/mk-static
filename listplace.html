@@ -1,0 +1,582 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-title" content="Ortsregister" />
+      <link rel="profile" href="http://gmpg.org/xfn/11" />
+      <title>Ortsregister</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js"></script></head>
+   <body class="page">
+      <div class="hfeed site" id="page">
+         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
+               <div class="container"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="dist/fundament/images/fundament_logo.svg" class="img-fluid" title="Mächtekongresse 1818–1822. Digitale Edition" alt="Mächtekongresse 1818–1822. Digitale Edition" itemprop="logo" /></a><a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="Mächtekongresse 1818–1822. Digitale Edition" itemprop="url">Mächtekongresse 1818–1822. Digitale Edition</a><span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                     <ul id="main-menu" class="navbar-nav">
+                        <li class="nav-item dropdown"><a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Auden-Musulin Correspondence" href="about.html" class="nav-link">Über das Projekt</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Register <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Personen" href="listperson.html" class="nav-link">Personen</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Orte" href="listplace.html" class="nav-link">Orte</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Orte" href="listorg.html" class="nav-link">Institutionen</a></li>
+                              <div class="dropdown-divider"></div>
+                              <li class="nav-item dropdown-submenu"><a title="GND-BEACON" href="beacon.txt" class="nav-link">GND-BEACON</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>
+                     </ul>
+                     <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" /><button type="submit" class="navbar-search-icon"><i data-feather="search"></i></button></form>
+                  </div>
+               </div>
+            </nav>
+         </div>
+         <div class="container-fluid">
+            <div class="card">
+               <div class="card-header">
+                  <h1>Ortsregister</h1>
+               </div>
+               <div class="card-body">
+                  <table class="table table-striped display" id="tocTable" style="width:100%">
+                     <thead>
+                        <tr>
+                           <th scope="col">Ortsname</th>
+                           <th scope="col">Lat/Lng</th>
+                           <th scope="col">ID</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Aachen</td>
+                           <td>50.77664 6.08342</td>
+                           <td><a href="loc.1.html">loc.1</a></td>
+                        </tr>
+                        <tr>
+                           <td>Paris</td>
+                           <td>48.85341 2.3488</td>
+                           <td><a href="loc.2.html">loc.2</a></td>
+                        </tr>
+                        <tr>
+                           <td>Valenciennes</td>
+                           <td>50.35 3.53333</td>
+                           <td><a href="loc.3.html">loc.3</a></td>
+                        </tr>
+                        <tr>
+                           <td>Cambrai</td>
+                           <td>50.16667 3.23333</td>
+                           <td><a href="loc.4.html">loc.4</a></td>
+                        </tr>
+                        <tr>
+                           <td>Montevideo</td>
+                           <td>-34.90328 -56.18816</td>
+                           <td><a href="loc.5.html">loc.5</a></td>
+                        </tr>
+                        <tr>
+                           <td>Rom</td>
+                           <td>41.89193 12.51133</td>
+                           <td><a href="loc.6.html">loc.6</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wien</td>
+                           <td>48.2082 16.37169</td>
+                           <td><a href="loc.7.html">loc.7</a></td>
+                        </tr>
+                        <tr>
+                           <td>London</td>
+                           <td>51.50853 -0.12574</td>
+                           <td><a href="loc.8.html">loc.8</a></td>
+                        </tr>
+                        <tr>
+                           <td>Berlin</td>
+                           <td>52.52437 13.41053</td>
+                           <td><a href="loc.9.html">loc.9</a></td>
+                        </tr>
+                        <tr>
+                           <td>St. Petersburg</td>
+                           <td>59.93863 30.31413</td>
+                           <td><a href="loc.10.html">loc.10</a></td>
+                        </tr>
+                        <tr>
+                           <td>Neapel</td>
+                           <td>40.85216 14.26811</td>
+                           <td><a href="loc.11.html">loc.11</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stockholm</td>
+                           <td>59.33258 18.0649</td>
+                           <td><a href="loc.12.html">loc.12</a></td>
+                        </tr>
+                        <tr>
+                           <td>Dresden</td>
+                           <td>51.05089 13.73832</td>
+                           <td><a href="loc.13.html">loc.13</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kopenhagen</td>
+                           <td>55.67594 12.56553</td>
+                           <td><a href="loc.14.html">loc.14</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hannover</td>
+                           <td>52.37052 9.73322</td>
+                           <td><a href="loc.15.html">loc.15</a></td>
+                        </tr>
+                        <tr>
+                           <td>München</td>
+                           <td>48.13743 11.57549</td>
+                           <td><a href="loc.16.html">loc.16</a></td>
+                        </tr>
+                        <tr>
+                           <td>Stuttgardt</td>
+                           <td>48.78232 9.17702</td>
+                           <td><a href="loc.17.html">loc.17</a></td>
+                        </tr>
+                        <tr>
+                           <td>Rastatt</td>
+                           <td>48.85851 8.20965</td>
+                           <td><a href="loc.18.html">loc.18</a></td>
+                        </tr>
+                        <tr>
+                           <td>Karlsruhe</td>
+                           <td>49.00922 8.40394</td>
+                           <td><a href="loc.19.html">loc.19</a></td>
+                        </tr>
+                        <tr>
+                           <td>Germersheim</td>
+                           <td>49.22306 8.36389</td>
+                           <td><a href="loc.20.html">loc.20</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bruchsal</td>
+                           <td>49.12426 8.59804</td>
+                           <td><a href="loc.21.html">loc.21</a></td>
+                        </tr>
+                        <tr>
+                           <td>Mannheim</td>
+                           <td>49.4891 8.46694</td>
+                           <td><a href="loc.22.html">loc.22</a></td>
+                        </tr>
+                        <tr>
+                           <td>Heidelberg</td>
+                           <td>49.40768 8.69079</td>
+                           <td><a href="loc.23.html">loc.23</a></td>
+                        </tr>
+                        <tr>
+                           <td>Madrid</td>
+                           <td>40.4165 -3.70256</td>
+                           <td><a href="loc.24.html">loc.24</a></td>
+                        </tr>
+                        <tr>
+                           <td>Frankfurt am Main</td>
+                           <td>50.11552 8.68417</td>
+                           <td><a href="loc.25.html">loc.25</a></td>
+                        </tr>
+                        <tr>
+                           <td>Rio de Janeiro</td>
+                           <td>-22.90642 -43.18223</td>
+                           <td><a href="loc.26.html">loc.26</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kiel</td>
+                           <td>54.32133 10.13489</td>
+                           <td><a href="loc.27.html">loc.27</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kehl</td>
+                           <td>48.57297 7.81523</td>
+                           <td><a href="loc.28.html">loc.28</a></td>
+                        </tr>
+                        <tr>
+                           <td>Basel</td>
+                           <td>47.55839 7.57327</td>
+                           <td><a href="loc.29.html">loc.29</a></td>
+                        </tr>
+                        <tr>
+                           <td>Mainz</td>
+                           <td>49.98419 8.2791</td>
+                           <td><a href="loc.30.html">loc.30</a></td>
+                        </tr>
+                        <tr>
+                           <td>Waterloo</td>
+                           <td>50.71469 4.3991</td>
+                           <td><a href="loc.31.html">loc.31</a></td>
+                        </tr>
+                        <tr>
+                           <td>Straßburg</td>
+                           <td>48.58392 7.74553</td>
+                           <td><a href="loc.32.html">loc.32</a></td>
+                        </tr>
+                        <tr>
+                           <td>Elsfleth</td>
+                           <td>53.23748 8.45664</td>
+                           <td><a href="loc.33.html">loc.33</a></td>
+                        </tr>
+                        <tr>
+                           <td>Darmstadt</td>
+                           <td>49.87167 8.65027</td>
+                           <td><a href="loc.34.html">loc.34</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bremen</td>
+                           <td></td>
+                           <td><a href="loc.35.html">loc.35</a></td>
+                        </tr>
+                        <tr>
+                           <td>Lübeck</td>
+                           <td>53.86893 10.68729</td>
+                           <td><a href="loc.36.html">loc.36</a></td>
+                        </tr>
+                        <tr>
+                           <td>Regensburg</td>
+                           <td>49.01513 12.10161</td>
+                           <td><a href="loc.37.html">loc.37</a></td>
+                        </tr>
+                        <tr>
+                           <td>Frankenthal</td>
+                           <td>49.53414 8.35357</td>
+                           <td><a href="loc.38.html">loc.38</a></td>
+                        </tr>
+                        <tr>
+                           <td>Hamburg</td>
+                           <td>53.55 10</td>
+                           <td><a href="loc.39.html">loc.39</a></td>
+                        </tr>
+                        <tr>
+                           <td>Amsterdam</td>
+                           <td>52.37403 4.88969</td>
+                           <td><a href="loc.40.html">loc.40</a></td>
+                        </tr>
+                        <tr>
+                           <td>Augsburg</td>
+                           <td>48.37154 10.89851</td>
+                           <td><a href="loc.41.html">loc.41</a></td>
+                        </tr>
+                        <tr>
+                           <td>Algier</td>
+                           <td>36.73225 3.08746</td>
+                           <td><a href="loc.42.html">loc.42</a></td>
+                        </tr>
+                        <tr>
+                           <td>Rochefort</td>
+                           <td>45.93333 -0.98333</td>
+                           <td><a href="loc.43.html">loc.43</a></td>
+                        </tr>
+                        <tr>
+                           <td>Wetzlar</td>
+                           <td>50.56109 8.50495</td>
+                           <td><a href="loc.44.html">loc.44</a></td>
+                        </tr>
+                        <tr>
+                           <td>Kassel</td>
+                           <td>51.31667 9.5</td>
+                           <td><a href="loc.45.html">loc.45</a></td>
+                        </tr>
+                        <tr>
+                           <td>Brüssel</td>
+                           <td>50.85045 4.34878</td>
+                           <td><a href="loc.46.html">loc.46</a></td>
+                        </tr>
+                        <tr>
+                           <td>Köln</td>
+                           <td>50.93333 6.95</td>
+                           <td><a href="loc.47.html">loc.47</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ostende</td>
+                           <td>51.21551 2.927</td>
+                           <td><a href="loc.48.html">loc.48</a></td>
+                        </tr>
+                        <tr>
+                           <td>Nieuport</td>
+                           <td>51.13008 2.75135</td>
+                           <td><a href="loc.49.html">loc.49</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ypres</td>
+                           <td>50.85114 2.88569</td>
+                           <td><a href="loc.50.html">loc.50</a></td>
+                        </tr>
+                        <tr>
+                           <td>Tournai</td>
+                           <td>50.60715 3.38932</td>
+                           <td><a href="loc.51.html">loc.51</a></td>
+                        </tr>
+                        <tr>
+                           <td>Antwerpen</td>
+                           <td>51.21989 4.40346</td>
+                           <td><a href="loc.52.html">loc.52</a></td>
+                        </tr>
+                        <tr>
+                           <td>Huy</td>
+                           <td>50.51894 5.23284</td>
+                           <td><a href="loc.53.html">loc.53</a></td>
+                        </tr>
+                        <tr>
+                           <td>Namur</td>
+                           <td>50.4669 4.86746</td>
+                           <td><a href="loc.54.html">loc.54</a></td>
+                        </tr>
+                        <tr>
+                           <td>Dinant</td>
+                           <td>50.25807 4.91166</td>
+                           <td><a href="loc.55.html">loc.55</a></td>
+                        </tr>
+                        <tr>
+                           <td>Charleroi</td>
+                           <td>50.41136 4.44448</td>
+                           <td><a href="loc.56.html">loc.56</a></td>
+                        </tr>
+                        <tr>
+                           <td>Marienbourg</td>
+                           <td>50.09489 4.52161</td>
+                           <td><a href="loc.57.html">loc.57</a></td>
+                        </tr>
+                        <tr>
+                           <td>Philippeville</td>
+                           <td>50.19612 4.54374</td>
+                           <td><a href="loc.58.html">loc.58</a></td>
+                        </tr>
+                        <tr>
+                           <td>Ried im Innkreis</td>
+                           <td>48.21123 13.48855</td>
+                           <td><a href="loc.59.html">loc.59</a></td>
+                        </tr>
+                        <tr>
+                           <td>Troppau</td>
+                           <td>49.93866 17.90257</td>
+                           <td><a href="loc.60.html">loc.60</a></td>
+                        </tr>
+                        <tr>
+                           <td>Nola</td>
+                           <td>40.92606 14.52816</td>
+                           <td><a href="loc.61.html">loc.61</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pontecorvo</td>
+                           <td>41.45861 13.66618</td>
+                           <td><a href="loc.62.html">loc.62</a></td>
+                        </tr>
+                        <tr>
+                           <td>Benevent</td>
+                           <td>41.1307 14.77816</td>
+                           <td><a href="loc.63.html">loc.63</a></td>
+                        </tr>
+                        <tr>
+                           <td>Turin</td>
+                           <td>45.07049 7.68682</td>
+                           <td><a href="loc.64.html">loc.64</a></td>
+                        </tr>
+                        <tr>
+                           <td>Laibach</td>
+                           <td>46.05108 14.50513</td>
+                           <td><a href="loc.65.html">loc.65</a></td>
+                        </tr>
+                        <tr>
+                           <td>Livorno</td>
+                           <td>43.54427 10.32615</td>
+                           <td><a href="loc.66.html">loc.66</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bologna</td>
+                           <td>44.49381 11.33875</td>
+                           <td><a href="loc.67.html">loc.67</a></td>
+                        </tr>
+                        <tr>
+                           <td>Verona</td>
+                           <td>45.4299 10.98444</td>
+                           <td><a href="loc.68.html">loc.68</a></td>
+                        </tr>
+                        <tr>
+                           <td>Florenz</td>
+                           <td>43.77925 11.24626</td>
+                           <td><a href="loc.69.html">loc.69</a></td>
+                        </tr>
+                        <tr>
+                           <td>Warschau</td>
+                           <td>52.22977 21.01178</td>
+                           <td><a href="loc.70.html">loc.70</a></td>
+                        </tr>
+                        <tr>
+                           <td>Porto</td>
+                           <td>41.14961 -8.61099</td>
+                           <td><a href="loc.71.html">loc.71</a></td>
+                        </tr>
+                        <tr>
+                           <td>Barcelona</td>
+                           <td>41.38879 2.15899</td>
+                           <td><a href="loc.72.html">loc.72</a></td>
+                        </tr>
+                        <tr>
+                           <td>Novara</td>
+                           <td>45.44694 8.62118</td>
+                           <td><a href="loc.73.html">loc.73</a></td>
+                        </tr>
+                        <tr>
+                           <td>Alexandria</td>
+                           <td>44.90924 8.61007</td>
+                           <td><a href="loc.74.html">loc.74</a></td>
+                        </tr>
+                        <tr>
+                           <td>Saluzzo</td>
+                           <td></td>
+                           <td><a href="loc.75.html">loc.75</a></td>
+                        </tr>
+                        <tr>
+                           <td>Genua</td>
+                           <td>44.40478 8.94439</td>
+                           <td><a href="loc.76.html">loc.76</a></td>
+                        </tr>
+                        <tr>
+                           <td>Casale Monferrato</td>
+                           <td>45.13338 8.4525</td>
+                           <td><a href="loc.77.html">loc.77</a></td>
+                        </tr>
+                        <tr>
+                           <td>Pinerolo</td>
+                           <td></td>
+                           <td><a href="loc.78.html">loc.78</a></td>
+                        </tr>
+                        <tr>
+                           <td>Acqui Terme</td>
+                           <td>44.67552 8.46934</td>
+                           <td><a href="loc.79.html">loc.79</a></td>
+                        </tr>
+                        <tr>
+                           <td>Savona</td>
+                           <td>44.30905 8.47715</td>
+                           <td><a href="loc.80.html">loc.80</a></td>
+                        </tr>
+                        <tr>
+                           <td>Konstantinopel</td>
+                           <td>41.01384 28.94966</td>
+                           <td><a href="loc.81.html">loc.81</a></td>
+                        </tr>
+                        <tr>
+                           <td>Jassy</td>
+                           <td>47.16667 27.6</td>
+                           <td><a href="loc.82.html">loc.82</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bukarest</td>
+                           <td>44.43225 26.10626</td>
+                           <td><a href="loc.83.html">loc.83</a></td>
+                        </tr>
+                        <tr>
+                           <td>Lissabon</td>
+                           <td>38.71667 -9.13333</td>
+                           <td><a href="loc.84.html">loc.84</a></td>
+                        </tr>
+                        <tr>
+                           <td>Den Haag</td>
+                           <td>52.07667 4.29861</td>
+                           <td><a href="loc.85.html">loc.85</a></td>
+                        </tr>
+                        <tr>
+                           <td>Triest</td>
+                           <td></td>
+                           <td><a href="loc.86.html">loc.86</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bad Kreuznach</td>
+                           <td>49.8414 7.86713</td>
+                           <td><a href="loc.87.html">loc.87</a></td>
+                        </tr>
+                        <tr>
+                           <td>Bad Dürkheim</td>
+                           <td>49.4618 8.17236</td>
+                           <td><a href="loc.88.html">loc.88</a></td>
+                        </tr>
+                        <tr>
+                           <td>Washington</td>
+                           <td>38.89511 -77.03637</td>
+                           <td><a href="loc.89.html">loc.89</a></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+            <div class="container" id="footer-full-content" tabindex="-1">
+               <div class="footer-separator">
+                  CONTACT
+                  </div>
+               <div class="row">
+                  <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6  ml-auto  text-center ">
+                     <div class="textwidget custom-html-widget"><a href="/"><img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" class="image" alt="ACDH Logo" style="max-width: 100%; height: auto;" title="ACDH Logo" /></a></div>
+                  </div>
+                  <div class="footer-widget col-lg-4 col-md-3 col-sm-3">
+                     <div class="textwidget custom-html-widget">
+                        <p>
+                           ACDH-CH OEAW
+                           <br />
+                           Austrian Centre for Digital Humanities and Cultural Heritage
+                           <br />
+                           Austrian Academy of Sciences
+                           </p>
+                        <p>
+                           Sonnenfelsgasse 19
+                           <br />
+                           1010 Vienna
+                           </p>
+                        <p>
+                           T: +43 1 51581-2200
+                           <br />
+                           E: <a href="mailto:acdh@oeaw.ac.at">acdh@oeaw.ac.at</a></p>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-4 col-md-3 col-sm-4">
+                     <h6 class="font-weight-bold">PROJECT PARTNERS</h6>
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-lg-6 col-md-6 col-sm-12">
+                              <div class="flex-md-row mb-4 align-items-center"><a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a><div class="card-body d-flex flex-column align-items-start">
+                                    <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-12">
+                              <div class="flex-md-row mb-4 align-items-center"><a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a><div class="card-body d-flex flex-column align-items-start">
+                                    <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto">
+                     <div class="row">
+                        <div class="textwidget custom-html-widget">
+                           <h6 class="font-weight-bold">HELPDESK</h6>
+                           <p>ACDH-CH runs a helpdesk offering advice for questions related to various digital humanities
+                              topics.</p>
+                           <p><a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">ASK US!</a></p>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto" style="margin-left:0 !important;">
+                           <div class="textwidget custom-html-widget">
+                              <p style="margin-bottom:0 !important;">Social: </p>
+                           </div>
+                           <div class="row">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/KONDE-AT/mk-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="imprint.html">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script>
+                        $(document).ready(function () {
+                        createDataTable('tocTable')
+                        });
+                    </script></div>
+   </body>
+</html>

@@ -1,0 +1,1401 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Troppau_Prot_4.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_3.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_5.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 4. Sitzung des Kongresses von Troppau</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                        <surname>Schneider</surname> <forename>Karin</forename></persName>
+                </editor>
+         <editor role="Technical_Editor">
+    <persName ref="http://d-nb.info/gnd/13281899X">
+        <surname>Kurz</surname>
+        <forename>Stephan</forename></persName>
+</editor>
+<respStmt>
+    <resp>Transkription</resp>
+    <name ref="#KS">Karin Schneider</name>
+</respStmt>
+<respStmt>
+    <resp>Wissenschaftliche Edition</resp>
+    <name ref="#KS">Karin Schneider</name>
+</respStmt>
+<respStmt>
+    <resp>Technical Editor</resp>
+    <name ref="#SK">Stephan Kurz</name>
+</respStmt>
+<respStmt>
+    <resp>Korrekturen</resp>
+<name ref="#KS">Karin Schneider</name>
+    <name ref="#SK">Stephan Kurz</name>
+</respStmt>
+<respStmt>
+    <resp>Beratung Kodierung</resp>
+    <name>Daniel Schopper</name>
+</respStmt>
+<respStmt>
+    <resp>Beratung Kodierung</resp>
+    <name>Peter Andorfer</name>
+</respStmt>
+</titleStmt>
+         <editionStmt>
+            <edition>
+                    <date>2012-10-26</date>
+                </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+<date when="2018-09-23" change="#initial">2018-09-23</date>
+            <idno>T_04</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F26-8</tei:idno>
+            </publicationStmt>
+            <notesStmt>
+    <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
+</notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originaljournal">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">63–64, 77–78</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Journal</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Journal</p>
+                  <p>Das Journal liegt zweifach auf fol. 63 und 78 (Original), und fol. 64 und 77
+                     ein; die Edition folgt der Variante fol. 63 und 78 als dem von <persName ref="#p.5">
+                                <surname>Gentz</surname></persName> eigenhändig unterzeichnetem
+                     Original.</p>
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.60">Troppau</placeName>
+                            <date when="1820-11-19">19.
+                        November 1820</date>
+                        </origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">65–69</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 1: Protocole préliminaire</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.60">Troppau</placeName>
+                            <date when="1820-11-19">19.
+                        November 1820</date>
+                        </origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.3" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">69–70</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 2: Ergänzung zum Protocole préliminaire vom 19. November
+                        1820</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.60">Troppau</placeName>
+                            <date when="1820-11-19">19.
+                        November 1820</date>
+                        </origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.4" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">71–72</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 3: Konzept eines Briefs von Kaiser Franz I. an Ferdinand I., König
+                        beider Sizilien</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.60">Troppau</placeName>
+                            <date when="1820-11-20">20.
+                        November 1820</date>
+                        </origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.5" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">73–75</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 4: Instruktion für die russischen und preußischen Gesandten sowie
+                        den österreichischen Chargé d’affaires in Neapel</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.60">Troppau</placeName>
+                            <date when="1820-11-22">22.
+                        November 1820</date>
+                        </origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Journal</head>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  364-365.</bibl>
+                    </witness>
+            </listWit>
+            <listWit corresp="#m.2">
+               <head>Anlage 1: Protocole préliminaire</head>
+               <witness corresp="#w.2">
+                        <bibl type="print">Grewe, Fontes, Bd. 3/1, S.
+                  110–113;</bibl>
+                    </witness>
+               <witness corresp="#w.15">
+                        <bibl type="print">Näf, Europapolitik, S.
+                  31–33;</bibl>
+                    </witness>
+               <witness corresp="#w.3">
+                        <bibl type="print">Bertier de Sauvigny, Sainte-Alliance, S.
+                     204–207;</bibl>
+                    </witness>
+               <witness corresp="#w.4">
+                        <bibl type="print">Vnešnjaja politika Rossii, Bd. 11, S.
+                     589–591;</bibl>
+                    </witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  365-367.</bibl>
+                    </witness>
+            </listWit>
+            <listWit corresp="#m.3">
+               <head>Anlage 2: Ergänzung zum Protocole préliminaire vom 19. November 1820</head>
+               <witness corresp="#w.15">
+                        <bibl type="print">Näf, Europapolitik, S.
+                  33–34;</bibl>
+                    </witness>
+               <witness corresp="#w.4">
+                        <bibl type="print">Vnešnjaja politika Rossii, Bd. 11, S.
+                     593;</bibl>
+                    </witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  367-368.</bibl>
+                    </witness>
+            </listWit>
+            <listWit corresp="#m.4">
+               <head>Anlage 3: Konzept eines Briefs Kaiser Franz I. an Ferdinand I., König beider
+                  Sizilien</head>
+               <witness corresp="#w.24">
+                        <bibl type="print">Martens, Manuel diplomatique, S.
+                     369–370;</bibl>
+                    </witness>
+               <witness corresp="#w.14">
+                        <bibl type="print">Martens, Nouveau Recueil, Bd. 5 S.
+                     585–586;</bibl>
+                    </witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 8 (1820/21), S.
+                  1147–1148;</bibl>
+                    </witness>
+               <witness corresp="#w.25">
+                        <bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
+                     S. 424;</bibl>
+                    </witness>
+               <witness corresp="#w.26">
+                        <bibl type="print">Archive diplomatique/Diplomatisches
+                     Archiv, Bd. 1, S. 287–289;</bibl>
+                    </witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S. 368.</bibl>
+                    </witness>
+            </listWit>
+            <listWit corresp="#m.5">
+               <head>Anlage 4: Instruktion für die russischen und preußischen Gesandten sowie den
+                  österreichischen Chargé d’affaires in Neapel</head>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  369-370.</bibl>
+                    </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Entsprechend dem <ref target="Troppau_Prot_3.xml">Beschluss vom <date when="1820-11-07">7. November</date>
+                    </ref> informieren die <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121" type="multi-person">Vertreter Österreichs,
+                  Preußens und Russlands</rs> die <rs ref="#p.137 #p.102 #p.135" type="multi-person">Gesandten
+                  Großbritanniens und Frankreichs</rs> über die Ergebnisse ihrer bisherigen
+               vertraulichen Beratungen; Rechtfertigung für dieses Vorgehen durch <persName ref="#p.8">
+                        <surname>Metternich</surname></persName>.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.12">BERNSTORFF</persName></person>
+               <person>
+                  <persName ref="#p.102">CARAMAN</persName></person>
+               <person>
+                  <persName ref="#p.135">LA FERRONNAYS</persName></person>
+               <person>
+                  <persName ref="#p.121">GOLOVKIN</persName></person>
+               <person>
+                  <persName ref="#p.11">HARDENBERG</persName></person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName></person>
+               <person>
+                  <persName ref="#p.136">KRUSEMARCK</persName></person>
+               <person>
+                  <persName ref="#p.40">LEBZELTERN</persName></person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName></person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName></person>
+               <person>
+                  <persName ref="#p.137">STEWART</persName></person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+        <revisionDesc>
+    <change xml:id="initial" when="2018-09-23" who="#SK">initial version for public beta release</change>
+    <change notAfter="2018-09-23" who="#SK #KS">changetracking on ACDH git repository</change>
+</revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#A" decls="#m.1">
+            <pb n="63r"/>
+            
+                    <head>
+                        <hi rendition="#u">Journal des conférences</hi>
+                     <lb/>
+                        <hi rendition="#u">
+                            <choice>
+                        <abbr>N<hi rendition="#su">o</hi>
+                                </abbr>
+                        <expan>Numéro</expan>
+                     </choice> 4</hi>
+                    </head>
+                
+            <opener>
+                    <dateline>Dimanche <date when="1820-11-19">19 Novembre 1820</date>
+                </dateline>
+                </opener>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">rs</hi>
+                        </abbr>
+                  <expan>Monsieurs</expan>
+               </choice> les <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121" type="multi-person">Ministres
+                  des Cabinets d’Autriche, de Prusse et de Russie</rs> ayant annoncé dans la <ref target="Troppau_Prot_3.xml">conférence du <date when="1820-11-07">7 de ce
+                     mois</date>
+                    </ref>,</p>
+            <p>Que devant d’abord s’entendre complètement entr’eux sur les bases à établir pour
+               continuer avec succès les présentes délibérations, ils ont cru ne pouvoir mieux
+               atteindre ce but qu’en se communiquant confidentiellement les observations et
+               éclaircissemens réciproques, sauf à offrir à la conférence les résultats de ces
+               communications,</p>
+            <p>Ont procédé dans la conférence de ce jour à donner part des résultats que lesdites
+               communications entre les trois cabinets ont amenés depuis le <date when="1820-11-07">7 Novembre</date>.</p>
+            <p>Ces résultats se trouvent consignés dans les pièces suivantes :</p>
+            <p>1<hi rendition="#su">o</hi>
+               <ref decls="#m.2">Un Protocole préliminaire, arrêté entre les Cours d’Autriche, de
+                  Prusse et de Russie</ref> ;</p>
+            <p>2<hi rendition="#su">o</hi>
+               <ref decls="#m.3">Un supplément relatif à l’application des principes<pb n="63v"/>
+                  énoncés dans le Protocole préliminaire à la question de
+                  <country>Naples</country>
+                    </ref> ;</p>
+            <p>3<hi rendition="#su">o</hi>
+               <ref decls="#m.4">Un projet de lettre à adresser par les <rs ref="#p.16 #p.18 #p.17" type="multi-person">trois Augustes Monarques</rs> à <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> le <rs ref="#p.138" type="person">Roi des Deux-Siciles</rs>
+                    </ref> ;</p>
+            <p>4<hi rendition="#su">o</hi>
+               <ref decls="#m.5">Un projet d’instruction pour les <rs ref="#p.144 #p.148 #p.149" type="multi-person">Ministres des trois Cours résidant à <placeName ref="#loc.11">Naples</placeName></rs>
+                    </ref>.</p>
+            <p>Après la lecture de ces pièces, ci-jointes sub <choice>
+                  <abbr>Litt<hi rendition="#su">is</hi>
+                        </abbr>
+                  <expan>Litteris</expan>
+               </choice> A, B, C et D, <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> a déclaré en son nom et au nom de <choice>
+                  <abbr>M<hi rendition="#su">rs</hi>
+                        </abbr>
+                  <expan>Monsieurs</expan>
+                    </choice> les <rs ref="#p11 #p.12 #p.136 #p.13 #p.14 #p.121" type="multi-person">Ministres de Prusse et
+                  de Russie</rs> :</p>
+            <p>Qu’en conséquence des explications précédentes, les réunions confidentielles entre
+               les trois Cabinets ne peuvent point être considérées comme des Conférences ;</p>
+            <p>Que l’avantage dont jouissent <choice>
+                  <abbr>M<hi rendition="#su">rs</hi>
+                        </abbr>
+                  <expan>Monsieurs</expan>
+               </choice> les <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121" type="multi-person">Ministres de
+                  ces trois Cabinets</rs> par la présence de <rs ref="#p.16 #p.18 #p.17" type="multi-person">leurs
+                  Augustes Souverains</rs>, et par la faculté d’en recevoir des instructions
+               fréquentes et précises, leur impose le devoir d’avancer de leur part autant que
+               possible l’accord des Cabinets sur les importantes questions qui les occupent ;</p>
+            <p>Que tout en remplissant ce<pb n="78r"/> devoir, ils ont constamment annoncé
+               l’intention de communiquer à <choice>
+                  <abbr>M<hi rendition="#su">rs</hi>
+                        </abbr>
+                  <expan>Monsieurs</expan>
+               </choice> les <rs ref="#p.102 #p.135 #p.137" type="multi-person">Ambassadeurs de France et de la
+                  Grande-Bretagne</rs> pour l’information complète de leurs Cours les résultats de
+               leur travail commun, aussitôt que, moyennant une rédaction régulière, ce travail
+               seroit susceptible d’être présenté ;</p>
+            <p>Qu’ils ont observé cette marche dans les communications nombreuses, consignées au
+               journal de la dernière conférence ; et</p>
+            <p>Qu’ils offrent aujourd’hui les pièces rédigées à la suite de ces premières
+               communications ; pièces que <choice>
+                  <abbr>M<hi rendition="#su">rs</hi>
+                        </abbr>
+                  <expan>Monsieurs</expan>
+               </choice> les Ministres ne peuvent regarder que comme le développement des mémoires
+               donnés par Eux aux actes des <ref target="Troppau_Prot_1.xml">Conférences du <date when="1820-10-23">23</date>
+                    </ref> et <ref target="Troppau_Prot_2.xml">
+                        <date when="1820-10-29">29 Octobre</date>
+                    </ref> et <ref target="Troppau_Prot_3.xml">
+                        <date when="1820-11-07">7 Novembre</date>
+                    </ref>.</p>
+            <p rendition="#r">
+                    <add hand="#G">Lu et Certifié</add>
+                </p>
+            <p rendition="#r">
+                    <add hand="#G">à la conférence du <date when="1820-11-20">20
+                     Novembre</date>.</add>
+                </p>
+            <signed rendition="#r">
+                    <persName ref="#p.5">
+                        <surname>Gentz</surname></persName>
+                </signed>
+         </div>
+
+         <div hand="#A" decls="#m.2">
+            <pb n="65r"/>
+           
+                    <metamark>
+                    <add place="top">
+                        <choice>
+                     <abbr>Litt.</abbr>
+                     <expan>Littera</expan>
+                  </choice> A.</add>
+                </metamark>
+            
+                    <head>
+                        <hi rendition="#u">Protocole préliminaire</hi>
+                    </head>
+                
+            <p>Les Cabinets alliés, s’étant réunis à <placeName ref="#loc.60">Troppau</placeName> à
+               l’effet de prendre en mûre considération les dangers auxquels l’Europe se trouve
+               exposée par suite des révolutions qu’un coupable oubli de tous les devoirs a fait
+               éclater <rs xml:id="n.4">dans plusieurs Etats</rs>
+                    <note type="editorial" target="#n.4">Spanien, Königreich beider Sizilien, Portugal.</note> ;</p>
+            <p>Voulant recourir dans des circonstances aussi graves à une application légitime &amp;
+               salutaire des principes sur lesquels se fonde leur alliance ;</p>
+            <p>Voulant ainsi maintenir les droits consacrés par les Traités, &amp; préserver leurs
+               peuples &amp; l’Europe de la contagion du crime &amp; de ses déplorables effets ;</p>
+            <p>Désirant enfin assurer le développement heureux &amp; paisible de la civilisation, le
+               règne de la justice &amp; des lois sous les auspices de la morale Chrétienne, de
+               l’ordre &amp; d’une sollicitude éclairée, les dits Cabinets,<pb n="65v"/> après avoir
+               consigné leur pensée sur les questions relatives à ces grands intérêts dans les
+               mémoires donnés aux actes de leurs <ref target="Troppau_Prot_2.xml">conférences du
+                     <date when="1820-10-29">29 <choice>
+                        <abbr>8<hi rendition="#su">bre</hi>
+                                </abbr>
+                        <expan>Octobre</expan>
+                     </choice>
+                        </date>
+                    </ref> &amp; <ref target="Troppau_Prot_3.xml">du <date when="1820-11-07">7 Novembre</date>
+                    </ref>, sont convenus d’un commun accord de
+               stipuler par le présent Protocole préliminaire les bases de l’acte, en vertu duquel
+               ils se reconnoitront le droit &amp; l’obligation d’arrêter <choice>
+                  <abbr>définitivem<hi rendition="#su">t</hi>
+                        </abbr>
+                  <expan>définitivement</expan>
+               </choice> les mesures qu’il est en leur pouvoir de prendre, afin de prévenir les
+               progrès du mal dont le corps social est menacé, &amp; d’y apporter remède là où il
+               exerce déjà ses ravages, &amp; où les Puissances alliées peuvent l’atteindre.</p>
+            <p>En conséquence, les <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121" type="multi-person">
+                        <choice>
+                     <abbr>P.P.</abbr>
+                     <expan>Plénipotentiaires</expan>
+                  </choice> d’Autriche, de Prusse &amp; de Russie</rs>, vu la présence de <rs ref="#p.16 #p.18 #p.17" type="multi-person">leurs Souverains respectifs</rs>, ont signé les points
+               suivans :</p>
+            <p>
+                    <hi rendition="#u">Principes</hi>
+                </p>
+            <p>
+                    <hi rendition="#u">1
+                    <hi rendition="#su">
+                        o
+                    </hi>
+                    </hi>
+                </p>
+            <p>Les Etats faisant partie<pb n="66r"/> de l’alliance Européenne, qui auront subi dans
+               la forme de leur régime intérieur une altération opérée par la révolte, &amp; dont
+               les suites sont menaçantes pour d’autres Etats, cessent par là même de faire partie
+               de la dite Alliance, &amp; en resteront exclus, jusqu’à ce que leur situation
+               présente des garanties d’ordre légitime &amp; de stabilité.</p>
+            <p>
+                    <hi rendition="#u">2
+                    <hi rendition="#su">
+                        o
+                    </hi>
+                    </hi>
+                </p>
+            <p>Les Puissances alliées ne se borneront pas à déclarer cette exclusion, mais fidèles
+               aux principes qu’elles ont proclamés &amp; au respect dû à l’autorité de chaque
+               Gouvernement légitime, ainsi qu’à tout acte qui émane de sa volonté libre, Elles
+               s’engageront à refuser leur reconnoissance aux changemens consommés par des voies
+               illégales.</p>
+            <p>
+                    <hi rendition="#u">3
+               <hi rendition="#su">
+                        o
+               </hi>
+                    </hi>
+                </p>
+            <p>Lorsque les Etats où de pareils changemens se seront ainsi effectués feront<pb n="66v"/> craindre à d’autres pays un danger imminent par leur proximité, &amp;
+               lorsque les Puissances alliées pourront exercer à leur égard une action efficace
+               &amp; bienfaisante, elles employeront, pour les ramener au sein de l’alliance,
+               premièrement des démarches amicales, en second lieu une force coercitive si l’emploi
+               de cette force devenoit indispensable.</p>
+            <p>
+                    <hi rendition="#u">Application</hi>
+                </p>
+            <p>
+                    <hi rendition="#u">4
+               <hi rendition="#su">
+                        o
+               </hi>
+                    </hi>
+                </p>
+            <p>Le <country>Royaume des deux-Siciles</country> venant de subir une des altérations
+               ci-dessus caractérisées, et l’adoption des mesures indiquées au paragraphe précédent
+               étant à la fois impérieusement nécessaire &amp; possible envers le dit Royaume, les
+               Puissances alliées statuent que ces mesures seront mises à exécution avec l’intention
+               invariable :</p>
+            <p>De respecter l’existence politique &amp; l’intégrité du dit Royaume ;</p>
+            <pb n="67r"/>
+            <p>&amp; dans le but unique :</p>
+            <p>De rendre la liberté au <rs ref="#p.138" type="person">Roi</rs> &amp; à la nation ;</p>
+            <p>De mettre le pouvoir Royal à même de fonder dans le <country>Royaume des
+                  deux-Siciles</country> un ordre de choses qui puisse se maintenir sur ses propres
+               bases &amp; sans l’appui d’une force étrangère ;</p>
+            <p>De se garantir de toute nouvelle secousse révolutionnaire &amp; d’assurer à la nation
+               sa tranquillité &amp; son bonheur.</p>
+            <p>
+                    <hi rendition="#u">5
+               <hi rendition="#su">
+                        o
+               </hi>
+                    </hi>
+                </p>
+            <p>Soit que les Puissances alliées parviennent au but ci-dessus signalé par des
+               démarches amicales, soit qu’Elles se trouvent obligées de l’atteindre par l’emploi de
+               la force militaire, il est convenu que le fruit de leurs efforts communs pourra être
+               garanti au <country>Royaume des deux-Siciles</country> &amp; à l’Europe par la
+               présence temporaire dans les Etats napolitains<pb n="67v"/> d’une armée
+               d’occupation.</p>
+            <p>Dans le cas d’un arrangement amical ce gage de sûreté seroit accordé au <rs ref="#p.138" type="person">Roi</rs> s’il le réclamoit de la part des Puissances.</p>
+            <p>En tout état de cause, l’occupation militaire seroit effectuée par l’armée
+               Autrichienne au nom des Puissances contractantes &amp; accédantes au présent
+               acte.</p>
+            <p>
+                    <hi rendition="#u">6
+               <hi rendition="#su">
+                  o</hi>
+                    </hi>
+                </p>
+            <p>
+                    <rs xml:id="n.5">Pour exécuter l’ensemble de ces dispositions, les Puissances alliées
+                  nommeront des Plénipotentiaires spéciaux, lesquels seront munis d’instructions
+                  communes &amp; composeront, sous la présidence d’un Plénipotentiaire Autrichien,
+                  une conférence chargée de toutes les négociations &amp; transactions qui pourront
+                  avoir lieu entre les dites Puissances &amp; <rs ref="#p.138" type="person">
+                            <choice>
+                        <abbr>S. M.</abbr>
+                        <expan>Sa Majesté</expan>
+                     </choice> Sicilienne</rs></rs>.<note type="editorial" target="#n.5">Die
+                  Protokolle dieser Kommission liegen im ÖStA, HHStA, St.K., Kongressakten, Kart.
+                  23.</note>
+                </p>
+            <p>
+                    <hi rendition="#u">7
+               <hi rendition="#su">
+                  o</hi>
+                    </hi>
+                </p>
+            <p>Ce sera sur ces bases que se poursuivront les travaux de la réunion de <placeName ref="#loc.60">Troppau</placeName>,<pb n="68r"/> jusqu’à ce que les Cabinets
+               connoissent d’une part les résultats des démarches qui seront faites auprès de <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Sicilienne</rs>, &amp; que de l’autre ils recoivent les réponses par
+               lesquelles les Cabinets des Tuileries &amp; de St. James manifesteront leurs
+               déterminations à l’égard du présent Protocole préliminaire.</p>
+            <p>Il sera en conséquence communiqué à ces Cabinets avec tous les développemens &amp;
+               toutes les explications convenables.</p>
+            <p>Fait et signé à <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-19">19 <choice>
+                     <abbr>Nov.</abbr>
+                     <expan>Novembre</expan>
+                  </choice> 1820</date>
+                </p>
+            <p rendition="#r">signé: </p>
+            <signed>
+            <list>
+                        <item>
+                            
+                        <persName ref="#p.8">
+                            <surname>Metternich</surname></persName>
+                    
+                        </item>
+                
+                    <item>
+                            
+                        <persName ref="#p.11">
+                            <surname>Hardenberg</surname></persName>
+                    
+                        </item>
+               
+                    <item>
+                            
+                        <persName ref="#p.12">
+                            <surname>Bernstorff</surname></persName>
+                    
+                        </item>
+                
+                    <item>
+                            
+                        <persName ref="#p.13">
+                            <surname>Nesselrode</surname></persName>
+                    
+                        </item>
+                
+                    <item>
+                            <rs xml:id="n.10">
+                        <persName ref="#p.14">
+                            <surname>Capodistrias</surname></persName></rs>
+                        </item>
+                    </list>
+                </signed>
+                    
+            
+         </div>
+
+         <div hand="#A" decls="#m.3">
+            <pb n="69r"/>
+            
+                    <metamark>
+                    <add place="top">
+                        <choice>
+                     <abbr>Litt.</abbr>
+                     <expan>Littera</expan>
+                  </choice> B.</add>
+                </metamark>
+                
+                    <head>Supplément au Protocole du <date when="1820-11-19">19 <choice>
+                        <abbr>Nov.</abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1820</date>
+                    </head>
+                
+            <p>Conformément aux principes établis dans le <ref decls="#m.2">Protocole préliminaire
+                  de ce jour</ref>, &amp; afin de donner suite à l’application de ces principes aux
+               affaires de <country>Naples</country>, les Cabinets ayant signé le dit Protocole sont
+               convenus :</p>
+            <p>1<hi rendition="#su">o</hi> D’adresser à <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Sicilienne</rs>
+               <ref decls="#m.4">la lettre d’invitation jointe au présent Protocole</ref> ;</p>
+            <p>2<hi rendition="#su">o</hi> De l’accompagner de <ref decls="#m.5">l’instruction également ci-jointe, adressée aux <rs ref="#p.144 #p.148 #p.149" type="multi-person">Ministres des
+                     Cours d’Autriche, de Prusse &amp; de Russie</rs> résidant à <placeName ref="#loc.11">Naples</placeName>
+                        </ref>.</p>
+            <p>En se décidant à cette démarche les Cabinets ont eu en vue :</p>
+            <p>1<hi rendition="#su">o</hi> De ne négliger aucun des moyens qui sont en leur pouvoir
+               pour mettre <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Sicilienne</rs> en pleine &amp; entière liberté ;</p>
+            <pb n="69v"/>
+            <p>2<hi rendition="#su">o</hi> D’offrir à la nation dans la personne auguste de son
+               Monarque légitime le médiateur qui seul,<rs xml:id="n.14"> après les déplorables
+                  conséquences des événemens du <date when="1820-07-02">2 Juillet</date></rs>,<note type="editorial" target="#n.14">Am 2. Juli 1820 meuterte die Militärgarnison in
+                  Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum
+                  gilt als Beginn der Revolution im <country>Königreich beider Sizilien</country>.
+                       Vgl. Romani, The Neapolitan Revolution; Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti,
+                  Carbonari, Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note> peut
+               concilier le rétablissement de l’ordre dans le <country>Royaume des
+                  deux-Siciles</country> avec la tranquillité du reste de l’Italie &amp; de
+               l’Europe.</p>
+            <p>C’est d’après les résultats de cette démarche que les Puissances se réservent de
+               convenir définitivement des mesures à adopter pour l’exécution du plan dont les bases
+               sont consignées <ref decls="#m.2">dans le Protocole préliminaire</ref>.</p>
+            <p>
+                    <choice>
+                  <abbr>M.M.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.102 #p.135 #p.137" type="multi-person">Ministres de France &amp; de <choice>
+                     <abbr>G<hi rendition="#su">de</hi>
+                            </abbr>
+                     <expan>Grande</expan>
+                  </choice>-Bretagne</rs> seront invités à soumettre à leurs Gouvernemens le contenu
+               du présent Protocole &amp; le vœu des Cours d’Autriche, de Prusse &amp; de Russie
+               pour que celles de France &amp; de <choice>
+                  <abbr>G<hi rendition="#su">de</hi>
+                        </abbr>
+                  <expan>Grande</expan>
+               </choice>-Bretagne<pb n="70r"/> se joignent à elles par des démarches amicales
+               adressées dans le même sens à <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Sicilienne</rs>.</p>
+            <p>On est convenu en outre d’informer de la présente démarche les Cours de <placeName ref="#loc.6">Rome</placeName>, de <placeName ref="#loc.64">Turin</placeName>, de
+                  <country>Toscane</country>, comme étant particulièrement intéressées au
+               développement des affaires de <country>Naples</country>.</p>
+            
+                    <p>Fait et signé à <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-19">19 <choice>
+                     <abbr>Nov.</abbr>
+                     <expan>Novembre</expan>
+                  </choice> 1820</date>
+                </p>
+                
+            <p rendition="#r">signé: </p>
+            <signed>
+                    <list>
+                        <item>
+                            
+                        <persName ref="#p.8">
+                            <surname>Metternich</surname></persName>
+                    
+                        </item>
+                
+                    <item>
+                            
+                        <persName ref="#p.11">
+                            <surname>Hardenberg</surname></persName>
+                    
+                        </item>
+                
+                    <item>
+                            
+                        <persName ref="#p.12">
+                            <surname>Bernstorff</surname></persName>
+                    
+                        </item>
+                
+                    <item>
+                            
+                        <persName ref="#p.13">
+                            <surname>Nesselrode</surname></persName>
+                    
+                        </item>
+                
+                    <item>
+                            <rs xml:id="n.20">
+                        <persName ref="#p.14">
+                            <surname>Capodistrias</surname></persName></rs>
+                        </item>
+                    </list>
+            </signed>    
+         </div>
+
+         <div hand="#A" decls="#m.4">
+            <pb n="71r"/>
+            
+                    <metamark>
+                    <add place="top">
+                        <choice>
+                     <abbr>Litt.</abbr>
+                     <expan>Littera</expan>
+                  </choice> C.</add>
+                </metamark>
+            
+                    <head>Projet de lettre de Cabinet au <rs ref="#p.138" type="person">Roi des
+                  deux-Siciles</rs>
+                    </head>
+                
+            <opener>
+                    <dateline>
+                    <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-20">20 <choice>
+                     <abbr>Nov.</abbr>
+                     <expan>Novembre</expan>
+                  </choice> 1820</date>.</dateline>
+                </opener>
+            <p>Monsieur mon Frère.</p>
+            <p>De tristes circonstances ne m’ont pas permis de recevoir les lettres que <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> m’a adressées depuis quatre mois. Mais les événemens auxquels ces
+               lettres ont dû se rapporter n’ont cessé de faire le sujet de mes plus sérieuses
+               méditations ; &amp; les Puissances alliées se sont réunies à <placeName ref="#loc.60">Troppau</placeName> pour considérer ensemble les suites dont ces événemens
+               menacent le reste de la Péninsule Italienne &amp; peut-être l’Europe toute entière.
+               En nous décidant à cette délibération commune, nous n’avons fait que nous conformer
+               aux <rs ref="#t.37 #t.13 #t.1 #t.6 #t.9 #t.42" type="multi-treaties">transactions de 1814, 1815 et
+                  1818</rs>, transactions dont <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs>, ainsi que l’Europe, connoit le caractère &amp; le but, &amp; sur
+               lesquelles repose cette alliance tutélaire,<pb n="71v"/> uniquement destinée à
+               garantir de toute atteinte l’indépendance politique &amp; l’intégrité territoriale de
+               tous les Etats, &amp; à assurer le repos &amp; la prospérité de l’Europe par le repos
+               &amp; la prospérité de chacun des pays dont Elle se compose. <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> ne doutera donc pas que l’intention des Cabinets assemblés ici ne
+               soit de concilier l’intérêt &amp; le bien-être, dont la sollicitude paternelle de <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> doit désirer faire jouir Ses peuples, avec les devoirs que les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Monarques alliés</rs> ont à remplir envers leurs Etats
+               &amp; envers le monde. Mais nous nous féliciterions, mes Alliés &amp; moi, d’exécuter
+               ces engagemens solennels avec la coopération de <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs>, &amp; fidèles aux principes que nous avons proclamés, nous
+               demandons aujourd’hui cette coopération. C’est dans ce seul but que nous proposons à
+                  <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> de se<pb n="72r"/> réunir à nous dans la Ville de <placeName ref="#loc.65">Laybach</placeName>. Votre présence, Sire, hâtera, nous en sommes
+               sûrs, une conciliation aussi indispensable, &amp; c’est au nom des intérêts les plus
+               chers de Votre Royaume, &amp; avec cette bienveillante sollicitude dont nous croyons
+               avoir donné plus d’un témoignage à <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs>, que nous l’invitons à venir recevoir de nouvelles preuves de la
+               véritable amitié que nous Lui portons &amp; de la franchise qui fait la base de notre
+               politique.</p>
+            <p>
+                    <choice>
+                  <abbr>Etc.</abbr>
+                  <expan>Et cetera</expan>
+               </choice>
+               <choice>
+                  <abbr>etc.</abbr>
+                  <expan>et cetera</expan>
+               </choice>
+               <choice>
+                  <abbr>etc.</abbr>
+                  <expan>et cetera</expan>
+               </choice>
+                </p>
+         </div>
+
+         <div hand="#A" decls="#m.5">
+            <pb n="73r"/>
+            <metamark>
+                    <add place="top">
+                        <choice>
+                     <abbr>Litt.</abbr>
+                     <expan>Littera</expan>
+                  </choice> D.</add>
+                </metamark>
+            
+                    <head>Instruction pour les <rs ref="#p.149 #p.148 #p.144" type="multi-person">Envoyés de Russie &amp; de
+                     Prusse et le Chargé d’affaires d’Autriche à <hi rendition="#u">
+                                <placeName ref="#loc.11">Naples</placeName>
+                            </hi></rs>
+                    </head>
+                
+            <opener>
+                    <dateline>
+                    <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-22">22 <choice>
+                     <abbr>Nov.</abbr>
+                     <expan>Novembre</expan>
+                  </choice> 1820</date>.</dateline>
+                </opener>
+            <p>Vous recevez ci-joint <ref decls="#m.4">une lettre authographe</ref>, adressée par
+                  <rs ref="#p.16" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> l’Empereur</rs> à <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Sicilienne</rs>, et copie de cette lettre pour Votre information
+               particulière.</p>
+            <p>
+                    <choice>
+                  <abbr>L.L. M.M.</abbr>
+                  <expan>Leurs Majestés</expan>
+               </choice> l’<rs ref="#p.17" type="person">Empereur de Russie</rs> &amp; le <rs ref="#p.18" type="person">Roi de
+                  Prusse</rs> adressent au <rs ref="#p.138" type="person">Roi de Naples</rs> des lettres
+               textuellement conformes à celle de <rs ref="#p.16" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> l’Empereur</rs>, notre auguste Maître, &amp; les trois Cours viennent
+               d’inviter celles de France &amp; de Grande-Bretagne à se réunir à Elles pour des
+               démarches à faire dans le même sens.</p>
+            <p>Vous Vous concerterez avec <choice>
+                  <abbr>M.M.</abbr>
+                  <expan>Messieurs</expan>
+               </choice>
+               les <rs ref="#p.149 #p.148" type="multi-person">Envoyés de Russie &amp; de Prusse</rs> sur la marche à
+               suivre pour obtenir des audiences particulières du <rs ref="#p.138" type="person">Roi</rs>, &amp;
+               pour remettre à <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice></rs> les lettres des <rs ref="#p.16 #p.17 #p.18" type="multi-person">Monarques</rs>.</p>
+            <pb n="73v"/>
+            <p>Décidées à ne jamais reconnoître l’édifice monstrueux que la révolte a élevé à
+                  <country>Naples</country> sur les ruines du pouvoir légitime, <rs ref="#p.16 #p.17 #p.18" type="multi-person">
+                        <choice>
+                     <abbr>L.L. M.M.</abbr>
+                     <expan>Leurs Majestés</expan>
+                  </choice></rs> ne sont animées que d’intentions parfaitement conformes au
+               bien-être véritable du <country>Royaume des deux-Siciles</country>, à la garantie du
+               repos des Etats voisins, ainsi qu’au maintien de la tranquillité générale &amp; des
+               principes sur lesquels seuls elle peut être fondée.</p>
+            <p>Les factions qui exercent le pouvoir au nom du <rs ref="#p.138" type="person">Roi</rs> assurent
+               qu’Il est libre. Ce prétendu fait va être éclairci.</p>
+            <p>Le <rs ref="#p.138" type="person">Roi</rs> libre a le devoir de concilier les intérêts de Son
+               Royaume avec ceux de l’ordre social tout entier. Il doit désirer d’arriver par les
+               moyens les plus prompts &amp; les plus efficaces à un résultat également réclamé par
+               les intérêts<pb n="74r"/> essentiels de Son Royaume, par les vœux sincères des <rs ref="#p.16 #p.17 #p.18" type="multi-person">Monarques alliés</rs>, &amp; certes non moins par la
+               partie saine de la nation napolitaine.</p>
+            <p>Ces moyens sont mis à la portée du <rs ref="#p.138" type="person">Roi</rs> par l’invitation qui Lui
+               est adressée aujourd’hui. Vous êtes autorisé à prévenir <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice></rs> que les <rs ref="#p.16 #p.17 #p.18" type="multi-person">Monarques</rs> vont se rendre à
+                  <placeName ref="#loc.65">Laybach</placeName> pour l’y attendre.</p>
+            <p>En Vous acquittant de ces ordres, Vous aurez soin de prévenir <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice>
+               le <rs ref="#p.138" type="person">Roi</rs> que <rs ref="#p.16 #p.17 #p.18" type="multi-person">
+                        <choice>
+                     <abbr>L.L. M.M. I.I. &amp; R.R.</abbr>
+                     <expan>Leurs Majestés Impériales et Royales</expan>
+                  </choice></rs> s’attendent à une réponse prompte &amp; positive, &amp; que le
+               choix des individus qui doivent accompagner <rs ref="#p.138" type="person">
+                        <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice></rs> ne peut dépendre que d’Elle-même.</p>
+            <p>Mais l’invitation étant absolument personnelle, Vous n’admettrez point qu’un
+               représentant quelconque, fût-il même un Prince de Sa Maison, puisse être<pb n="74v"/>
+               envoyé au nom du <rs ref="#p.138" type="person">Roi</rs>, &amp; dans le cas qu’une pareille
+               proposition soit faite, Vous êtes chargé de déclarer que Vous avez l’ordre précis de
+               ne délivrer à cet effet aucun Passeport pour les Etats de <choice>
+                  <abbr>S. M. I. &amp; R. A.</abbr>
+                  <expan>Sa Majesté Impériale et Royale Apostolique.</expan>
+               </choice>
+                </p>
+            <p>Dans le cas que <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice>
+               le <rs ref="#p.138" type="person">Roi</rs> Vous témoignât le désir d’être mis en possession du
+               contenu de Vos instructions, Vous êtes autorisé à les Lui confier.</p>
+            <p>La présente communication étant adressée directement à la personne du <rs ref="#p.138" type="person">Roi</rs>, il est entendu que pour Vous en acquitter, Vous n’entriez
+               dans aucune explication officielle avec <rs ref="#p.145" type="person">Son Ministre</rs>.</p>
+            <p>Vous donnerez communication de cette dépêche aux Missions de France &amp; de <choice>
+                  <abbr>G<hi rendition="#su">de</hi>
+                        </abbr>
+                  <expan>Grande</expan>
+               </choice>-Bretagne.</p>
+            <p>Vous nous ferez connoître dans le plus bref délai possible, en même temps &amp; par
+               la même occasion<pb n="75r"/> que <choice>
+                  <abbr>M.M.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.149 #p.148" type="multi-person">Ministres de Russie &amp; de Prusse</rs>, le
+               résultat de l’exécution de ces ordres uniformément adressés à ces Ministres par leurs
+               Cabinets respectifs. Il seroit superflu de Vous recommander de ne Vous écarter en
+               aucune manière de la marche qui Vous est prescrite par la présente instruction.</p>
+         </div>
+      </body>
+      
+   
+    <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname></persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118538489/</idno></person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName></persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118581465/</idno></person>
+                <person xml:id="p.40">
+                    <persName>
+                        <forename>Ludwig</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Lebzeltern</surname></persName>
+                    <birth>1774</birth>
+                    <death>1854</death>
+                    <note>Österreichischer Botschafter in St. Petersburg, Mitglied der
+                        österreichischen Delegation beim Kongress von Troppau; vgl. zu seiner Person
+                        Lebzeltern Ludwig Graf. In: ÖBL, Bd. 5, S. 69; Wurzbach, Lebzeltern, Ludwig
+                        Graf, Bd. 14, S. 280–281.</note>
+                    <idno type="URI">https://viaf.org/viaf/12070162/</idno>
+                <idno type="GND">http://d-nb.info/gnd/1146272987/</idno></person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname></persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118545906/</idno></person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname></persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                <idno type="GND">http://d-nb.info/gnd/116147695/</idno></person>
+                <person xml:id="p.136">
+                    <persName>
+                        <forename>Friedrich Wilhelm Ludwig</forename>
+                        <surname>von Krusemarck</surname></persName>
+                    <birth>1767</birth>
+                    <death>1822</death>
+                    <note>Mitglied der preußischen Delegation beim Kongress von Troppau; vgl.
+                        Bailleu, Krusemarck, Friedrich Wilhelm Ludwig von. In: ADB, Bd. 17, S.
+                        269–270.</note>
+                    <idno type="URI">https://viaf.org/viaf/72148713/</idno>
+                <idno type="GND">http://d-nb.info/gnd/116575573/</idno></person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname></persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                <idno type="GND">http://d-nb.info/gnd/117016462/</idno></person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname></persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118720791/</idno></person>
+                <person xml:id="p.121">
+                    <persName>
+                        <forename>Yuri Alexandrovich</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Golovkin</surname></persName>
+                    <birth>1762</birth>
+                    <death>1846</death>
+                    <note>1818 Gesandter Russlands im Großherzogtum Baden, 1820 Gesandter Russlands
+                        in Wien, Mitglied der russischen Delegation beim Kongress von Troppau.</note>
+                    <idno type="URI">https://viaf.org/viaf/311466653/</idno></person>
+                <person xml:id="p.137">
+                    <persName>
+                        <forename>Charles William</forename>
+                        <surname>Stewart Vane</surname>
+                        <roleName>Lord Stewart</roleName></persName>
+                    <birth>1778</birth>
+                    <death>1854</death>
+                    <note>Britischer Botschafter in Wien, Mitglied der britischen Delegation bei den
+                        Kongress von Troppau, Laibach und Verona, ab 1822 Charles William Vane, 3<hi rendition="#su">rd</hi> Marquess of Londonderry vgl. zu seiner Person
+                        Lloyd, Heersom, Vane [formerly Stewart], Charles William. In: ODNB, Bd. 56,
+                        S. 95–98; Schneider, Werner, Europa in Wien, S. 292–293.</note>
+                    <idno type="URI">https://viaf.org/viaf/8284837/</idno>
+                <idno type="GND">http://d-nb.info/gnd/123047889/</idno></person>
+                <person xml:id="p.102">
+                    <persName>
+                        <forename>Louis Charles Victor</forename>
+                        <surname>de Riquet</surname>
+                        <roleName>marquis de Caraman</roleName></persName>
+                    <birth>1762</birth>
+                    <death>1839</death>
+                    <note>1818 Gesandter Frankreichs in London, 1820 Gesandter Frankreichs in Wien,
+                        1820/21 Vertreter Frankreichs auf den Kongressen von Troppau, Laibach und
+                        Verona; vgl. zu seiner Person Michaud, Biographie Universelle, Bd. 6, S.
+                        630–631.</note>
+                    <idno type="URI">https://viaf.org/viaf/2675/</idno>
+                <idno type="GND">http://d-nb.info/gnd/1023760126/</idno></person>
+                <person xml:id="p.135">
+                    <persName>
+                        <forename>Auguste</forename>
+                        <surname>Ferron</surname>
+                        <roleName>comte de La Ferronnays</roleName></persName>
+                    <birth>1777</birth>
+                    <death>1842</death>
+                    <note>Französischer Botschafter in St. Petersburg, Mitglied der französischen
+                        Delegation in Troppau und Verona; vgl. zu seiner Person Michaud, Biographie
+                        Universelle, Bd. 14, S. 24–25.</note>
+                    <idno type="URI">https://viaf.org/viaf/2463675/</idno></person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName></persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno></person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName></persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118535986/</idno></person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName></persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118501852/</idno></person>
+                <person xml:id="p.138">
+                    <persName>
+                        <surname>Ferdinand/Ferdinando I.</surname>
+                        <roleName>König beider Sizilien</roleName></persName>
+                    <birth>1751</birth>
+                    <death>1825</death>
+                    <note>1759-1806 Ferdinand IV. von Neapel, 1769-1815 Ferdinand III. von Sizilien,
+                        ab 1815/16 König beider Sizilien vgl. de Maio, Ferdinando I di Bourbone, re
+                        delle due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico</ref>)
+                        (eingesehen am 31. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/16073751/</idno>
+                <idno type="GND">http://d-nb.info/gnd/11895363/</idno></person>
+                <person xml:id="p.144">
+                    <persName>
+                        <forename>Karl</forename>
+                        <surname>von Menz</surname></persName>
+                    <birth>1780</birth>
+                    <death>1847</death>
+                    <note>Österreichischer chargé d’affaires in Neapel; vgl. Matsch, Der auswärtige
+                        Dienst, S. 128.</note>
+                    <idno type="URI">https://viaf.org/viaf/160546908/</idno>
+                <idno type="GND">http://d-nb.info/gnd/142998605/</idno></person>
+                <person xml:id="p.148">
+                    <persName>
+                        <forename>Friedrich Wilhelm Basilius</forename>
+                        <surname>von Ramdohr</surname></persName>
+                    <birth>1757</birth>
+                    <death>1822</death>
+                    <note>Preußischer Gesandter in Neapel; vgl. zu seiner Person Frensdorff,
+                        Ramdohr, Friedrich Wilhelm Basilius von. In: ADB, Bd. 27, S. 210–212.</note>
+                    <idno type="URI">http://viaf.org/viaf/100206277/</idno>
+                <idno type="GND">http://d-nb.info/gnd/119016753/</idno></person>
+                <person xml:id="p.149">
+                    <persName>
+                        <forename>Gustav Ernst</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Stackelberg</surname></persName>
+                    <birth>1766</birth>
+                    <death>1850</death>
+                    <note>Russischer Gesandter in Neapel; vgl. zu seiner Person Stackelberg, Gustav
+                        Ernst Gf. v. In: Baltisches Biographisches Lexikon, S. 748–749; Schneider,
+                        Werner, Europa in Wien, S. 288.</note>
+                    <idno type="URI">http://viaf.org/viaf/37699259/</idno>
+                <idno type="GND">http://d-nb.info/gnd/117650439/</idno></person>
+                <person xml:id="p.145">
+                    <persName>
+                        <forename>Ottavio</forename>
+                        <surname>Mormile</surname>
+                        <roleName>duca di Campochiaro</roleName></persName>
+                    <birth>1761</birth>
+                    <death>1836</death>
+                    <note>Neapolitanischer Außenminister. Vgl. Sperber, Mormile, Ottavio, auf <ref target="http://www.treccani.it/enciclopedia/ottavio-mormile_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ottavio-mormile_(Dizionario-Biografico</ref>
+                        (eingesehen am 31. Juli 2017); Schneider, Werner, Europa in Wien, S.
+                        126–127.</note>
+                    <idno type="URI">https://viaf.org/viaf/147145542441396640420/</idno>
+                <idno type="GND">http://d-nb.info/gnd/1082429287/</idno></person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.60">
+               <placeName>Troppau</placeName>
+               <placeName>Opava</placeName>
+               <location>
+                        <geo>49.93866 17.90257</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3068927</idno>
+            </place>
+                <place xml:id="loc.11">
+                <placeName>Neapel</placeName>
+               <placeName>Naples</placeName>
+               
+               <location>
+                        <geo>40.85216 14.26811</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3172394</idno>
+            </place>
+                <place xml:id="loc.6">
+                <placeName>Rom</placeName>
+               <placeName>Rome</placeName>
+               
+               <location>
+                        <geo>41.89193 12.51133</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3169070</idno>
+            </place>
+                <place xml:id="loc.64">
+               <placeName>Turin</placeName>
+               <placeName>Turino</placeName>
+               <location>
+                        <geo>45.07049 7.68682</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3165524</idno>
+            </place>
+                <place xml:id="loc.65">
+               <placeName>Laibach</placeName>
+               <placeName>Laybach</placeName>
+               <placeName>Ljubljana</placeName>
+               <location>
+                        <geo>46.05108 14.50513</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3196359</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.37">Vertrag von Chaumont zwischen Österreich, Großbritannien, Preußen
+               und Russland, Chaumont 1. März 1814; abgedruckt bei Angeberg, Congrès, Bd. 1, S.
+               116–120; BFSP Bd. 1/1 (1812–1814), S. 121–129.</bibl>
+                <bibl xml:id="t.13">Erster Pariser Frieden, abgeschlossen zwischen Österreich,
+               Großbritannien, Portugal, Preußen, Russland, Schweden und Spanien auf der einen,
+               Frankreich auf der anderen Seite; vgl. BFSP Bd. 1/1 (1812–1814), S. 151–177; Martens,
+               Nouveau Recueil, Bd. 2, S. 1–18; Ghillany, Diplomatisches Handbuch, Bd. 1, S.
+               300–311; Angeberg, Congrès, Bd. 1, S. 161–176; <ref target="http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm">http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm</ref> (deutsch;
+               eingesehen am 15. November 2012) </bibl>
+                <bibl xml:id="t.1">Zweiter Pariser Frieden zwischen Österreich, Großbritannien, Preußen und Russland auf der
+               einen, Frankreich auf der anderen Seite, Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 280–293;
+               Grewe, Fontes, Bd. 3/1, S. 10–18; Clercq, Recueil, Bd. 2, S. 642–650; Martens,
+               Nouveau Recueil, Bd. 2, S. 682–691; <ref target="http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm</ref> (deutsch; eingesehen
+               am 31. Oktober 2012).</bibl>
+                <bibl xml:id="t.6">Quadrupelallianz zwischen Österreich, Großbritannien, Preußen und
+               Russland, Paris 20. November 1815; vgl. Näf, Europapolitik, S. 12–15; Martens,
+               Supplément au Recueil, Bd. 6, S. 734–738; Angeberg, Congrès, Bd. 4, S. 1636–1639;
+               BFSP Bd. 3 (1815/16), S. 273–280.</bibl>
+                <bibl xml:id="t.9">Heilige Allianz, abgeschlossen zwischen den Herrschern Österreichs,
+               Preußens und Russlands am 26. September 1815; vgl. Angeberg, Congrès, Bd. 2, S.
+               1547–1549; Huber, Dokumente zur Deutschen Verfassungsgeschichte, Bd. 1, S. 83–84;
+               Martens, Nouveau Recueil, Bd. 2, S. 656–658; Näf, Europapolitik, S. 5–11; Näf,
+               Geschichte der Heiligen Allianz.</bibl>
+                <bibl xml:id="t.42">Protokoll, Aachen 15. November 1818, mit welchem Frankreich wieder
+               in das Konzert der Mächte aufgenommen wird, sowie die entsprechende Deklaration;
+               vgl. für das Protokoll Meyer, Staats-Acten, S. 275–276; Grewe, Fontes, Bd. 3/1, S.
+               104–106; de Clercq, Recueil, Bd. 3, S. 175–176; BFSP Bd. 6 (1818/19), S. 14–15;
+               Angeberg, Congrès, Bd. 3, S. 1755–1756; Näf (Hg.) Europapolitik, S. 22–23, Bertier de
+               Sauvigny, Sainte-Alliance, S. 148–150, für die Deklaration BFSP Bd. 6 (1818/19), S.
+               18–20; de Clercq, Recueil, Bd. 3, S. 179–181; Angeberg, Congrès, Bd. 3, S. 1760–1761;
+               Meyer, Staats-Acten, S. 276–278; Näf (Hg.) Europapolitik, S. 23–25, Bertier de
+               Sauvigny, Sainte-Alliance, S. 163–164.</bibl>
+            </listBibl>
+        </back>
+    <back><listPerson><person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118535986/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 26. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_26.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 33. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_33.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll einer geheimen Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_36.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 14. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_14.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_21.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_2.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.138">
+                    <persName>
+                        <surname>Ferdinand/Ferdinando I.</surname>
+                        <roleName>König beider Sizilien</roleName>
+                    </persName>
+                    <birth>1751</birth>
+                    <death>1825</death>
+                    <note>1759-1806 Ferdinand IV. von Neapel, 1769-1815 Ferdinand III. von Sizilien,
+                        ab 1815/16 König beider Sizilien vgl. de Maio, Ferdinando I di Bourbone, re
+                        delle due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico</ref>)
+                        (eingesehen am 31. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/16073751/</idno>
+                <idno type="GND">http://d-nb.info/gnd/11895363/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 10. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_10.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 12. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_12.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 13. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_13.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 14. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_14.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 16. Sitzung (Schlusssitzung) des Kongresses von
+               Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 3. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 6. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 8. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 9. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 3. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 6. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 8. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_IX_1.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118501852/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Kongress von Aachen: Ergänzungen zu den Protokollen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Dok_50.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 20. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_20.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 25. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_25.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 26. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_26.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 28. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_28.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll einer geheimen Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_36.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 38. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_39.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 40. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_41.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 14. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_14.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 16. Sitzung (Schlusssitzung) des Kongresses von
+               Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 9. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 3. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 6. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_22.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_2.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.145">
+                    <persName>
+                        <forename>Ottavio</forename>
+                        <surname>Mormile</surname>
+                        <roleName>duca di Campochiaro</roleName>
+                    </persName>
+                    <birth>1761</birth>
+                    <death>1836</death>
+                    <note>Neapolitanischer Außenminister. Vgl. Sperber, Mormile, Ottavio, auf <ref target="http://www.treccani.it/enciclopedia/ottavio-mormile_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ottavio-mormile_(Dizionario-Biografico</ref>
+                        (eingesehen am 31. Juli 2017); Schneider, Werner, Europa in Wien, S.
+                        126–127.</note>
+                    <idno type="URI">https://viaf.org/viaf/147145542441396640420/</idno>
+                <idno type="GND">http://d-nb.info/gnd/1082429287/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_4.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 26. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_26.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 28. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_28.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 30. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_30.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 31. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_31.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 35. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_35.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll einer geheimen Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_36.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 40. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_41.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 12. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_12.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 14. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_14.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 16. Sitzung (Schlusssitzung) des Kongresses von
+               Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 8. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 9. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 3. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 6. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_12.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_19.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_2.xml"/></linkGrp></event></listEvent></person>
+                </listPerson></back></text>
+</TEI>

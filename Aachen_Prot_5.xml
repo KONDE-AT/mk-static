@@ -1,0 +1,967 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Aachen_Prot_5.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_4.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_6.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 5. Sitzung des Kongresses von Aachen</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                        <surname>Schneider</surname> <forename>Karin</forename></persName>
+                </editor>
+         <editor role="Technical_Editor">
+    <persName ref="http://d-nb.info/gnd/13281899X">
+        <surname>Kurz</surname>
+        <forename>Stephan</forename></persName>
+</editor>
+<respStmt>
+    <resp>Transkription</resp>
+    <name ref="#KS">Karin Schneider</name>
+</respStmt>
+<respStmt>
+    <resp>Wissenschaftliche Edition</resp>
+    <name ref="#KS">Karin Schneider</name>
+</respStmt>
+<respStmt>
+    <resp>Technical Editor</resp>
+    <name ref="#SK">Stephan Kurz</name>
+</respStmt>
+<respStmt>
+    <resp>Korrekturen</resp>
+<name ref="#KS">Karin Schneider</name>
+    <name ref="#SK">Stephan Kurz</name>
+</respStmt>
+<respStmt>
+    <resp>Beratung Kodierung</resp>
+    <name>Daniel Schopper</name>
+</respStmt>
+<respStmt>
+    <resp>Beratung Kodierung</resp>
+    <name>Peter Andorfer</name>
+</respStmt>
+</titleStmt>
+         <editionStmt>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+<date when="2018-09-23" change="#initial">2018-09-23</date>
+            <idno>A_05</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F5F-9</tei:idno>
+            </publicationStmt>
+            <notesStmt>
+    <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
+</notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originalprotokoll">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/8</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Protokoll</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p>Eigenhändiges Protokoll von <persName ref="#p.5">
+                        <surname>Gentz</surname></persName>.</p>
+                  <handDesc>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="A">Anonym</handNote>
+                     <handNote xml:id="R">Armand Emmanel du Plessis, duc de Richelieu</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName>Aachen</placeName>
+                            <date when="1818-10-03">3. Oktober
+                        1818</date>
+                        </origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/13–21</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 1: Denkschrift in Form einer Verbalnote des Herzogs von Richelieu
+                        über die Höhe der von Frankreich zu entrichtenden Zahlungen zur Erhaltung
+                        der Besatzungsarmee</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Ausfertigung</p>
+                     <p>Anlage 1 liegt zweifach ein: fol. I/13–15 Ausfertigung, fol. I/17–21
+                        Abschrift. Die Edition folgt der Ausfertigung.</p>
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                            <date when="1818-10-02">2.
+                        Oktober 1818</date>
+                        </origin>
+               </history>
+
+            </msDesc>
+            <msDesc xml:id="m.3" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/9–12</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 2: Schreiben Österreichs, Großbritanniens, Preußens und Russlands
+                        an Frankreich</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung</p>
+                  <p>Eigenhändige Ausfertigung von <persName ref="#p.5">
+                        <surname>Gentz</surname></persName>. </p>
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                            <date when="1818-10-08">8.
+                        Oktober 1818</date>
+                        </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="et" scheme="css">display:block; margin-left:2em; text-indent:0;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Vertreter der alliierten
+                  Mächte</rs> und der franzöische Premierminister <persName ref="#p.1">
+                        <surname>Richelieu</surname></persName> verhandeln über die Höhe der
+               Entschädigungszahlungen sowie über deren Zahlungsmodalitäten.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+               
+                  <person>
+                        <persName ref="#p.12">BERNSTORFF</persName></person>
+                  <person>
+                        <persName ref="#p.9">CASTLEREAGH</persName></person>
+                  <person>
+                        <persName ref="#p.11">HARDENBERG</persName></person>
+                  <person>
+                        <persName ref="#p.14">KAPODISTRIAS</persName></person>
+                  <person>
+                        <persName ref="#p.8">METTERNICH</persName></person>
+                  <person>
+                        <persName ref="#p.13">NESSELRODE</persName></person>
+                  <person>
+                        <persName ref="#p.1">RICHELIEU</persName></person>
+                  <person>
+                        <persName ref="#p.10">WELLINGTON</persName></person>
+               
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+        <revisionDesc>
+    <change xml:id="initial" when="2018-09-23" who="#SK">initial version for public beta release</change>
+    <change notAfter="2018-09-23" who="#SK #KS">changetracking on ACDH git repository</change>
+</revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#G" decls="#m.1">
+            <pb n="8r"/>
+            <metamark>
+                    <add place="top">5.</add>
+                </metamark>
+            <opener>
+                    <dateline xml:space="preserve">À <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+               <date when="1818-10-03">le 3 Octobre 1818</date>
+            </dateline>
+                </opener>
+            <p>
+               <add hand="#W" place="margin">entre les Cinq Cabinets</add>
+                </p>
+            <p>
+                    <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1" xml:space="preserve">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName>, revenant sur la demande précédemment
+               adressée à <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Ministres des Quatre
+                  Cours</rs>
+                </p>
+            <p>
+                    <hi rendition="#et">Qu’il soit tenu compte à la <country>France</country> d’une somme de
+               38.332.000 <choice>
+                  <abbr>fr.</abbr>
+                  <expan>Francs</expan>
+               </choice>, pour laquelle les frais de l’entretien de l’armée d’occupation ont excédé
+               les 450 Millions auxquels cet objet avoit été évalué lors des négociations de 1815,
+               ainsi que du montant des intérêts de 60 Millions dont le payement auroit pu être
+               différé jusqu’à l’année 1821,</hi>
+                </p>
+            <p>A lu un mémoire rédigé en forme de note verbale et contenant le développement de
+               cette demande. <rs ref="#m.2" type="m">Cette pièce, annexée au Protocole</rs>, a été remise à <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.10" xml:space="preserve">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> qui s’est chargé de communiquer à la
+               conférence les observations auxquelles elle pourra donner lieu, et <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Ministres des Quatre
+                  Cours</rs> se sont réservés d’adresser leur réponse à <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1" xml:space="preserve">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> aussitôt que l’avis de <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.10" xml:space="preserve">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> leur sera connu.</p>
+            <p>
+                    <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.11" xml:space="preserve">
+                        <roleName>Prince</roleName>
+                  <surname>de Hardenberg</surname></persName> a fait ensuite lecture <rs xml:id="n.1"> des observations ci-annexées</rs>
+                    <note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> sur la <rs ref="#t.7" type="treaties">convention
+                     conclue<pb n="8v"/> le <date when="1818-04-25">25 Avril
+               1818</date></rs> relativement aux réclamations particulières à la charge de la
+                  <country>France</country> ; observations à la suite desquelles <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <rs ref="#p.11" type="person">Prince</rs> a demandé</p>
+            <p>
+                    <hi rendition="#et"> Que la disposition de l’<rs ref="#t.7" type="treaties">article VIII <rs> de la dite
+                     convention</rs></rs>, qui ordonne la remise successive des inscriptions
+               déposées entre les mains des Commissaires ou de leur délégués, soit modifiée de
+               manière que les neuf douzièmes restans soient remis à la fois et avant l’évacuation
+               du territoire Français.</hi>
+                </p>
+            <p>Il a été représenté à <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.11" xml:space="preserve">
+                        <roleName>Prince</roleName>
+                  <surname>de Hardenberg</surname></persName> que les <rs ref="#t.7" type="treaties">dispositions de
+                  l’acte du <date when="1818-04-25">25 Avril</date></rs> ne sauroient être changés
+               sans le consentement exprès de toutes les parties intéressées à cet arrangement ; que
+               la modification proposée, loin d’assurer un avantage réel aux Individus Créanciers,
+               les exposeroit à de nouvelles pertes et que, considérée sous un point de vue
+               politique, elle feroit un mauvais effet sur l’opinion. <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.11" xml:space="preserve">
+                        <roleName>Prince</roleName>
+                  <surname>de Hardenberg</surname></persName> a toutefois demandé que sa proposition
+               soit consignée au Protocole, et on est convenu de s’en occuper de nouveau s’il se
+               présentoit un moyen de donner aux Créanciers des sûretés additionnelles, sans
+               détériorer leur condition sous d’autres rapports.</p>
+            <signed>
+               <list>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">Richelieu</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
+         </div>
+
+         <div hand="#A" decls="#m.2">
+            <pb n="13r"/>
+            <p>
+               <add place="top" hand="#W">Annexe au Protocole <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
+                     <expan>Numéro</expan>
+                  </choice>
+                        <subst>
+                     <del rendition="#s"> 1 du <date when="1818-09-29">29 Septembre</date>
+                            </del>
+                     <add>5 du <date when="1818-10-03">3 Octobre 1818</date>
+                            </add>
+                  </subst>
+                    </add>
+                </p>
+            <p>
+                    <add place="bottom">
+                        <choice>
+                     <abbr>LL. EE. MM.</abbr>
+                     <expan>Leurs Excellences Messieurs</expan>
+                  </choice> les <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Plénipotentiaires
+                     des Cours d’Autriche, de la Grande-Bretagne, de Prusse et de
+               Russie</rs>.</add>
+                </p>
+
+            <p>Le <rs ref="#p.1" type="person">Soussigné</rs>, Plénipotentiaire de <rs xml:id="n.2">
+                        <rs ref="#p.15" type="person">Sa Majesté Très Chrétienne</rs></rs>,<note type="editorial" target="#n.2"> Ehrentitel des Königs von Frankreich</note> a l’honneur de
+               présenter à Leurs Excellences, Messieurs les <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Plénipotentiaires des Cours
+                  d’Autriche, de la Grande-Bretagne, de Prusse et de Russie</rs>, les observations
+               suivantes relativement aux dépenses d’entretien de l’armée d’occupation :</p>
+            <p>Le <rs ref="#t.8" type="treaties">procès-verbal du <date when="1815-10-13">13 Octobre
+                  1815</date></rs> qui, d’après les notes échangées le <date when="1815-10-20">20
+                  Octobre</date> à la suite de la signature du traité, doit être
+               regardé comme <choice>
+                  <abbr>parfaitem<hi rendition="#su">t</hi>
+                        </abbr>
+                  <expan>parfaitement</expan>
+               </choice> obligatoire dans toutes ses clauses, porte expressément que dans les trois
+               premières années la <country>France</country> ne payera pour l’entretien de l’armée
+               d’occupation que Cent Trente millions par an, et qu’afin de rétablir le niveau entre
+               les dépenses réelles qui pourroient s’élever à Cent cinquante millions et le taux de
+               Cent Trente millions, les Puissances diminueront progressivement le nombre de leurs
+               troupes ; que dans le cas seulement où cette diminution ne pourroit avoir lieu, la
+                  <country>France</country> seroit obligée de rembourser le déficit qui se
+                  trouveroit<pb n="13v"/> sur les frais d’entretien, mais que ce déficit ne
+               s’élèvera pas au delà de Vingt millions par an.</p>
+            <p>Enfin, que le remboursement de ce déficit se fera dans la quatrième et la cinquième
+               année, et que même si le Gouvernement François ne croyoit pas pouvoir dépasser le
+               payement annuel des deux cent soixante-dix millions, cent quarante millions pour
+               l’indemnité pécuniaire et Cent Trente millions pour les frais de l’armée
+               d’occupation, ledit remboursement seroit remis à la sixième année.</p>
+            <p>Il résulte incontestablement de ces dispositions que l’intention des quatre Cours n’a
+               point été d’imposer à la <country>France</country> une charge indéfinie ; que la
+               limite de ses obligations pour l’entretien de l’armée d’occupation étoit clairement
+               posée. La <country>France</country> ne devoit dans aucun cas payer pour cet objet
+               plus de Cent cinquante millions par an ; et on lui laissoit même l’espoir fondé de ne
+               payer que Cent Trente millions.</p>
+            <p>On ne sauroit prétendre que le <rs ref="#t.8" type="treaties">protocole</rs> n’étoit qu’un simple
+               projet, annulé plus tard par les dispositions du <rs ref="#t.1" type="treaties">Traité
+                  définitif</rs>. Le <rs ref="#p.1" type="person">Soussigné</rs>
+               <pb n="14r"/>a répondu d’avance à cette objection au commencement de la présente
+               note. Il seroit même autorisé à soutenir que, pour ce qui concerne le point en
+               question, le <rs ref="#t.8" type="treaties">protocole</rs> a plus de force que le <rs ref="#t.1" type="treaties">traité</rs> lui-même. En effet les notes du <date when="1818-11-20">20 <choice>
+                     <abbr>9<hi rendition="#su">bre</hi>
+                            </abbr>
+                     <expan>Novembre</expan>
+                  </choice>
+                    </date>, que le <rs ref="#p.1" type="person">Soussigné</rs> a rappelées à <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Leurs Excellences</rs>, déclarent
+               que <quote>« tout ce qui regarde l’entretien de l’armée d’occupation sera réglé
+                  conformément aux dispositions du <rs ref="#t.8" type="treaties">procès-verbal du <date when="1815-10-13">13 <choice>
+                           <abbr>8<hi rendition="#su">bre</hi>
+                                    </abbr>
+                           <expan>Octobre</expan>
+                        </choice>
+                            </date></rs> »</quote>.</p>
+            <p>C’est donc dans ce <rs ref="#t.8" type="treaties">procès-verbal</rs> que se trouve la loi des parties
+               contractantes ; lui seul peut régler les engagemens réciproques. La
+                  <country>France</country>, toujours empressée d’exécuter ceux qu’Elle avoit
+               consentis, est allé au delà de ce qu’on devoit attendre d’Elle. Craignant de
+               compromettre le service des troupes alliées, Elle ne s’est point prévalue des
+               dispositions qu’Elle pouvoit invoquer pour ne payer que Cent Trente millions par
+               année. Elle a fait face à toutes les dépenses, sans même s’arrêter au maximum de Cent
+               cinquante millions si positivement fixé dans la confiance où Elle étoit que, soit par
+               une compensation au moment du règlement définitif des comptes, soit que par une
+               réduction progressive dans le nombre des troupes, le niveau seroit rétabli<pb n="14v"/> entre les dépenses réelles et la somme qu’Elle s’étoit engagée à fournir.</p>
+            <p>Or, quoique les Puissances alliées ayent d’après l’esprit du traité retiré une partie
+               de leurs troupes, les dépenses faites pour l’armée d’occupation ne s’en élèveront pas
+               moins au <date when="1818-12-01" xml:space="preserve">1<hi rendition="#su">er</hi>
+                  <choice>
+                     <abbr>X<hi rendition="#su">bre</hi></abbr>
+                     <expan>Décembre</expan>
+                  </choice></date> prochain à quatre cent quatre-vingt-huit millions Trois cent
+               Trente-deux mille francs.</p>
+            <p>Le Gouvernement François est donc fondé à demander formellement qu’une compensation
+               soit établie de manière à ramener cette somme à celle de quatre cent cinquante
+               millions qu’Elle devoit fournir dans les Hypothèses même les plus défavorables.</p>
+            <p>
+               Le <rs ref="#p.1" type="person">Soussigné</rs> manqueroit à ses premiers devoirs s’il n’insistoit
+               de la manière la plus pressante sur l’exécution de dispositions aussi précises que
+               celles qui viennent d’être citées. Il attend de la loyauté des Hautes Puissances que,
+               reconnoissant la scrupuleuse exactitude apportée par la <country>France</country>
+               dans l’exécution des obligations les plus onéreuses, Elles voudront de leur côté
+               accomplir sans restrictions leurs promesses.</p>
+            <p xml:space="preserve">D’après le même <rs ref="#t.8" type="treaties">procès-verbal</rs> le <rs ref="#p.1" type="person">Soussigné</rs> se trouve obligé de former une seconde demande.
+                  Le<pb n="15r"/> remboursement du déficit annuel de Vingt millions, auquel la
+                  <country>France</country> étoit tenu, ne devoit avoir lieu que dans la 4<hi rendition="#su">e</hi> et la 5<hi rendition="#su">e</hi> année, et pouvoit être
+               reculé jusqu’à la 6<hi rendition="#su">e</hi>. La <country>France</country> auroit pu
+               user du bénéfice de cette disposition, et il s’ensuit qu’en payant la solde sur le
+               pied de Trente millions par an, ainsi qu’Elle y étoit autorisée, Elle auroit eu un
+               délai de trois années pour payer les soixante millions qui seroient restés en
+               arrière. Or ces soixante millions, dont le payement auroit pu être ainsi retardé
+               jusqu’en 1821, ont été complèttement payés dans le cours de 1818 au moyen d’emprunts
+               onéreux que le Gouvernement François a contractés. Il ne peut donc se dispenser de
+               demander que l’escompte de ce payement anticipé soit calculé en sa faveur ; et en
+               supposant que les payemens eussent eu lieu par tiers à Vingt millions par an,
+               l’escompte calculé à 6 pour cent s’élèveroit à cinq millions deux cent mille
+               francs.</p>
+            <p>
+               Le <rs ref="#p.1" type="person">Soussigné</rs> ne pense pas qu’il puisse être opposé d’objections
+               fondées à une pareille réclamation, faite dans un moment où la générosité des
+                  Puissances<pb n="15v"/> alliées, et le désir de consolider la réconciliation des
+               Peuples, les porteront sans doute à ne refuser aucun des moyens que donne le texte du
+               traité pour alléger le poids des sacrifices de la <country>France</country>.</p>
+            <p>
+               Le <rs ref="#p.1" type="person">Soussigné</rs> a l’honneur de renouveler à <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Leurs Excellences</rs> l’assurance
+               de sa haute considération.</p>
+            <signed hand="#R">Richelieu</signed>
+            <dateline xml:space="preserve">
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName>, le <date when="1818-10-02">2 <choice>
+                     <abbr>8<hi rendition="#su">bre</hi>
+                            </abbr>
+                     <expan>Octobre</expan>
+                  </choice> 1818</date>.</dateline>
+         </div>
+
+         <div hand="#G" decls="#m.3">
+            <pb n="9r"/>
+            <metamark>
+               <add place="top" hand="#W">Annexé au Protocole <subst>
+                     <del rendition="#s">
+                                <choice>
+                           <abbr>N<hi rendition="#su">o</hi>
+                                    </abbr>
+                           <expan>Numéro</expan>
+                        </choice>
+                        <unclear>1</unclear> du <date when="1818-09-29">29 Septembre</date>
+                     </del>
+                     <add>
+                                <choice>
+                           <abbr>N<hi rendition="#su">o</hi>
+                                    </abbr>
+                           <expan>Numéro</expan>
+                        </choice> 5 du <date when="1818-10-03">3 Octobre</date>.</add>
+                  </subst>
+                    </add>
+                </metamark>
+            <p>
+                    <add place="top">À Son Excellence Monsieur le <persName ref="#p.1" xml:space="preserve">
+                            <roleName>Duc</roleName>
+                     <surname>de Richelieu</surname></persName>.</add>
+                </p>
+            <p>
+                    <opener>
+                        <dateline>
+                            <add hand="#W" xml:space="preserve"><!-- passt das so? -->
+                        <placeName ref="#loc.1">Aix-La-Chapelle</placeName>
+                  <date when="1818-10-08">8 Octobre 1818</date></add>
+                        </dateline>
+                    </opener>
+                </p>
+            <p>
+               <add place="margin">(Par les Quatre Cours)</add>
+                </p>
+            <p xml:space="preserve">Les <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #" type="multi-person">Soussignés</rs>, Ministres et
+               Plénipotentiaires de <choice>
+                  <abbr>LL. MM.</abbr>
+                  <expan>Leurs Majestés</expan>
+               </choice> l’<rs ref="#p.16" type="person">Empereur d’Autriche</rs>, le <rs ref="#p.19" type="person">Roi de la
+                  Grande-Bretagne</rs>, le <rs ref="#p.18" type="person">Roi de Prusse</rs> et l’<rs ref="#p.17" type="person">Empereur de Toutes les Russies</rs>, 
+               ont l’honneur de présenter à <choice>
+                  <abbr>S. E.</abbr>
+                  <expan>Son Excellence</expan>
+               </choice> 
+               <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName>, en réponse <rs ref="#m.2" type="m">à la note
+                  verbale qu’Il leur a adressée en date du <date when="1818-10-02">2 Octobre</date>
+                     relativement aux dépenses d’entretien de l’armée d’occupation</rs>, les observations
+               suivantes :</p>
+            <p>L’article 2 de la <rs ref="#t.3" type="treaties">convention additionnelle</rs> du <rs ref="#t.1" type="treaties">traité du <date when="1815-11-20">20 Novembre 1815</date></rs>, laquelle a réglé
+               les détails relatifs à l’armée d’occupation, a stipulé que le logement, le chauffage,
+               l’éclairage, les vivres et les fourages seroient fournis en nature par le
+               Gouvernement Français, et que, quant à la solde, l’équippement, l’habillement et
+               autres objets accessoires, il subviendroit à cette dépense moyennant le payement
+               annuel d’une somme de 50 Millions de Francs.</p>
+            <p>Cette disposition indiquoit clairement que les frais d’entretien, proprement dite,
+               formeroient un objet entièrement abandonné aux soins et aux arrangemens de la
+                  <country>France</country> et dont elle se chargeroit <pb n="9v"/> purement et
+               simplement, sans que les puissances alliées entrassent dans aucun calcul sur la somme
+               nécessaire pour y faire face, tandis que la dépense pour solde <choice>
+                  <abbr>etc.</abbr>
+                  <expan>et cetera</expan>
+               </choice>, envisagée sous un tout autre point de vue, étoit explicitement fixée à 50
+               Millions. Si les puissances alliées avoient cru devoir prendre connoissance du
+               montant de la charge provenant de l’entretien de l’armée d’occupation, elles
+               n’auroient pas pu se dispenser d’examiner, conjointement avec les autorités
+               Françaises, les détails dont se composoit cette charge, de juger les mesures adoptées
+               pour s’en acquitter, de discuter la nature, le choix, l’emploi des moyens
+               d’exécution, de contrôler enfin toutes les branches d’un service auquel les Alliés
+               n’étoient pas appelés à intervenir et qui, du moment que la <country>France</country>
+               s’étoit engagée à fournir l’entretien en nature, n’étoit plus que du ressort de sa
+               propre administration. Le fait est que la somme de 100 Millions, à laquelle le
+               Gouvernement Français avoit évalué les frais de ce service, a été admise, plutôt que
+               reconnue, sans discussion, ni vérification quelconque ;<pb n="10r"/> cette somme ne
+               se trouve spécifiée dans aucune des pièces ni principales, ni accessoires de la
+               négociation ; elle a servi tout au plus à former le calcul approximatif et éventuel
+               qui fixoit à 150 Millions la totalité de la dépense occasionnée par l’armée
+               d’occupation ; sous tout autre rapport elle est restée étrangère aux Alliés, et ils
+               n’ont jamais pris l’engagement de compenser à la <country>France</country> la
+               différence en sus qui pourroit avoir lieu entre cette somme généralement et vaguement
+               énoncée et la dépense réelle de l’entretien de l’armée d’occupation.</p>
+            <p>Il est vrai que le Gouvernement Français ayant déclaré aux Ministres des Cours Alliées que la
+                  <country>France</country> ne pouvoit pas payer au delà de 270 Millions par an, y
+               compris les 140 Millions payables à titre de contribution de guerre, il fut arrêté
+               par le <rs ref="#t.8" type="treaties">protocole du <date when="1815-10-13">13 Octobre</date></rs> que
+               dans les trois premières années la <country>France</country> ne payeroit du <rs ref="#p.10" type="person">Chef de l’armée d’occupation</rs> que 130 Millions ; qu’afin de
+               rétablir le niveau entre cette somme et la dépense réelle, les puissances
+               diminueroient successivement le nombre de leurs troupes et que, dans le cas que cette
+               diminution ne pourroit<pb n="10v"/> avoir lieu, la <country>France</country>
+               rembourseroit le déficit, lequel cependant ne s’élèveroit pas au delà de 20 Millions
+               par an, soit dans les deux dernières années de l’occupation, soit enfin dans la
+               sixième année.</p>
+            <p>Mais toute cette disposition ne regardoit évidemment que la partie fixe de la dépense
+               totale de l’armée d’occupation, et n’avoit rien de commun avec les frais d’entretien.
+               Le déficit dont il étoit question dans ce protocole n’étoit autre que celui qui
+               pouvoit avoir lieu entre les 50 Millions destinés à la solde etc. par l’article 2 de
+               la <rs ref="#t.3" type="treaties">convention additionnelle</rs>, et les 30 Millions auxquels on
+               avoit réduit cet article pour les trois premières années. Ce fut exclusivement sur le
+               chapitre de la solde que portèrent tous les calculs de soulagement et de délai,
+               établis dans le <rs ref="#t.8" type="treaties">protocole du <date when="1815-10-13"> 13
+                     Octobre</date></rs>. Aussi les puissances Alliées n’ont-elles pas hésité à
+               reconnoître que la <country>France</country> n’étant tenue aux termes de ce protocole
+               qu’à rembourser dans les deux dernières années, ou même dans la sixième, l’ex<pb n="11r"/>cédent de dépense à titre de solde sur les 30 Millions auxquels on avoit
+               limité ses payemens pendant les trois premières années, il étoit juste de lui tenir
+               compte de l’intérêt de tout payement en sus des 30 Millions qu’elle auroit
+               effectivement fourni pendant ces mêmes années.</p>
+            <p>Si par des circonstances imprévues, et notamment par deux années de disette, les
+               frais d’entretien ont dépassé l’estimation provisoire que le Gouvernement Français en
+               avoit faite, les puissances Alliées, n’ayant eu aucune part à cette estimation, ne
+               peuvent être rendues responsables du surplus de charge amené par des évènemens hors
+               de leur pouvoir ; de même qu’elles n’auroient pas eu le moindre droit de demander
+               compte à la <country>France</country> du soulagement dont elle auroit joui si elle
+               étoit parvenue à réduire la dépense réelle de l’entretien en nature fort au-dessous
+               de l’estimation primitive. Il est même permis de croire que tel auroit été
+               effectivement le cas,<pb n="11v"/> ou qu’au-moins le niveau se seroit entièrement
+               rétabli si l’occupation Militaire avoit duré cinq ans. Les cours alliées se
+               félicitent trop de la résolution qui rend une compensation pareille impossible pour
+               pousser plus loin ces calculs hypothétiques.</p>
+            <p xml:space="preserve">L’exposé que l’on vient de présenter prouvera à <choice>
+                  <abbr>S. E.</abbr>
+                  <expan>Son Excellence</expan>
+               </choice>
+               <choice>
+                  <abbr>Mr</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> combien il seroit difficile, pour ne
+               pas dire impossible, <rs xml:id="n.3">aux puissances signataires</rs><note type="editorial" target="#n.3">Österreich, Frankreich, Großbritannien, Preußen,
+                     Russland</note> du <rs ref="#t.1" type="treaties">Traité du <date when="1815-11-20">20
+                     Novembre 1815</date></rs> de répondre par des argumens solides aux reproches
+               qu’elles auroient infailliblement encourues de la part de toutes les puissances
+               accédantes au dit Traité, en se prêtant à la réclamation du Gouvernement Français ;
+               et cette considération seule suffira pour justifier aux yeux de <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> l’avis unanime des Quatre cours que la
+               dite réclamation ne sauroit être admise.</p>
+            <p>C’est avec un sincère regret<pb n="12r"/> que les <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #" type="multi-person">Soussignés</rs> s’acquittent du devoir
+               de porter cet avis à la connoissance de <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1" xml:space="preserve">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName>, en renouvelant à Son Excellence
+               l’assurance de leur haute considération.</p>
+            <signed>
+               <list>
+                  <item>
+                            <rs xml:id="n.4">
+                                <persName ref="#p.8">Metternich</persName></rs>
+                            <note type="editorial" target="#n.4">Ursprünglich erfolgte die Unterschrift
+                           Metternichs mit Bleistift. Die Zeilen für die Unterschriften wurden mit
+                           einem Punkt (Tinte) markiert.</note>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <lb/>
+                            <gap reason="editorial" ana="Leere Zeile"/>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
+
+         </div>
+      </body>
+      
+   
+    <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname></persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118538489/</idno></person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName></persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118581465/</idno></person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName></persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118806645/</idno></person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname></persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118545906/</idno></person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname></persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                <idno type="GND">http://d-nb.info/gnd/117016462/</idno></person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname></persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                <idno type="GND">http://d-nb.info/gnd/116147695/</idno></person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname></persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118720791/</idno></person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName></persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                <idno type="GND">http://d-nb.info/gnd/11851962/</idno></person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName></persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                <idno type="GND">http://d-nb.info/gnd/119006200/</idno></person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName></persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118780743/</idno></person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName></persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno></person>
+                <person xml:id="p.19">
+                    <persName>
+                        <surname>Georg/George III.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland und
+                            Hannover</roleName></persName>
+                    <birth>1738</birth>
+                    <death>1820</death>
+                    <note>Vgl. Cannon, George III. In: ODNB, Bd. 21, S. 833–853; Black, George
+                        III.</note>
+                    <idno type="URI">https://viaf.org/viaf/49264990/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118716913/</idno></person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName></persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118535986/</idno></person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName></persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118501852/</idno></person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3247449</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.7">Konvention zwischen Österreich, Frankreich, Großbritannien, Preußen
+               und Russland, Paris 25. April 1818; vgl. BFSP Bd. 5 (1817/18), S. 179–191; Clercq,
+               Recueil, Bd. 3, S. 126–132; Angeberg, Le Cogrès de Vienne, S. 1732–1739; Clarke,
+               Papers presented to Parliament 1819, S. 3–43.</bibl>
+                <bibl xml:id="t.8">Procès-Verbal de la Conférence entre les Plénipotentiaires des 4
+               Cours Alliées, sur l’Arrangement de l’Indemnité Pécuniaire, et l’entretien de l’Armée
+               d’Occupation, Paris 13. Oktober 1815; vgl. BFSP Bd. 3 (1815/16), S. 229–233.</bibl>
+                <bibl xml:id="t.1">Zweiter Pariser Frieden zwischen Österreich, Großbritannien, Preußen und Russland auf der
+               einen, Frankreich auf der anderen Seite, Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 280–293;
+               Grewe, Fontes, Bd. 3/1, S. 10–18; Clercq, Recueil, Bd. 2, S. 642–650; Martens,
+               Nouveau Recueil, Bd. 2, S. 682–691; <ref target="http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm</ref> (deutsch; eingesehen
+               am 31. Oktober 2012).</bibl>
+                <bibl xml:id="t.3">Convention, conclue en conformité de l’Article V du Traité Principal,
+               relativement à l’Occupation d’une Ligne Militaire en France par une Armée Alliée,
+               Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 298–315; Clercq, Recueil, Bd.
+               2, S. 653–661; Martens, Nouveau Recueil, Bd. 2, S. 695–707.</bibl>
+            </listBibl>
+        </back>
+    <back><listPerson><person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118806645/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Kongress von Aachen: Ergänzungen zu den Protokollen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Dok_50.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 10. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_10.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 33. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_33.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 43/2. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_45.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 9. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_VI_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_2.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname>
+                    </persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118545906/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118535986/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 26. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_26.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 33. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_33.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll einer geheimen Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_36.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 14. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_14.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_21.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_2.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118501852/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Kongress von Aachen: Ergänzungen zu den Protokollen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Dok_50.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 20. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_20.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 25. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_25.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 26. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_26.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 28. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_28.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll einer geheimen Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_36.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 38. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_39.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 40. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_41.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 14. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_14.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 16. Sitzung (Schlusssitzung) des Kongresses von
+               Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 9. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 3. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 6. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_22.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_2.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118780743/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 10. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_10.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 22. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_22.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 30. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_30.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 33. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_33.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll einer geheimen Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_36.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 38. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_39.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 40. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_41.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 14. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_14.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 15. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_15.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 9. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 3. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 8. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_15.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_20.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_VIII_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_VI_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_2.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 26. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_26.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 28. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_28.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 30. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_30.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 31. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_31.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 35. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_35.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll einer geheimen Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_36.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 40. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_41.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 12. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_12.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 14. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_14.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 16. Sitzung (Schlusssitzung) des Kongresses von
+               Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 8. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 9. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 3. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 6. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_12.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_19.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_2.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.19">
+                    <persName>
+                        <surname>Georg/George III.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland und
+                            Hannover</roleName>
+                    </persName>
+                    <birth>1738</birth>
+                    <death>1820</death>
+                    <note>Vgl. Cannon, George III. In: ODNB, Bd. 21, S. 833–853; Black, George
+                        III.</note>
+                    <idno type="URI">https://viaf.org/viaf/49264990/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118716913/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 23. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_23.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 25. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_25.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 26. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_26.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 30. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_30.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 31. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_31.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 33. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_33.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll einer geheimen Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_36.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 42. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_43.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                <idno type="GND">http://d-nb.info/gnd/119006200/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 10. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_10.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 17. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 30. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_30.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 31. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_31.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 32. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 33. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_33.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 34. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 36. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_37.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 38. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_39.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 40. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_41.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 6. Sitzung des Kongresses von Aachen</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_V_1.xml"/></linkGrp></event></listEvent></person>
+                </listPerson></back></text>
+</TEI>

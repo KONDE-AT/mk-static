@@ -1,0 +1,926 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Verona_II_5.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_4.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_6.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+<title type="main">Kongress von Verona</title> 
+            <title type="main">II. Affaires d’Italie</title>
+            <title type="main">Procès-verbal der fünften Sitzung</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                        <surname>Schneider</surname> <forename>Karin</forename></persName>
+                </editor>
+         <editor role="Technical_Editor">
+    <persName ref="http://d-nb.info/gnd/13281899X">
+        <surname>Kurz</surname>
+        <forename>Stephan</forename></persName>
+</editor>
+<respStmt>
+    <resp>Transkription</resp>
+    <name ref="#KS">Karin Schneider</name>
+</respStmt>
+<respStmt>
+    <resp>Wissenschaftliche Edition</resp>
+    <name ref="#KS">Karin Schneider</name>
+</respStmt>
+<respStmt>
+    <resp>Technical Editor</resp>
+    <name ref="#SK">Stephan Kurz</name>
+</respStmt>
+<respStmt>
+    <resp>Korrekturen</resp>
+<name ref="#KS">Karin Schneider</name>
+    <name ref="#SK">Stephan Kurz</name>
+</respStmt>
+<respStmt>
+    <resp>Beratung Kodierung</resp>
+    <name>Daniel Schopper</name>
+</respStmt>
+<respStmt>
+    <resp>Beratung Kodierung</resp>
+    <name>Peter Andorfer</name>
+</respStmt>
+</titleStmt>
+         <editionStmt>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+<date when="2018-09-23" change="#initial">2018-09-23</date>
+            <idno>V_II_5</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F1A-6</tei:idno>
+            </publicationStmt>
+            <notesStmt>
+    <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
+</notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Lithographie">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 24</idno>
+                     <idno type="Faszikel"> Fasz. 44 (alt)</idno>
+                     <idno type="Folia">II/53–54, II/68</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Procès-verbal der fünften Sitzung</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Lithographie</p>
+                  <p>Procès-verbal liegt zweifach ein: handschriftlich von <persName ref="#p.5">
+                                <surname>Gentz</surname></persName> fol. II/53 und II/68, lithographiert
+                     fol. II/54; die Edition folgt der lithographierten Variante. Zählung mit rotem
+                     Buntstift in der rechten oberen Ecke von fol. 53r: <q>5</q>. Die Zählung ist
+                     unrichtig, da das Geheimprotokoll vom <date when="1822-12-13">13. Dezember
+                        1822</date> in dieser Serie irrtümlich auf den <date when="1822-12-09">9.
+                        Dezember</date> datiert und entsprechend gezählt wurde.</p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                     <handNote xml:id="M">Metternich</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-12-11">11.
+                        Dezember 1822</date>
+                        </origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Lithographie">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 24</idno>
+                     <idno type="Faszikel"> Fasz. 44 (alt)</idno>
+                     <idno type="Folia">II/60–65</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage: Erklärung Österreichs, Preußens und Russlands</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Lithographie</p>
+                  <p>Anlage liegt zweifach ein: handschriftlich fol. II/62–65, lithographiert fol.
+                     60–61; die Edition folgt der lithographierten Variante.</p>
+                  <p>Die Variante in der Edition bezieht sich auf die handschriftliche Fassung.</p>
+               </physDesc>
+
+            </msDesc>
+            <listWit corresp="#m.2">
+               <head>Anlage: Erklärung Österreichs, Preußens und Russlands</head>
+               <witness corresp="#w.30">
+                        <bibl type="print">Bianchi, Storia documentata, Bd. 2, S.
+                     355–357.</bibl>
+                    </witness>
+            </listWit>
+         </sourceDesc>
+
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die <rs ref="#p.8 #p.40 #p.137 #p.102 #p.180 #p.135 #p.175 #p.13 #p.35 #p.75" type="multi-person">Vertreter Österreichs, Großbritanniens, Frankreichs, Preußens und Russlands</rs>
+               informieren die <rs ref="#p.182 #p.168 #p.185 #p.183 #p.186 #p.165 #p.184 #p.140 #p.164" type="multi-person">Bevollmächtigten der italienischen Höfe</rs> über die Verhandlungsergebnisse
+               hinsichtlich des Truppenabzugs aus dem <country>Königreich
+                  Sardinien-Piemont</country> sowie der Truppenreduktion im <country>Königreich
+                  beider Sizilien</country>. Verlesung einer an die italienischen Höfe gerichteten
+               Erklärung, in welcher die Höfe Österreichs, Preußens und Russlands auf die Bedeutung
+               administrativer Reformen verweisen, um die Ruhe und die Sicherheit auf der
+               Apenninhalbinsel zu gewährleisten.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.102">CARAMAN</persName></person>
+               <person>
+                  <persName ref="#p.180">CHATEAUBRIAND</persName></person>
+               <person>
+                  <persName ref="#p.168">CORSINI</persName></person>
+               <person>
+                  <persName ref="#p.182">DE LA TOUR</persName></person>
+               <person>
+                  <persName ref="#p.135">LA FERRONNAYS</persName></person>
+               <person>
+                  <persName ref="#p.175">HATZFELDT</persName></person>
+               <person>
+                  <persName ref="#p.185">LEARDI</persName></person>
+               <person>
+                  <persName ref="#p.40">LEBZELTERN</persName></person>
+               <person>
+                  <persName ref="#p.75">LIEVEN</persName></person>
+               <person>
+                  <persName ref="#p.183">MANSI</persName></person>
+               <person>
+                  <persName ref="#p.186">MAZIO</persName></person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName></person>
+               <person>
+                  <persName ref="#p.165">MOLZA</persName></person>
+               <person>
+                  <persName ref="#p.184">NEIPPERG</persName></person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName></person>
+               <person>
+                  <persName ref="#p.140">RUFFO</persName></person>
+               <person>
+                  <persName ref="#p.164">SPINA</persName></person>
+               <person>
+                  <persName ref="#p.35">TATISTCHEFF</persName></person>
+               <person>
+                  <persName ref="#p.137">VANE LONDONDERRY</persName></person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+        <revisionDesc>
+    <change xml:id="initial" when="2018-09-23" who="#SK">initial version for public beta release</change>
+    <change notAfter="2018-09-23" who="#SK #KS">changetracking on ACDH git repository</change>
+</revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div decls="#m.1">
+            <pb n="54r"/>
+
+            <metamark>
+                    <add hand="#AmB" place="top">
+                        <date when="1822-12-11">11/12</date>
+                    </add>
+                </metamark>
+            <metamark>
+                    <add hand="#AmB" place="top">
+                        <hi rendition="#u">
+                        <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
+                     <expan>Numéro</expan>
+                  </choice> 1</hi>
+                    </add>
+                </metamark>
+            
+                    <head>Procès-Verbal <lb/>de la Conférence du <date when="1822-12-11">11 Décembre
+               1822</date>, <lb/>relativement aux affaires d’Italie</head>
+                
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">ss</hi>
+                        </abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.8 #p.40 #p.137 #p.102 #p.180 #p.135 #p.175 #p.13 #p.35 #p.75" type="multi-person">Plénipotentiaires d’Autriche, de France, de la Grande-Bretagne, de Prusse et de
+                  Russie</rs> se sont réunis ce jour avec <choice>
+                  <abbr>M<hi rendition="#su">rs</hi>
+                        </abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.182 #p.168 #p.185 #p.183 #p.186 #p.165 #p.184 #p.140 #p.164" type="multi-person">Ministres des
+                  Cours d’Italie</rs> pour porter à leur connaissance les résultats des
+               délibérations qui ont eu lieu sur les questions relatives aux <rs xml:id="n.1">mesures adoptées à l’époque du Congrès de <placeName ref="#loc.65">Laybach</placeName></rs>
+                    <note type="editorial" target="#n.1">Vgl. Edition
+                  Laibach sowie zuletzt Jarrett, Congress of Vienna, S. 270–284.</note> pour
+               l’occupation militaire d’une partie des Etats de <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.172" type="person">Roi de Sardaigne</rs> et de <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.138" type="person">Roi des deux-Siciles</rs>. </p>
+            <p>Pour cet effet il a d’abord été donné lecture du <ref target="Verona_II_2.xml">Procès-verbal ci-annexé</ref> (sub A) de la Conférence du <date when="1822-12-05">5 Décembre</date>, constatant les résolutions adoptées par les Cours alliées à
+               l’égard de l’occupation militaire du <country>Piémont</country> laquelle, sur la
+               proposition de <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.172" type="person">Roi de Sardaigne</rs> et du consentement des Cours
+               signataires de la <rs ref="#t.46" type="treaties">Convention de <placeName ref="#loc.73">Novare</placeName></rs> du <date when="1821-07-24">24 Juillet 1821</date>,
+               cessera dans les termes spécifiés dans ledit Procès-Verbal.</p>
+            <p>On a procédé ensuite à la Lecture du <ref target="Verona_II_3.xml">Procès-Verbal
+                  ci-annexé</ref> (sub B) de la Conférence du <date when="1822-12-08">8
+                  Décembre</date> relativement au Corps auxiliaire stationné dans le
+                  <country>Royaume des Deux-Siciles</country>, et à l’égard duquel, sur la
+               proposition de <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.138" type="person">Roi des Deux-Siciles</rs> et du consentement des Cours
+               signataires de la <rs ref="#t.48" type="treaties">Convention de <placeName ref="#loc.11">Naples</placeName></rs> du <date when="1821-10-18">18 Octobre 1821</date>, il
+               sera opéré dans le<pb n="54v"/> plus court délai possible une diminution jusqu’au
+               nombre spécifié dans ledit Procès-verbal.</p>
+            <p>Après ces communications, <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> a lu la <ref decls="#m.2">Déclaration
+                  ci-annexée (sub C)</ref>,
+               adressée par les Cours d’Autriche, de Prusse et de Russie aux Cours d’Italie. <choice>
+                  <abbr>Ms<hi rendition="#su">s</hi>
+                        </abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.182 #p.168 #p.185 #p.183 #p.186 #p.165 #p.184 #p.140 #p.164" type="multi-person">Plénipotentiaires de ces dernières Cours</rs> ont demandé communication de cette
+               pièce, se réservant de porter les réponses qu’ils seraient autorisés à y faire au
+               Procès-Verbal de la prochaine Conférence.</p>
+            <signed>
+                    <table rend="rules">
+               <row>
+                  <cell>
+                            <unclear>I.</unclear>
+                     <persName ref="#p.164">
+                                <roleName>
+                                    <choice>
+                              <abbr>Card.</abbr>
+                              <expan>Cardinal</expan>
+                           </choice>
+                                </roleName>
+                        <surname>Spina</surname></persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.185">
+                                <forename>
+                                    <choice>
+                              <abbr>P.</abbr>
+                              <expan>Paolo</expan>
+                           </choice>
+                                </forename>
+                        <surname>Leardi</surname></persName>, Archevêque d’Ephèse, Nonce
+                     Apostolique</cell>
+               </row>
+               <row>
+                  <cell>
+                            <persName ref="#p.182">
+                                <surname>De La Tour</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Le <persName ref="#p.183">
+                                <roleName>Marquis</roleName>
+                        <surname>Mansi</surname></persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.8">
+                                <surname>Metternich</surname></persName>
+                        </cell>
+               </row>
+               <row>
+                  <cell>Le <persName ref="#p.165">
+                                <roleName>Marquis</roleName>
+                        <surname>Molza</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                            <persName ref="#p.175">
+                                <surname>Hatzfeldt</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                            <persName ref="#p.135">
+                                <roleName>Comte</roleName>
+                        <surname>de La Ferronnay</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Le <persName ref="#p.102">
+                                <roleName>
+                                    <choice>
+                              <abbr>M<hi rendition="#su">is</hi>
+                                        </abbr>
+                              <expan>Marquis</expan>
+                           </choice>
+                                </roleName>
+                        <surname>de Caraman</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Le <persName ref="#p.168">
+                                <roleName>Prince</roleName>
+                        <forename>Neri</forename>-<surname>Corsini</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Le <persName ref="#p.180">
+                                <roleName>
+                                    <choice>
+                              <abbr>V<hi rendition="#su">te</hi>
+                                        </abbr>
+                              <expan>Vicomte</expan>
+                           </choice>
+                                </roleName>
+                        <surname>de Chateaubriant</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                            <persName ref="#p.186">
+                                <forename>
+                                    <choice>
+                              <abbr>R.</abbr>
+                              <expan>Raffaele</expan>
+                           </choice>
+                                </forename>
+                        <surname>Mazio</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Le <persName ref="#p.184">
+                                <roleName>Comte</roleName>
+                        <surname>de Neipperg</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Le <persName ref="#p.40">
+                                <roleName>Baron</roleName>
+                        <surname>de Lebzeltern</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                            <persName ref="#p.75">
+                                <surname>Lieven</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                            <persName ref="#p.35">
+                                <surname>Tatistscheff</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                            <persName ref="#p.13">
+                                <surname>Nesselrode</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                            <persName ref="#p.140">
+                                <surname>Ruffo</surname></persName>
+                        </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell cols="2">
+                            <persName ref="#p.137">
+                                <roleName>Vane
+                        Londonderry</roleName></persName>
+                        </cell>
+               </row>
+            </table>
+                </signed>
+         </div>
+
+         <div decls="#m.2">
+            <pb n="60r"/>
+
+            <metamark>
+                    <add place="top" hand="#A">C.</add>
+                </metamark>
+
+            
+                    <head>Déclaration des Cours d’Autriche, de Prusse et de Russie à la Conférence du
+                     <date when="1822-12-11">11 Décembre 1822</date>
+                    </head>
+                
+
+            <p>Les Cours Alliées réunies à <placeName ref="#loc.65">Laibach</placeName> adressèrent,
+               avant de se séparer, à Leurs Missions accréditées près des Souverains de l’Italie une
+               dépêche circulaire comme le dernier monument de Leur sollicitude pour des intérêts
+               que Leurs Majestés Impériales &amp; Royales ne séparent pas des Leurs.</p>
+            <p>À l’époque où cette démarche fut conçue, deux grands exemples venaient d’ajouter aux
+               leçons de l’expérience. <rs xml:id="n.3">À <country>Naples</country> et en
+                     <country>Piémont</country> le génie du mal avait eu le pouvoir d’envahir et de
+                  renverser l’autorité légitime</rs>,<note type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
+                  km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als
+                     Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl. Romani, The Neapolitan Revolution;
+                  Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
+                  Magistrati del Re; Späth, Revolution in Europa, S. 129–149. Zur Reaktion der
+                  Großmächte vgl. zuletzt Jarrett, The Congress of Vienna, S. 248–285 sowie die
+                  Editionen der Dokumente der Kongresse von Troppau und Laibach. Im März 1821 war im
+                     <country>Königreich Sardinien-Piemont</country> eine Revolution ausgebrochen,
+                  die rasch durch österreichische Truppen niedergeschlagen wurde. Vgl. Späth,
+                  Revolution in Europa, S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The
+                  Congress of Vienna, S. 270–284. </note> de mettre en problème l’existence de
+               l’ordre social en Italie – la contagion venait nul doute du dehors ; mais si elle
+               n’avait point trouvé sur les lieux des élémens favorables à son développement,
+               celui-ci aurait-il été aussi rapide &amp; aussi complet ? Les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Monarques</rs>, qui avaient soudé la profondeur du mal,
+               n’hésitèrent pas à l’attaquer de front, à refouler la révolution et à arracher ces
+               Etats aux horreurs de l’anarchie pour les replacer sous l’égide tutélaire de leurs
+               Souverains légitimes.</p>
+            <p>Mais les Cours alliées crurent n’avoir point assez fait pour le repos de l’Italie.
+               Convaincues que de pareils dangers pourraient se renouveler tant que les Pays menacés
+               ne trouveraient pas un préservatif assuré dans leur situation<pb n="60v"/>
+               intérieure, et persuadées que le repos qui naît de la seule présence d’une force
+               protectrice n’épuise point les garanties désirables de sécurité, déplorant enfin les
+               amères nécessités qui ont obligé plusieurs Etats à réclamer un appui matériel
+               étranger, Elles ont cru devoir appeler l’attention des Souverains d’Italie sur les
+               moyens qu’Ils jugeraient les plus aptes soit à renforcer et à consolider le pouvoir
+               fondé sur la justice et sur l’ordre, soit à introduire dans Leurs sistèmes
+               administratifs telles améliorations que pourraient réclamer les besoins véritables de
+               Leurs Etats et le parfait accord qui, pour la félicité réciproque et commune, doit
+               exister entre les gouvernans et les gouvernés.</p>
+            <p>Loin des Cours alliées a été la pensée d’intervenir dans les régimes intérieurs des
+               Etats dont l’indépendance a été pour Elles de tout temps et en toute occasion l’objet
+               d’un inviolable respect. Loin d’Elles a été également la pensée de leur indiquer une
+               ligne quelconque de conduite.</p>
+            <p>Remplies de confiance dans la sagesse de ces Gouvernemens, et les considérant comme
+               placés sur un même terrain d’intérêt qu’Elles-mêmes relativement à la tranquillité de
+               l’Europe, Elles se sont uniquement appliquées à signaler à leur prévoyance paternelle
+               l’existence d’un mal dont Elles venaient de comprimer les dangereux débordemens.
+               Elles Leur ont exprimé enfin Leurs vives sollicitudes pour que réunis de vues et
+               d’intentions, Ils cherchassent à en retracer et à en combattre les causes qui
+               auraient pu se trouver à Leur portée, et à se rendre compte des<pb n="61r"/> effets
+               funestes que vingt années de bouleversemens et de désordres ont dû produire sur les
+               institutions consacrées par l’expérience des siècles, et sur lesquelles reposaient la
+               sûreté de Leurs Trônes.</p>
+            <p>C’est à des vœux si purs, si loyaux et si conformes à une saine politique que se sont
+               bornées les Puissances qui s’étaient chargées d’une grave responsabilité, en prêtant
+               Leurs armes aux Souverains d’Italie non seulement pour rétablir Leur autorité
+               légitime, mais pour Leur assurer appui et assistance dans l’œuvre de Leur
+               restauration.</p>
+            <p>Jamais peut-être l’esprit qui anime l’Alliance ne s’est il montré sous un jour plus
+               consolant pour l’humanité, ni plus rassurant pour les Cours d’Italie qu’en Leur
+               exprimant ces vœux et en ne Leur demandant pour prix de Ses efforts que des gages de
+               Leur propre bonheur.</p>
+            <p>Les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Monarques</rs> ne prétendent pas examiner ce que ces
+               Cours ont pu opérer chez Elles pour assurer sur des bases plus stables la
+               tranquillité de leurs sujets ; Ils ne s’informent point de ce qu’Elles peuvent encore
+               juger convenable de faire ; mais pénétrés de la même confiance à Leur égard, Ils
+               réitèrent à l’occasion de Leur présente réunion les mêmes vœux qu’Ils ont exprimés
+               alors afin que le repos de l’Italie ne puisse plus être troublé à l’avenir, et pour
+               que toutes les tentatives criminelles viennent échouer contre la sagesse des
+               Gouvernemens.</p>
+            <pb n="61v"/>
+            <p>Ces vœux et ces sollicitudes sont tellement conformes au principe de solidarité qui
+               rend aujourd’hui le bien comme le mal commun à tous les membres de la grande famille
+               Européenne ; ils sont dictés par une amitié si franche et si véritable pour les Cours
+               de l’Italie qu’ils ne sauraient se ralentir et que les missions des <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains alliés</rs> reçoivent l’ordre de continuer à
+               les exprimer aux Gouvernemens près desquels elles ont l’honneur d’être
+               accréditées.</p>
+            <p>Aucune circonstance ne saurait offrir une plus douce récompense aux <rs ref="#p.16 #p.18 #p.17" type="multi-person">Monarques</rs> en retour de Leurs sentimens et de Leurs
+               efforts que de voir apprécier la pureté de Leurs vues, <app>
+                  <lem>et d’acquérir la conviction</lem>
+                  <rdg>
+                            <subst>
+                        <del rendition="#s">et d’apprendre à l’époque, où les evacuations militaires
+                           auront atteint leur complément</del>
+                        <add place="margin">et d’acquérir la conviction</add>
+                     </subst>
+                        </rdg>
+               </app> que les Gouvernemens de l’Italie, après avoir voué Leurs soins, les uns à
+               réparer les calamités qui ont pesé sur Eux, les autres à se préserver de malheurs
+               semblables, jouissent au sein de la paix des résultats de Leurs nobles travaux.</p>
+         </div>
+      </body>
+      
+   
+    <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname></persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118538489/</idno></person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName></persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118581465/</idno></person>
+                <person xml:id="p.40">
+                    <persName>
+                        <forename>Ludwig</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Lebzeltern</surname></persName>
+                    <birth>1774</birth>
+                    <death>1854</death>
+                    <note>Österreichischer Botschafter in St. Petersburg, Mitglied der
+                        österreichischen Delegation beim Kongress von Troppau; vgl. zu seiner Person
+                        Lebzeltern Ludwig Graf. In: ÖBL, Bd. 5, S. 69; Wurzbach, Lebzeltern, Ludwig
+                        Graf, Bd. 14, S. 280–281.</note>
+                    <idno type="URI">https://viaf.org/viaf/12070162/</idno>
+                <idno type="GND">http://d-nb.info/gnd/1146272987/</idno></person>
+                <person xml:id="p.137">
+                    <persName>
+                        <forename>Charles William</forename>
+                        <surname>Stewart Vane</surname>
+                        <roleName>Lord Stewart</roleName></persName>
+                    <birth>1778</birth>
+                    <death>1854</death>
+                    <note>Britischer Botschafter in Wien, Mitglied der britischen Delegation bei den
+                        Kongress von Troppau, Laibach und Verona, ab 1822 Charles William Vane, 3<hi rendition="#su">rd</hi> Marquess of Londonderry vgl. zu seiner Person
+                        Lloyd, Heersom, Vane [formerly Stewart], Charles William. In: ODNB, Bd. 56,
+                        S. 95–98; Schneider, Werner, Europa in Wien, S. 292–293.</note>
+                    <idno type="URI">https://viaf.org/viaf/8284837/</idno>
+                <idno type="GND">http://d-nb.info/gnd/123047889/</idno></person>
+                <person xml:id="p.102">
+                    <persName>
+                        <forename>Louis Charles Victor</forename>
+                        <surname>de Riquet</surname>
+                        <roleName>marquis de Caraman</roleName></persName>
+                    <birth>1762</birth>
+                    <death>1839</death>
+                    <note>1818 Gesandter Frankreichs in London, 1820 Gesandter Frankreichs in Wien,
+                        1820/21 Vertreter Frankreichs auf den Kongressen von Troppau, Laibach und
+                        Verona; vgl. zu seiner Person Michaud, Biographie Universelle, Bd. 6, S.
+                        630–631.</note>
+                    <idno type="URI">https://viaf.org/viaf/2675/</idno>
+                <idno type="GND">http://d-nb.info/gnd/1023760126/</idno></person>
+                <person xml:id="p.180">
+                    <persName>
+                        <forename>François-René</forename>
+                        <roleName>Vicomte</roleName>
+                        <surname>de Chateaubriand</surname></persName>
+                    <birth>1768</birth>
+                    <death>1848</death>
+                    <note>Mitglied der französischen Delegation beim Kongress von Verona; vgl. zu
+                        seiner Person Scott, Chateaubriand.</note>
+                    <idno type="URI">http://viaf.org/viaf/7388218/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118520237/</idno></person>
+                <person xml:id="p.135">
+                    <persName>
+                        <forename>Auguste</forename>
+                        <surname>Ferron</surname>
+                        <roleName>comte de La Ferronnays</roleName></persName>
+                    <birth>1777</birth>
+                    <death>1842</death>
+                    <note>Französischer Botschafter in St. Petersburg, Mitglied der französischen
+                        Delegation in Troppau und Verona; vgl. zu seiner Person Michaud, Biographie
+                        Universelle, Bd. 14, S. 24–25.</note>
+                    <idno type="URI">https://viaf.org/viaf/2463675/</idno></person>
+                <person xml:id="p.175">
+                    <persName>
+                        <forename>Franz Ludwig</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Hatzfeldt</surname></persName>
+                    <birth>1756</birth>
+                    <death>1827</death>
+                    <note>1822 preußischer Gesandter in Wien und den Niederlanden; vgl. Bringmann,
+                        Handbuch der Diplomatie, S. 312 und S. 334, zu seiner Person Wurzbach,
+                        Biographisches Lexikon, Bd. 8, S. 52; Priesdorff, Soldatisches Führertum,
+                        Bd. 2, S. 446–449.</note>
+                    <idno type="URI">http://viaf.org/viaf/8166997/</idno>
+                <idno type="GND">http://d-nb.info/gnd/11750369/</idno></person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname></persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                <idno type="GND">http://d-nb.info/gnd/117016462/</idno></person>
+                <person xml:id="p.35">
+                    <persName>
+                        <forename>Dimitry Pavlovich</forename>
+                        <surname>Tatistcheff</surname></persName>
+                    <birth>1767</birth>
+                    <death>1845</death>
+                    <note>1818 russischer Botschafter in Madrid; vgl. zu seiner Person Татищев
+                        Дмитрий Павлович. In: Russkij biografičeskij slovar’, Bd. 20, S.
+                        237–349.</note>
+                    <idno type="URI">https://viaf.org/viaf/38900750/</idno>
+                <idno type="GND">http://d-nb.info/gnd/1130813398/</idno></person>
+                <person xml:id="p.75">
+                    <persName>
+                        <forename>Christoph Andrejewitsch</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Lieven</surname></persName>
+                    <birth>1774</birth>
+                    <death>1839</death>
+                    <note>Russischer Botschafter in London; vgl. zu seiner Person den Eintrag zu
+                        Graf Lieven/Fürst Lieven Christoph Heinrich in der Erik-Amburger-Datenbank
+                        (Ausländer im vorrevolutionären Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/index.php?id=71688&amp;mode=1">http://dokumente.ios-regensburg.de/amburger/index.php?id=71688&amp;mode=1</ref>
+                        (eingesehen am 6. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/25368257/</idno>
+                <idno type="GND">http://d-nb.info/gnd/117000671/</idno></person>
+                <person xml:id="p.182">
+                    <persName>
+                        <forename>Vittorio Amadeo</forename>
+                        <surname>Sallier de la Tour</surname>
+                        <roleName>marchese du Cordon</roleName></persName>
+                    <birth>1774</birth>
+                    <death>1858</death>
+                    <note>Sardischer Bevollmächtigter am Kongress von Verona; vgl. zu seiner Person
+                        Menghini, Sallier de la Tour, Vittorio, marchese du Cordon auf <ref target="http://www.treccani.it/enciclopedia/sallier-de-la-tour-vittorio-marchese-du-cordon_%28Enciclopedia-Italiana%29/">http://www.treccani.it/enciclopedia/sallier-de-la-tour-vittorio-marchese-du-cordon_%28Enciclopedia-Italiana%29/</ref>
+                        (eingesehen am 21. August 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/98859469/</idno></person>
+                <person xml:id="p.168">
+                    <persName>
+                        <forename>Neri</forename>
+                        <roleName>principe</roleName>
+                        <surname>Corsini</surname></persName>
+                    <birth>1771</birth>
+                    <death>1845</death>
+                    <note>Vertreter des Großherzogtums Toskana auf dem Kongress von Laibach; vgl. zu
+                        seiner Person Danelon Vasoli, Corsini, Neri, auf <ref target="http://www.treccani.it/enciclopedia/neri-corsini_res-586301db-87eb-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/neri-corsini_res-586301db-87eb-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 3. August 2017); Schneider, Werner, Europa in Wien, S.
+                        138–139.</note></person>
+                <person xml:id="p.185">
+                    <persName>
+                        <forename>Paolo</forename>
+                        <surname>Leardi</surname></persName>
+                    <birth>1761</birth>
+                    <death>1823</death>
+                    <note>Päpstlicher Nuntius am Wiener Hof, Vertreter des Kirchenstaats auf dem
+                        Kongress von Verona.</note></person>
+                <person xml:id="p.183">
+                    <persName>
+                        <forename>Ascanio</forename>
+                        <roleName>marchese</roleName>
+                        <surname>Mansi</surname></persName>
+                    <birth>1773</birth>
+                    <death>1840</death>
+                    <note>Vertreter Luccas auf dem Kongress von Verona; vgl. zu seiner Person
+                        Schneider, Werner, Europa in Wien, S. 227.</note></person>
+                <person xml:id="p.186">
+                    <persName>
+                        <forename>Raffale</forename>
+                        <surname>Mazio</surname></persName>
+                    <birth>1765</birth>
+                    <death>1832</death>
+                    <note>Vertreter des Kirchenstaats auf den Kongressen von Laibach und Verona;
+                        vgl. zu seiner Person Marini, Mazio, Raffaele auf <ref target="http://www.treccani.it/enciclopedia/raffaele-mazio_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/raffaele-mazio_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 12. Jänner 2018).</note></person>
+                <person xml:id="p.165">
+                    <persName>
+                        <forename>Guiseppe</forename>
+                        <roleName>marchese</roleName>
+                        <surname>Molza</surname></persName>
+                    <birth>1782</birth>
+                    <death>1861</death>
+                    <note>Vertreter Modenas auf den Kongressen von Laibach und Verona; vgl. zu
+                        seiner Person Fazzini, Molza, Giuseppe, auf <ref target="http://www.treccani.it/enciclopedia/giuseppe-molza_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/giuseppe-molza_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 3. August 2017).</note></person>
+                <person xml:id="p.184">
+                    <persName>
+                        <forename>Adam Albert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Neipperg</surname></persName>
+                    <birth>1775</birth>
+                    <death>1829</death>
+                    <note>Vertreter Parmas auf dem Kongress von Verona; vgl. zu seiner Person Fuchs,
+                        Neipperg, Adam Albert Graf von. In: NDB, Bd. 19, S. 49–50.</note>
+                    <idno type="URI">https://viaf.org/viaf/5733114/</idno>
+                <idno type="GND">http://d-nb.info/gnd/119080893/</idno></person>
+                <person xml:id="p.140">
+                    <persName>
+                        <forename>Alvaro</forename>
+                        <surname>Ruffo</surname>
+                        <roleName>dei principi della Scaletta</roleName></persName>
+                    <birth>1754</birth>
+                    <death>1825</death>
+                    <note>Botschafter des Königreichs beider Sizilien in Wien; vgl. Schneider,
+                        Werner, Europa in Wien, S. 268–269.</note>
+                    <idno type="URI">https://viaf.org/viaf/259506628/</idno>
+                <idno type="GND">http://d-nb.info/gnd/1025243188/</idno></person>
+                <person xml:id="p.164">
+                    <persName>
+                        <forename>Giuseppe</forename>
+                        <surname>Spina</surname></persName>
+                    <birth>1756</birth>
+                    <death>1828</death>
+                    <note>Kardinal und Vertreter des Kirchenstaats auf den Kongressen von Laibach
+                        und Verona; vgl. zu seiner Person Miranda, Spina, Giuseppe. In: The
+                        Cardinals of the Holy Roman Church, auf <ref target="http://webdept.fiu.edu/~mirandas/bios1801.htm#Spina">http://webdept.fiu.edu/~mirandas/bios1801.htm#Spina</ref> (eingesehen
+                        am 3. August 2017).</note>
+                    <idno type="URI">http://viaf.org/viaf/89055289/</idno>
+                <idno type="GND">http://d-nb.info/gnd/1137576308/</idno></person>
+                <person xml:id="p.172">
+                    <persName>
+                        <surname>Carlo Felice/Karl Felix</surname>
+                        <roleName>Duc de Genevois</roleName>
+                        <roleName>König von Sardinien-Piemont</roleName></persName>
+                    <birth>1765</birth>
+                    <death>1831</death>
+                    <note>Ab 1821 König von Sardinien-Piemont, ab 1824 Herzog von Savoyen; vgl. zu
+                        seiner Person Locorotondo, Carlo Felice di Savoia, re di Sardegna auf <ref target="http://www.treccani.it/enciclopedia/carlo-felice-di-savoia-re-di-sardegna_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/carlo-felice-di-savoia-re-di-sardegna_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 7. August 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/6003848/k</idno>
+                <idno type="GND">http://d-nb.info/gnd/129163694/</idno></person>
+                <person xml:id="p.138">
+                    <persName>
+                        <surname>Ferdinand/Ferdinando I.</surname>
+                        <roleName>König beider Sizilien</roleName></persName>
+                    <birth>1751</birth>
+                    <death>1825</death>
+                    <note>1759-1806 Ferdinand IV. von Neapel, 1769-1815 Ferdinand III. von Sizilien,
+                        ab 1815/16 König beider Sizilien vgl. de Maio, Ferdinando I di Bourbone, re
+                        delle due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico</ref>)
+                        (eingesehen am 31. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/16073751/</idno>
+                <idno type="GND">http://d-nb.info/gnd/11895363/</idno></person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName></persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno></person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName></persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118535986/</idno></person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName></persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118501852/</idno></person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3164527</idno>
+            </place>
+                <place xml:id="loc.65">
+               <placeName>Laibach</placeName>
+               <placeName>Laybach</placeName>
+               <placeName>Ljubljana</placeName>
+               <location>
+                        <geo>46.05108 14.50513</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3196359</idno>
+            </place>
+                <place xml:id="loc.73">
+                <placeName>Novara</placeName>
+                <placeName>Novare</placeName>
+               <location>
+                        <geo>45.44694 8.62118</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3172189</idno>
+            </place>
+                <place xml:id="loc.11">
+                <placeName>Neapel</placeName>
+               <placeName>Naples</placeName>
+               
+               <location>
+                        <geo>40.85216 14.26811</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3172394</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.46">Konvention von Novara zwischen Österreich, Preußen und Russland auf
+               der einen, Sardinien-Piemont auf der anderen Seite, Novara 24. Juli 1821, betreffend
+               die militärische Besatzung; vgl. dazu BFSP Bd. 9 (1821/22), S. 650–655; Neumann,
+               Recueil, Bd. 3, S. 640–643.</bibl>
+                <bibl xml:id="t.48">Konvention zwischen Österreich, Preußen und Russland auf der einen,
+               dem Königreich beider Sizilien auf der anderen Seite über die militärische Besatzung
+               des Königreichs beider Sizilien, Neapel 18. Oktober 1821; abgedruckt in BFSP Bd. 9
+               (1821/22), S. 632–635; Neumann, Recueil, Bd. 3, S. 652–656.</bibl>
+            </listBibl>
+        </back>
+    <back><listPerson><person xml:id="p.138">
+                    <persName>
+                        <surname>Ferdinand/Ferdinando I.</surname>
+                        <roleName>König beider Sizilien</roleName>
+                    </persName>
+                    <birth>1751</birth>
+                    <death>1825</death>
+                    <note>1759-1806 Ferdinand IV. von Neapel, 1769-1815 Ferdinand III. von Sizilien,
+                        ab 1815/16 König beider Sizilien vgl. de Maio, Ferdinando I di Bourbone, re
+                        delle due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico</ref>)
+                        (eingesehen am 31. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/16073751/</idno>
+                <idno type="GND">http://d-nb.info/gnd/11895363/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 10. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_10.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 11. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_11.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 12. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_12.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 13. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_13.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 14. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_14.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 16. Sitzung (Schlusssitzung) des Kongresses von
+               Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 3. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 6. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 8. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 9. Sitzung des Kongresses von Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_9.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 1. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 2. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 3. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 4. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 5. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 6. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 7. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Protokoll der 8. Sitzung des Kongresses von Troppau</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_IX_1.xml"/></linkGrp></event></listEvent></person>
+                <person xml:id="p.172">
+                    <persName>
+                        <surname>Carlo Felice/Karl Felix</surname>
+                        <roleName>Duc de Genevois</roleName>
+                        <roleName>König von Sardinien-Piemont</roleName>
+                    </persName>
+                    <birth>1765</birth>
+                    <death>1831</death>
+                    <note>Ab 1821 König von Sardinien-Piemont, ab 1824 Herzog von Savoyen; vgl. zu
+                        seiner Person Locorotondo, Carlo Felice di Savoia, re di Sardegna auf <ref target="http://www.treccani.it/enciclopedia/carlo-felice-di-savoia-re-di-sardegna_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/carlo-felice-di-savoia-re-di-sardegna_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 7. August 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/6003848/k</idno>
+                <idno type="GND">http://d-nb.info/gnd/129163694/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Protokoll der 16. Sitzung (Schlusssitzung) des Kongresses von
+               Laibach</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_1.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_2.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_5.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_7.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_IX_1.xml"/></linkGrp></event></listEvent></person>
+                </listPerson></back></text>
+</TEI>

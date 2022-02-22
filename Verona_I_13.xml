@@ -1,0 +1,279 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Verona_I_13.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_12.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_14.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+<title type="main">Kongress von Verona</title> 
+            <title type="main">I. Affaires d’Espagne</title>
+            <title type="main">Sitzung vom 17. November 1822</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                        <surname>Schneider</surname> <forename>Karin</forename></persName>
+                </editor>
+         <editor role="Technical_Editor">
+    <persName ref="http://d-nb.info/gnd/13281899X">
+        <surname>Kurz</surname>
+        <forename>Stephan</forename></persName>
+</editor>
+<respStmt>
+    <resp>Transkription</resp>
+    <name ref="#KS">Karin Schneider</name>
+</respStmt>
+<respStmt>
+    <resp>Wissenschaftliche Edition</resp>
+    <name ref="#KS">Karin Schneider</name>
+</respStmt>
+<respStmt>
+    <resp>Technical Editor</resp>
+    <name ref="#SK">Stephan Kurz</name>
+</respStmt>
+<respStmt>
+    <resp>Korrekturen</resp>
+<name ref="#KS">Karin Schneider</name>
+    <name ref="#SK">Stephan Kurz</name>
+</respStmt>
+<respStmt>
+    <resp>Beratung Kodierung</resp>
+    <name>Daniel Schopper</name>
+</respStmt>
+<respStmt>
+    <resp>Beratung Kodierung</resp>
+    <name>Peter Andorfer</name>
+</respStmt>
+</titleStmt>
+         <editionStmt>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+<date when="2018-09-23" change="#initial">2018-09-23</date>
+            <idno>V_I_13</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F11-F</tei:idno>
+            </publicationStmt>
+            <notesStmt>
+    <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
+</notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Lithographie">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 23</idno>
+                     <idno type="Faszikel"> Fasz. 43 (alt)</idno>
+                     <idno type="Folia">230–232</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Sitzung vom <date when="1822-11-17">17. November 1822</date>
+                            </title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Lithographie</p>
+                  <p>Précis liegt zweifach ein: Handschriftlich fol. 230, 232; Lithographie fol.
+                     231. Die Transkription folgt der lithographierten Fassung. Nummerierung mit
+                     rotem Buntstift in der rechten oberen Ecke auf fol. 230r: <q>9</q>.</p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                     <handNote xml:id="M">Metternich</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-11-17">17.
+                        November 1822</date>
+                        </origin>
+               </history>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die Vertreter Österreichs, Frankreichs, Russlands und Preußens einigen sich auf die
+               Voraussetzungen, unter welchen eine Unterstützung <country>Frankreichs</country>
+               durch die Mächte obligatorisch würde. Die Vertreter Russlands fordert die Einführung
+               des Reziprozitätsprinzips. Die Resultate der Verhandlungen werden in einem eigenen
+               Protokoll niedergelegt.</p>
+         </abstract>
+         <particDesc>
+            <p>Liste der anwesenden Personen ist nicht überliefert.</p>
+         </particDesc>
+      </profileDesc>
+        <revisionDesc>
+    <change xml:id="initial" when="2018-09-23" who="#SK">initial version for public beta release</change>
+    <change notAfter="2018-09-23" who="#SK #KS">changetracking on ACDH git repository</change>
+</revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div decls="#m.1">
+            <pb n="231r"/>
+
+            <metamark>
+                    <add place="top" hand="#AmB">
+                        <choice>
+                     <abbr>N.</abbr>
+                     <expan>Numéro</expan>
+                  </choice> 12</add>
+                </metamark>
+            
+                    <head>Précis <lb/>de la Conférence de Dimanche <date when="1822-11-17">17 Novembre
+                  1822</date>.</head>
+                
+            <p>Messieurs les Plénipotentiaires d’Autriche, de France, de Prusse et de Russie se sont
+               réunis aujourd’hui pour prendre en considération les différens cas où les engagemens
+               éventuels pris avec la Cour de France par celles d’Autriche, de Prusse et de Russie,
+               dans la supposition d’une guerre déclarée ou provoquée par le Gouvernement
+               révolutionnaire de l’Espagne, deviendraient obligatoires pour les Puissances qui y
+               ont pris part.</p>
+            <p>
+                    
+                        <choice>
+                     <abbr>M<hi rendition="#su">r</hi>
+                            </abbr>
+                     <expan>Monsieur</expan>
+                  </choice> le <persName ref="#p.174">
+                            <roleName>Vicomte</roleName>
+                     <surname>de Montmorency</surname></persName> a d’abord énoncé <ref target="Verona_I_2.xml">trois cas qui lui
+                  paraissaient de nature à rendre lesdits engagemens immédiatement
+                  obligatoires</ref> ; et <ref target="Verona_I_3.xml">
+                        <choice>
+                     <abbr>Ms<hi rendition="#su">s</hi>
+                            </abbr>
+                     <expan>Messieurs</expan>
+                  </choice> les Plénipotentiaires des trois autres Cours ont admis en principe que
+                  ces cas seront regardés comme entrainant l’application directe desdits
+                  engagemens</ref>. </p>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <rs ref="#p.174" type="person">Vicomte</rs> a observé ensuite que, hors de ces cas
+               prévus et définis, il pouvait s’en présenter plusieurs autres dans lesquels la
+                  <country>France</country>, malgré l’attitude défensive qu’elle était décidée à
+               conserver vis-à-vis de l’<country>Espagne</country>, se trouverait nécessairement
+               portée à des actes dont la guerre pourrait être le résultat ; que, par conséquent, il
+               serait à désirer que les Cours s’entendissent sur les moyens d’examiner et de
+               déterminer, tel cas échéant, s’il y aura lieu à le comprendre parmi ceux auxquels les
+               engagemens éventuels ont été reconnus directement applicables.</p>
+            <p>D’un autre côté, il a été observé par Messieurs les<pb n="231v"/> Plénipotentiaires
+               de Russie que, vu la position des quatre Puissances vis-à-vis de
+                  l’<country>Espagne</country>, et vu l’esprit et le but des engagemens dont on
+               allait préciser les termes, il leur paraîtrait juste et convenable que l’acte qui se
+               rapporterait aux cas prévus et non-prévus dans lesquels ces engagemens deviendraient
+               obligatoires fût rédigé sur un principe de réciprocité, en admettant que l’une et
+               l’autre Puissance pourrait également réclamer l’application des <rs xml:id="n.1">
+                        <hi rendition="#u">Casus foederis</hi></rs>
+                    <note type="editorial" target="#n.1">Lat.: Bündnisfall.</note> dont on serait
+               convenu. <choice>
+                  <abbr>M<hi rendition="#su">ss</hi>
+                        </abbr>
+                  <expan>Messieurs</expan>
+               </choice> les Plénipotentiaires de Prusse, ainsi que <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName>, ont appuyé cette observation.</p>
+            <p>Le résultat de la délibération a été qu’il sera rédigé, dans le sens de ces
+               différentes observations, pour être signé par Messieurs les Plénipotentiaires, un
+                  <ref target="Verona_I_15.xml">acte en forme de procès-verbal</ref> où seront
+               consignés et indiqués :</p>
+            <p>1. Les cas prévus et définis dans lesquels les engagemens entre les quatre Puissances
+               deviendront immédiatement obligatoires ;</p>
+            <p>2. Les formes à établir pour examiner et déterminer les résolutions à prendre dans
+               les cas non-prévus qui pourront se présenter, sans toutefois que ces derniers soient
+               éventuellement spécifiés dans ledit Procès-verbal. </p>
+         </div>
+      </body>
+      
+   
+    <back>
+            <listPerson>
+                <person xml:id="p.174">
+                    <persName>
+                        <forename>Mathieu Jean Félicité</forename>
+                        <roleName>Vicomte</roleName>
+                        <surname>de Montmorency-Laval</surname></persName>
+                    <birth>1766</birth>
+                    <death>1826</death>
+                    <note>1821/22 französischer Außenminister, Vertreter Frankreichs auf dem
+                        Kongress von Verona; vgl. zu seiner Person Michaud, Biographie universelle,
+                        Bd. 29, S. 181-183.</note>
+                    <idno type="URI">https://viaf.org/viaf/66610110/</idno>
+                <idno type="GND">http://d-nb.info/gnd/104256060/</idno></person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName></persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118581465/</idno></person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/3164527</idno>
+            </place>
+            </listPlace>
+        </back>
+    <back><listPerson><person xml:id="p.174">
+                    <persName>
+                        <forename>Mathieu Jean Félicité</forename>
+                        <roleName>Vicomte</roleName>
+                        <surname>de Montmorency-Laval</surname>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1826</death>
+                    <note>1821/22 französischer Außenminister, Vertreter Frankreichs auf dem
+                        Kongress von Verona; vgl. zu seiner Person Michaud, Biographie universelle,
+                        Bd. 29, S. 181-183.</note>
+                    <idno type="URI">https://viaf.org/viaf/66610110/</idno>
+                <idno type="GND">http://d-nb.info/gnd/104256060/</idno>
+                <listEvent><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_12.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_13.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_16.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_17.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_3.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_4.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_6.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_8.xml"/></linkGrp></event><event type="mentioned"><p>erwähnt in <title>Kongress von Verona</title></p><linkGrp><link type="ARCHE" target="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_VIII_1.xml"/></linkGrp></event></listEvent></person>
+                </listPerson></back></text>
+</TEI>
